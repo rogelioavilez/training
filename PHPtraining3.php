@@ -8,6 +8,7 @@
         body{
             width: 500px;
             margin: 0 auto;
+            padding-top: 200px;
         }
     </style>
 </head>
