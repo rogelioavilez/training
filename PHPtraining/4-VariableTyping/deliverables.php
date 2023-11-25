@@ -16,6 +16,18 @@
         $area = $length * $width;
         echo "$length * $width<br>Area: $area"; 
     ?>
+
+    <hr>
+
+    <h1>Example 2</h1>
+    <p>Using String and Integer for an equation, PHP changes it to integer</p>
+
+    <?php
+        $length = "10";
+        $width = 20;
+        $area = $length * $width;
+        echo "$length * $width<br>Area: $area"; 
+    ?>
     
 </body>
 </html>
