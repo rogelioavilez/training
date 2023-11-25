@@ -8,12 +8,13 @@
 <body>
 
     <h1>Example 1</h1>
+    <p>Using Integers for an equation</p>
 
     <?php
         $length = 10;
         $width = 20;
         $area = $length * $width;
-        echo "Area: $area"; 
+        echo "$length * $width<br>Area: $area"; 
     ?>
     
 </body>
