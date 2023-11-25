@@ -17,6 +17,8 @@
             $total = $firstValue + $secondValue;
             echo $firstValue . " + ". $secondValue . " = " .$total;
         }
+        //Calling function
+        add();
     ?>
     
 </body>
