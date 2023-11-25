@@ -29,11 +29,26 @@
     <h1>Example 3: Mix String and Integer</h1>
     <?php
         //Example 3: Mix String and Integer
-        $name = "Rogelio, Avilez";
-        $message = "This is a String Message.";
-        echo $name . ": " . $message ."<br>";
-        echo "$name: $message<br>";
-        echo "2 different types of input, same result";
+            //Define Integer and Strin Values
+            $version = 7.3;
+            $language = "PHP";
+
+        //Mix String and Integer in one line
+        echo $language . " version is: " . $version;
+    ?>
+
+    <hr>
+    <h1>Example 4: Create Equations - Adding</h1>
+    <?php
+        //Example 4: Create equations
+            //Define Integer and Strin Values
+            $firstvalue = 10;
+            $secondvalue = 20;
+            $total = $firstvalue + $secondvalue;
+
+        //Mix String and Integer in one line
+        echo $firstvalue . " + " . $secondvalue . " =<br>";
+        echo "Total: " . $total;
     ?>
 
     <hr>
