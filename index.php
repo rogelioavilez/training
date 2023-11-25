@@ -6,6 +6,7 @@
     <title>Welcome to Training Website</title>
 </head>
 <body>
+    <h1>Welcome</h1>
     
 </body>
 </html>
