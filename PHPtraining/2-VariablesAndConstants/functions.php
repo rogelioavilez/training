@@ -6,6 +6,18 @@
     <title>Functions</title>
 </head>
 <body>
+    <h1>Example 1</h1>
+    <p>Define a function and function declaration (See code to learn more)</p>
+    <?php
+        function add(){
+
+            //Function Body
+            $firstValue = 10;
+            $secondValue = 10;
+            $total = $firstValue + $secondValue;
+            echo $firstValue . " + ". $secondValue . " = " .$total;
+        }
+    ?>
     
 </body>
 </html>
