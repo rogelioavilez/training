@@ -6,9 +6,8 @@
     <title>PHP Language Basics</title>
     <style>
         body{
-            width: 800px;
+            width: 500px;
             margin: 0 auto;
-            text-align: center;
         }
     </style>
 </head>
