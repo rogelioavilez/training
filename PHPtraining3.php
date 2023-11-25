@@ -15,17 +15,20 @@
 <body>
     
     <h1>
-        <?php= 'About Me:';?>
+        <?php 
+            echo 'About Me:';
+        ?>
     </h1>
 
     <h2>
-        <?php= 'I\'m Rogelio Avilez and I love to work with PHP!';?>
+        <!-- single line echo -->
+        <?= 'I\'m Rogelio Avilez and I love to work with PHP!';?>
     </h2>
 
     <hr>
 
     <h1>
-        <?php= 'Skills:';?>
+        <?= 'Skills:';?>
     </h1>
 
     <?= 'About to develop a website with HTML, CSS, JS and PHP Server Side Programming Language.';?>
