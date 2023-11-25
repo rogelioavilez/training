@@ -6,7 +6,7 @@
     <title>Variables and Constants</title>
 </head>
 <body>
-
+    <h1>Example 1: Quotes turn value into string</h1>
     <?php
         //Example 1: Quotes turn value into string
         $aboutme = "I'm Rogelio and I love PHP Programming";
@@ -15,9 +15,20 @@
     ?>
 
     <hr>
+    <h1>Example 2: Mix variables and String</h1>
+    <?php
+        //Example 2: Mix variables and String
+        $name = "Rogelio, Avilez";
+        $message = "This is a String Message.";
+        echo $name . ": " . $message ."<br>";
+        echo "$name: $message<br>";
+        echo "2 different types of input, same result";
+    ?>
 
-<?php
-        //Example 2: Mix variables and text
+    <hr>
+    <h1>Example 3: Mix String and Integer</h1>
+    <?php
+        //Example 3: Mix String and Integer
         $name = "Rogelio, Avilez";
         $message = "This is a String Message.";
         echo $name . ": " . $message ."<br>";
