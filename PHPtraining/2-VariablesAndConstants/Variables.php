@@ -10,7 +10,7 @@
     <?php
         //Example 1: Quotes turn value into string
         $aboutme = "I'm Rogelio and I love PHP Programming";
-        echo "<h1>About Me:</h1>";
+        echo "<h2>About Me:</h2>";
         echo $aboutme; //Printing variable value
     ?>
 
