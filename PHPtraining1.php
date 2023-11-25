@@ -16,11 +16,11 @@
         \\ - Back Slash
     */
 
-    echo "<p>This isn\'t the way to print</p>";
+    echo "This is the way to print";
 
     echo "\nThis is printed on a new line\n";
 
     echo "\nWe have a tab \t\t here.\n";
 
-    echo 'This is a \"Special character inside PHP!\"';
+    echo 'This is a "Special character inside PHP!"';
 ?>
