@@ -39,6 +39,16 @@
         $width = "20";
         $area = $length * $width;
         echo "$length * $width<br>Area: $area"; 
+
+        /* 
+        If values where not integer or numerical, the system would crash, you can uncomment this section to show an example:
+
+
+            $length = "a";
+            $width = "b";
+            $area = $length * $width;
+            echo "$length * $width<br>Area: $area"; 
+        */
     ?>
     
 </body>
