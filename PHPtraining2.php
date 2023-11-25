@@ -26,6 +26,8 @@
         Script Language. It is a really
         
         fun to work with PHP!
+
+        <br>
     "?>
 
     <?= 'Did you read the \'PHP CookBook\' Book';?>
