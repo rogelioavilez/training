@@ -13,6 +13,10 @@
         echo "Printing the message variable using double quotes: $message <br>";
 
         echo 'Printing the message variable using single quotes: $message';
+
+        $message2 = "PHP Prints this message faster";
+        
+        echo "$message2" . '$message2';
     ?>
 
 </body>
