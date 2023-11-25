@@ -9,8 +9,5 @@
     <h1>Welcome</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellendus omnis facere similique mollitia at. Aliquid omnis aperiam blanditiis, voluptatem, dolor natus quisquam accusamus, culpa expedita odio quas assumenda officia.</p>
 
-    <?php
-        file_get_contents(../, ../, null);
-    ?>
 </body>
 </html>
