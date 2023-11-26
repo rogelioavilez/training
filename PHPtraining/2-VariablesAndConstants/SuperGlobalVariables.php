@@ -7,14 +7,20 @@
 </head>
 <body>
     <h1>Example 1</h1>
-    <p>Description</p>
+    <p>Define a super global variable</p>
 
     <?php
         global $message;
         $message = "Welcome to PHP!";
 
         echo $GLOBALS['message'] . "<br>";
-        
+    ?>
+    <hr>
+    <h1>Example 2</h1>
+    <p>Define</p>
+
+    <?php
+        echo "Filename: " . $_SERVER['PHP_SELF'] . "<br>";
     ?>
 </body>
 </html>
