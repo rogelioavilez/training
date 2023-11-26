@@ -18,8 +18,8 @@
     </p>
     <br>
     <?php 
-    $name = "Rogelio, Avilez";
-    echo $name;
+        $name = "Rogelio, Avilez";
+        echo $name;
     ?>
 
     <hr>
@@ -33,9 +33,9 @@
     </p>
     <br>
     <?php 
-    $message = 1;
-    $message = "PHP is the Best!";
-    echo $message;
+        $message = 1;
+        $message = "PHP is the Best!";
+        echo $message;
     ?>
 
     <hr>
@@ -48,13 +48,13 @@
     </p>
     <br>
     <?php 
-    echo "Name variable = $name" . "<br>";
-    echo 'Name variable = $name';
+        echo "Name variable = $name" . "<br>";
+        echo 'Name variable = $name';
     ?>
 
-<hr>
+    <hr>
     <!-- Variable Typing converting the String into Integer and Viceversa -->
-    <h3>PVariable Typing converting the String into Integer and Viceversa:</h3>
+    <h3>Variable Typing converting the String into Integer and Viceversa:</h3>
     <p>
         $lenght = "10";<br>
         $width = 20;<br>
@@ -68,6 +68,20 @@
         $width = 20;
         $area = $lenght * $width;
         echo "Area: $area";
+    ?>
+
+    <hr>
+    <!-- Variables are case sensitive -->
+    <h3>Variables are case sensitive:</h3>
+    <p>
+        $Name = "Walter White";<br>
+        echo "$name is not equal to $Name";<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        $Name = "Walter White";
+        echo "$name is not equal to $Name";
     ?>
     
 </body>
