@@ -73,6 +73,26 @@
         echo "Constant Value: " . NAME;
 
     ?>
+
+    <hr>
+    <h3>Good Practice 4:</h3>
+    <p>Use the same naming convention. Do not start Variables or Constants with Integers.</p>
+
+    <pre>
+        <code>
+            $_1message = "Hello";
+            define("_1message", "Hello");
+
+            echo "Variable: " . $_1message . "Constant: " . _1message;
+        </code>
+    </pre>
+    <h3><i>Results:</i></h3>
+    <?php
+        $_1message = "Hello";
+        define("_1message", "Hello");
+
+        echo "Variable: " . $_1message . "Constant: " . _1message;
+    ?>
     
 </body>
 </html>
