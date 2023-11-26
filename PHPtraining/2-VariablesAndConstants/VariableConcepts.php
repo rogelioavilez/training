@@ -37,6 +37,20 @@
     $message = "PHP is the Best!";
     echo $message;
     ?>
+
+<hr>
+    <!-- Print Variable with Double Quotes -->
+    <h3>Print Variable with Double Quotes:</h3>
+    <p>
+        echo "Name variable = $name";<br>
+        echo 'Name variable = $name';<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+    echo "Name variable = $name" . "<br>";
+    echo 'Name variable = $name';
+    ?>
     
 </body>
 </html>
