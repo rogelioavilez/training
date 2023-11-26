@@ -49,7 +49,7 @@
     ?>
 
     <hr>
-    <h3>Good Practice 2:</h3>
+    <h3>Good Practice 3:</h3>
     <p>Avoid use same name as Variables, it may get confusing</p>
 
     <pre>
@@ -58,6 +58,7 @@
             define ("NAME", "Rogelio, Avilez");
 
             echo "Variable Value: " . $name;
+            echo "<\br>";
             echo "Constant Value: " . NAME;
         </code>
     </pre>
@@ -68,6 +69,7 @@
         define ("NAME", "Rogelio, Avilez");
 
         echo "Variable Value: " . $name;
+        echo "<br>";
         echo "Constant Value: " . NAME;
 
     ?>
