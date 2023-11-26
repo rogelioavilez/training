@@ -83,7 +83,7 @@
             $_1message = "Hello";
             define("_1message", "Hello");
 
-            echo "Variable: " . $_1message . "Constant: " . _1message;
+            echo "Variable: " . $_1message . ", Constant: " . _1message;
         </code>
     </pre>
     <h3><i>Results:</i></h3>
