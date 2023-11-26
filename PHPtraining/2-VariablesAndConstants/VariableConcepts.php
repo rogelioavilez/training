@@ -83,6 +83,30 @@
         $Name = "Walter White";
         echo "$name is not equal to $Name";
     ?>
+
+<hr>
+    <!-- Variable Scope -->
+    <h3>Variable Scope:</h3>
+    <p>
+        $counter = 1;<br>
+        function show_counter(){<br>
+            $counter = 2;<br>
+            echo $counter;<br>
+        }<br>
+        show_counter();<br>
+        echo $counter;<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        $counter = 1;
+        function show_counter(){
+            $counter = 2;
+            echo $counter;
+        }
+        show_counter();
+        echo $counter;
+    ?>
     
 </body>
 </html>
