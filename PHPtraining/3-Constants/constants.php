@@ -58,6 +58,29 @@
         echo VERSION;
 
     ?>
+
+    <hr>
+
+    <h3>Cannot isset with a Constant</h3>
+    <pre>
+        <code>
+            define ("NAME", "");
+            echo isset(NAME);
+            echo NAME;
+        </code>
+    </pre>
+
+    <h3><i>Results:</i></h3>
+
+    <p>Unexpected 'Name'. Expected ','.</p>
+    
+    <?php 
+        //Do not start with Integer or will show error;
+        define ("NAME", "");
+        echo isset(NAME);
+        echo NAME;
+
+    ?>
     
 </body>
 </html>
