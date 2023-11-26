@@ -9,6 +9,7 @@
     <h1>Variable with isset()</h1>
     <br>
     <h2>Example 1</h2>
+    <p>We got an Empty variable</p>
 
     <?php
         //Empty Variable
@@ -19,6 +20,15 @@
         echo isset($name) ? "Variable Set" : "Variable Is Not Set";
     
     ?>
+    <br>
+    <h2>Example 2</h2>
+    <p>We got an variable set</p>
+
+    <?php
+        $name = "Rogelio";
+        echo isset($name) ? "Variable Set: " . $name : "Variable Is Not Set";
+    ?>
+
 
 </body>
 </html>
