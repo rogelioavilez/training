@@ -20,6 +20,35 @@
         //Calling function
         add();
     ?>
-    
+
+    <hr>
+
+    <h1>Example 2</h1>
+    <p>Duplicate function (Uncomment function to see error)</p>
+
+    <!-- 
+        If we duplicate the function this will cause an error in PHP.
+        for example:
+
+            function add(){
+
+                echo 'Duplicate function';
+            }
+
+            add();
+        
+    -->
+
+    <hr>
+
+    <h1>Example 3</h1>
+    <p>Duplicate function </p>
+
+    <?php
+        function welcome_message(){
+            echo "Welcome to PHP functions!";
+        }
+    ?>
+
 </body>
 </html>
