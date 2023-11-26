@@ -18,7 +18,7 @@
             echo "Language" . LANGUAGE . "Version: " . VERSION;
         </code>
     </pre>
-
+    <h3><i>Results:</i></h3>
     <?php
     
         define ("LANGUAGE", "PHP");
@@ -39,7 +39,7 @@
             echo __CONSTANTS__;
         </code>
     </pre>
-
+    <h3><i>Results:</i></h3>
     <?php
     
         define ("__CONSTANTS__", "Wrong Practice");
