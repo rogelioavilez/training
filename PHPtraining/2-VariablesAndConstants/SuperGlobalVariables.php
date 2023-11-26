@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Example 1</h1>
-    <p>Define a super global variable</p>
+    <p>Call out a super global variable -> echo $GLOBALS['message']</p>
 
     <?php
         global $message;
