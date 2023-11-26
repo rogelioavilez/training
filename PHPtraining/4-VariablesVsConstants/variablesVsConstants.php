@@ -71,7 +71,7 @@
     - Duplicate symbol declaration 'name'.intelephense(P1004)
 
     <hr>
-    <h3>Constant is Global</h3>
+    <h3>Constant is Global, Variable needs to be define as Global</h3>
     <pre>
         <code>
             function print_constant(){
