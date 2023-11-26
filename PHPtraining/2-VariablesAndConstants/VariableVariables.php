@@ -13,7 +13,7 @@
         //Male is a variale
         $male = "Rogelio, Avilez";
         //Male is holding a variable name
-        $gender = "Male";
+        $gender = "male";
 
         echo $gender;
         echo $$gender; //$($gender) ==> $(male)
