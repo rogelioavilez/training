@@ -199,8 +199,7 @@
     <!-- Isset Function -->
     <h3>Isset Function:</h3>
     <p>
-        $countofcount = $count;<br>
-        echo $countofcount;<br>
+        echo isset($countofcount) ? "Variable is Set" : "Variable is Not Set";<br>
         <i>Result:</i><br>
     </p>
     <br>
