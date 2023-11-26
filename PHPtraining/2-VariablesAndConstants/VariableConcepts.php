@@ -112,9 +112,11 @@
     <!-- Global Variables -->
     <h3>Global Variables:</h3>
     <p>
+        global $count;<br>
         global $count = 1;<br>
         function show_count(){<br>
-            global $count = 2;<br>
+            global $count;<br>
+            $count = 2;<br>
             echo $count;<br>
         }<br>
         show_count();<br>
@@ -123,9 +125,11 @@
     </p>
     <br>
     <?php 
-        global $count = 1;
+        global $count;
+        $count = 1;
         function show_count(){
-            global $count = 2;
+            global $count;
+            $count = 2;
             echo $count;
         }
         show_count();
