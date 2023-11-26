@@ -69,6 +69,36 @@
         
     ?>
     - Duplicate symbol declaration 'name'.intelephense(P1004)
+
+    <hr>
+    <h3>Constant is Global</h3>
+    <pre>
+        <code>
+            function print_constant(){
+            echo "Variable result: " . $name;
+            echo "<\br>";
+            echo "Constant result: " . name;
+        }
+
+        print_constant();
+
+        </code>
+    </pre>
+
+    <h3><i>Results:</i></h3>
+       
+    <?php 
+        //Constant is global, we see an example inside a function here
+
+        function print_constant(){
+            echo "Variable result: " . $name;
+            echo "<br>";
+            echo "Constant result: " . name;
+        }
+
+        print_constant();
+        
+    ?>
     
 </body>
 </html>
