@@ -10,10 +10,12 @@
     <h1>Variable Concepts</h1>
     <hr>
     <!-- Define a Variable -->
-    <p>Define a variable:<br>
-    $name = "Rogelio, Avilez";<br>
-    echo $name;<br>
-    Result:<br>
+    <h3>Define a variable:</h3>
+    <br>
+    <p>
+        $name = "Rogelio, Avilez";<br>
+        echo $name;<br>
+        <i>Result:</i><br>
     </p>
     <br>
     <?php 
@@ -23,11 +25,13 @@
 
     <hr>
     <!-- Variable can be used as string and integer -->
-    <p>Variable can be used as String and Integer:<br>
-    $message = 1;<br>
-    $message = "PHP is the Best!";<br>
-    echo $message;<br>
-    Result:<br>
+    <h3>Variable can be used as String and Integer:</h3>
+    <br>
+    <p>
+        $message = 1;<br>
+        $message = "PHP is the Best!";<br>
+        echo $message;<br>
+        <i>Result:</i><br>
     </p>
     <br>
     <?php 
