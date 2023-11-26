@@ -17,6 +17,8 @@
             echo"This Programm is written using " . LANGUAGE;
         </code>
     </pre>
+
+    <h3><i>Results:</i></h3>
        
     <?php 
         //define ( NAME OF THE CONSTANT, VALUE OF THE CONSTANT);
