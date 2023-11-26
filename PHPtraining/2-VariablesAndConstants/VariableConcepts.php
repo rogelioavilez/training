@@ -84,7 +84,7 @@
         echo "$name is not equal to $Name";
     ?>
 
-<hr>
+    <hr>
     <!-- Variable Scope -->
     <h3>Variable Scope:</h3>
     <p>
@@ -106,6 +106,30 @@
         }
         show_counter();
         echo $counter;
+    ?>
+
+    <hr>
+    <!-- Global Variables -->
+    <h3>Global Variables:</h3>
+    <p>
+        global $count = 1;<br>
+        function show_count(){<br>
+            global $count = 2;<br>
+            echo $count;<br>
+        }<br>
+        show_count();<br>
+        echo $count;<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        global $count = 1;
+        function show_count(){
+            global $count = 2;
+            echo $count;
+        }
+        show_count();
+        echo $count;
     ?>
     
 </body>
