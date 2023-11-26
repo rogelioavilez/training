@@ -8,6 +8,7 @@
 <body>
 
     <h1>Example 1</h1>
+    <p>Variables defined inside a function and outside</p>
     <?php
 
         $name = "Rogelio";
