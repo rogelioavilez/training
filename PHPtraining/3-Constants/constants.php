@@ -72,7 +72,7 @@
 
     <h3><i>Results:</i></h3>
 
-    <p>Unexpected 'NAME'. Expected ','. -> This will cause cause to fail while loading</p>
+    <p>Unexpected 'NAME'. Expected ','. -> This will cause page to fail while loading</p>
     
     <?php 
         /*Do not use isset with a Constant it will cause an error and page won't load:
