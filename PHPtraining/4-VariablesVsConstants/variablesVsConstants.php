@@ -11,17 +11,16 @@
 
     <h3>Constants characteristics</h3>
     <pre>
-        <code>
+        
             1) No need to use $ to use constant
             2) Constant are defined only via define method
             3) Value can be assigned only once
             4) Constant has global scope. Can access anywhere.
             5) Constant can be used to access the constants
-
-            $name = "Rogelio, Avilez";
-            define("name", "John, Smith");
-
-            echo $name . name;
+    <hr>
+        <code>
+            echo "Variable result: " . $name;
+            echo "Constant result: " . name;
 
         </code>
     </pre>
@@ -34,7 +33,8 @@
         $name = "Rogelio, Avilez";
         define("name", "John, Smith");
 
-        echo $name . name;
+        echo "Variable result: " . $name;
+        echo "Constant result: " . name;
         
     ?>
     
