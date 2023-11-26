@@ -7,5 +7,20 @@
 </head>
 <body>
     <h1>Magic Constant</h1>
+
+    <h3>Examples of magic constants:</h3>
+
+    <pre>
+        <code>
+            echo __LINE__ . "<\br>";
+            echo __FILE__ . "<\br>";
+
+        </code>
+    </pre>
+
+    <?php
+        echo __LINE__ . "<br>";
+        echo __FILE__ . "<br>";
+    ?>
 </body>
 </html>
