@@ -15,7 +15,6 @@
         echo "This prints the code line it was written: " . __LINE__ . "<\br>";
 
         echo "This prints the File Path: " . __FILE__ . "<\br>";
-
         </code>
     </pre>
 
