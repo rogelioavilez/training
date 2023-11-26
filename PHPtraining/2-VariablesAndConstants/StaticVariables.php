@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Example 1</h1>
-    <p>Description</p>
+    <p>Using a counter that adds value, We see the Value change as it passes throug function</p>
     
     <?php
         function counter(){
@@ -15,6 +15,9 @@
             echo $count . "<br>";
             $count+= 1;
         }
+        counter();
+        counter();
+        counter();
         counter();
     ?>
 
