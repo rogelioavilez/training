@@ -15,7 +15,7 @@
         //Male is holding a variable name
         $gender = "Male";
 
-        echo $male;
+        echo $gender;
         echo $$gender; //$($gender) ==> $(male)
     ?>
 </body>
