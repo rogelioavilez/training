@@ -11,7 +11,6 @@
     <hr>
     <!-- Define a Variable -->
     <h3>Define a variable:</h3>
-    <br>
     <p>
         $name = "Rogelio, Avilez";<br>
         echo $name;<br>
@@ -26,7 +25,6 @@
     <hr>
     <!-- Variable can be used as string and integer -->
     <h3>Variable can be used as String and Integer:</h3>
-    <br>
     <p>
         $message = 1;<br>
         $message = "PHP is the Best!";<br>
