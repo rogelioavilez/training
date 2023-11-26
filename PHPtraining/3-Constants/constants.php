@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Constants</h1>
-    <code>
-        define("LANGUAGE", "PHP");
-        $lang = LANGUAGE;
+    <pre>
+        <code>
+            define("LANGUAGE", "PHP");
+            $lang = LANGUAGE;
 
-        echo"This Programm is written using $lang ";
-        echo"This Programm is written using LANGUAGE ";
-        echo"This Programm is written using " . LANGUAGE;
-</code>
+            echo"This Programm is written using $lang ";
+            echo"This Programm is written using LANGUAGE ";
+            echo"This Programm is written using " . LANGUAGE;
+        </code>
+    </pre>
+       
     <?php 
         //define ( NAME OF THE CONSTANT, VALUE OF THE CONSTANT);
 
