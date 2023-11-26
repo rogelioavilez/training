@@ -42,7 +42,6 @@
             echo $name3;
         }
 
-        print_name3();
 
         echo $name3;
     ?>
