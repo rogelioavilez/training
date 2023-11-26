@@ -51,7 +51,7 @@
             define("name", "Charles, Duke");
 
             echo "Variable result: " . $name;
-            echo "<br>";
+            echo "<\br>";
             echo "Constant result: " . name;
         </code>
     </pre>
@@ -68,7 +68,7 @@
         echo "Constant result: " . name;
         
     ?>
-    Duplicate symbol declaration 'name'.intelephense(P1004)
+    - Duplicate symbol declaration 'name'.intelephense(P1004)
     
 </body>
 </html>
