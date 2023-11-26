@@ -75,11 +75,15 @@
     <p>Unexpected 'Name'. Expected ','.</p>
     
     <?php 
-        //Do not start with Integer or will show error;
+        /*Do not use isset with a Constant it will cause an error and page won't load:
+        
+        example:
+
         define ("NAME", "");
         echo isset(NAME);
         echo NAME;
-
+        
+        */
     ?>
     
 </body>
