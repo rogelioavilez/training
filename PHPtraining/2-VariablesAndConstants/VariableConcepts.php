@@ -194,6 +194,19 @@
         $countofcount = $count;
         echo $countofcount;
     ?>
+
+    <hr>    
+    <!-- Isset Function -->
+    <h3>Isset Function:</h3>
+    <p>
+        $countofcount = $count;<br>
+        echo $$countofcount;<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        echo isset($$countofcount) ? "Variable is Set" : "Variable is Not Set"
+    ?>
      
 </body>
 </html>
