@@ -11,7 +11,22 @@
     <hr>
     <!-- Define a Variable -->
     <p>Define a variable: $name = "Rogelio, Avilez";</p>
+    <br>
     <?php $name = "Rogelio, Avilez";  ?>
+
+    <hr>
+    <!-- Variable can be used as string and integer -->
+    <p>Variable can be used as String and Integer:<br>
+    $message = 1;<br>
+    $message = "PHP is the Best!";<br>
+    echo $message;<br>
+    </p>
+    <br>
+    <?php 
+    $message = 1;
+    $message = "PHP is the Best!";
+    echo $message;
+    ?>
     
 </body>
 </html>
