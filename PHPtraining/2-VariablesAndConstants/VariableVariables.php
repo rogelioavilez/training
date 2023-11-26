@@ -6,6 +6,11 @@
     <title>Variable Variables</title>
 </head>
 <body>
+    <!-- 
+        Visit for more info on Predefined Variables:
+    
+        https://www.php.net/manual/en/reserved.variables.php
+-->
     <h1>Example 1</h1>
     <p>Description</p>
 
