@@ -75,12 +75,12 @@
     <pre>
         <code>
             function print_constant(){
-            echo "Variable result: " . $name;
-            echo "<\br>";
-            echo "Constant result: " . name;
-        }
+                echo "Variable result: " . $name;
+                echo "<\br>";
+                echo "Constant result: " . name;
+            }
 
-        print_constant();
+            print_constant();
 
         </code>
     </pre>
@@ -91,7 +91,7 @@
         //Constant is global, we see an example inside a function here
 
         function print_constant(){
-            echo "Variable result: " . $name;
+            echo "Variable result: - Undefined variable '\$name'.";
             echo "<br>";
             echo "Constant result: " . name;
         }
