@@ -135,6 +135,33 @@
         show_count();
         echo $count;
     ?>
-    
+
+<hr>
+    <!-- Static Variables -->
+    <h3>Static Variables:</h3>
+    <p>
+        function counter_static(){<br>
+            static $count = 1;<br>
+            echo $count;<br>
+            $count = $count + 1;<br>
+        }<br>
+        counter_static();<br>
+        counter_static();<br>
+        counter_static();<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        
+        function counter_static(){
+            static $count = 1;
+            echo $count;
+            $count = $count + 1;
+        }
+        counter_static();
+        counter_static();
+        counter_static();
+    ?>
+     \
 </body>
 </html>
