@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Example 1</h1>
-    <p>Using a counter that adds value, We see the Value change as it passes throug function</p>
+    <p>Using a counter that adds value, We see the Value doesn't change as it passes through function due that it gets redefined everytime it passed through</p>
     
     <?php
         function counter(){
@@ -19,6 +19,21 @@
         counter();
         counter();
         counter();
+    ?>
+    <hr>
+    <h1>Example 2</h1>
+    <p>Using a counter that adds value, We see the Value doesn't change as it passes through function due that it gets redefined everytime it passed through</p>
+    
+    <?php
+        function counter_static(){
+            static $count = 1;
+            echo $count . "<br>";
+            $count = $count + 1;
+        }
+        counter_static();
+        counter_static();
+        counter_static();
+        counter_static();
     ?>
 
 </body>
