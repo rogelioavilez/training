@@ -107,7 +107,7 @@
 
             print_global_var();
             
-            echo "<br>Echo outside function: " . $global_var;
+            echo "<\br>Echo outside function: " . $global_var;
         </code>
     </pre>
     <h3><i>Result:</i></h3>
