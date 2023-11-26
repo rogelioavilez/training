@@ -13,7 +13,7 @@
         function counter(){
             $count = 1;
             echo $count . "<br>";
-            $count+= 1;
+            $count =+ 1;
         }
         counter();
         counter();
