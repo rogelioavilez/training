@@ -67,14 +67,14 @@
     <h2>Static Variable:</h2>
     <pre>
         <code>
-            function static_var(){<br>
-                static $counter = 1;<br>
-                echo $counter . "<\br>";<br>
-                $counter = $counter + 1;<br>
-            }<br>
-            static_var();<br>
-            static_var();<br>
-            static_var();<br>
+            function static_var(){
+                static $counter = 1;
+                echo $counter . "<\br>";
+                $counter = $counter + 1;
+            }
+            static_var();
+            static_var();
+            static_var();
             static_var();
         </code>
     </pre>
