@@ -42,7 +42,7 @@
     <hr>
 
     <h1>Example 3</h1>
-    <p>Duplicate function </p>
+    <p>Call function before its created</p>
 
     <?php
     welcome_message();
