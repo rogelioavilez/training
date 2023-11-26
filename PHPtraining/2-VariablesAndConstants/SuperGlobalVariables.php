@@ -17,7 +17,7 @@
     ?>
     <hr>
     <h1>Example 2</h1>
-    <p>Define</p>
+    <p>Super Global in charge to show the name and path of file</p>
 
     <?php
         echo "Filename: " . $_SERVER['PHP_SELF'] . "<br>";
