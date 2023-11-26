@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Variable with isset()</h1>
-    <br>
+    <hr>
     <h2>Example 1</h2>
     <p>We got an Empty variable</p>
 
@@ -20,7 +20,7 @@
         echo isset($name) ? "Variable Set" : "Variable Is Not Set";
     
     ?>
-    <br>
+    <hr>
     <h2>Example 2</h2>
     <p>We got an variable set</p>
 
@@ -29,7 +29,7 @@
         echo isset($name) ? "Variable Set: " . $name : "Variable Is Not Set";
     ?>
 
-    <br>
+    <hr>
     <h2>Example 3</h2>
     <p>We got an variable set with an empty variable</p>
 
