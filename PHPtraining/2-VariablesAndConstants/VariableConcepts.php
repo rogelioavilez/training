@@ -136,7 +136,7 @@
         echo $count;
     ?>
 
-<hr>
+    <hr>
     <!-- Static Variables -->
     <h3>Static Variables:</h3>
     <p>
@@ -162,6 +162,22 @@
         counter_static();
         counter_static();
     ?>
-     \
+
+    <hr>
+    <!-- Predefined Variables -->
+    <h3>Predefined Variables:</h3>
+    <p>
+        function print_global_variables(){<br>
+            echo $GLOBALS['count'];<br>
+        }<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        function print_global_variables(){
+            echo $GLOBALS['count'];
+        }
+    ?>
+     
 </body>
 </html>
