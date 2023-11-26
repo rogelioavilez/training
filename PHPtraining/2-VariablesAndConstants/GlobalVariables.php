@@ -23,6 +23,25 @@
         print_name();
         echo "<br>Echo outside function: " . $name;
     ?>
+    <hr>
+    <h1>Example 2</h1>
+    <p>Defining a global variable.</p>
+
+    <?php
+        //Defining a global variable
+        global $message;
+        $message = "Welcome to PHP";
+
+        function print_message(){
+            //Global Variable cannot access function
+            //$message global variable is not detected
+            //echo "Echo inside function: " . $message;
+        }
+
+        print_message();
+        echo "<br>Echo outside function: " . $message;
+    ?>
+    <hr>
     
 </body>
 </html>
