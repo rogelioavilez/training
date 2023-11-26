@@ -45,6 +45,7 @@
     <p>Duplicate function </p>
 
     <?php
+    welcome_message();
         function welcome_message(){
             echo "Welcome to PHP functions!";
         }
