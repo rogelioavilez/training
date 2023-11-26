@@ -9,5 +9,16 @@
     <h1>Variable with isset()</h1>
     <br>
     <h2>Example 1</h2>
+
+    <?php
+        //Empty Variable
+        $name;
+        echo $name;
+
+        //Ternary Operator
+        echo isset($name) ? "Variable Set" : "Variable Is Not Set";
+    
+    ?>
+
 </body>
 </html>
