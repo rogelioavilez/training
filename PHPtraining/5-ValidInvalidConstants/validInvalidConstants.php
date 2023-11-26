@@ -47,6 +47,30 @@
         echo __CONSTANTS__;
 
     ?>
+
+    <hr>
+    <h3>Good Practice 2:</h3>
+    <p>Avoid use same name as Variables, it may get confusing</p>
+
+    <pre>
+        <code>
+            $name = "Alberto, Garza";
+            define ("NAME", "Rogelio, Avilez");
+
+            echo "Variable Value: " . $name;
+            echo "Constant Value: " . NAME;
+        </code>
+    </pre>
+    <h3><i>Results:</i></h3>
+    <?php
+
+        $name = "Alberto, Garza";
+        define ("NAME", "Rogelio, Avilez");
+
+        echo "Variable Value: " . $name;
+        echo "Constant Value: " . NAME;
+
+    ?>
     
 </body>
 </html>
