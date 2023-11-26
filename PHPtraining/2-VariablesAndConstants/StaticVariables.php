@@ -15,6 +15,7 @@
             echo $count . "<br>";
             $count+= 1;
         }
+        counter();
     ?>
 
 </body>
