@@ -26,14 +26,15 @@
         $name2 = "Alberto";
         function print_name2(){
             //Variable is undefined, as its not included inside the function
-            echo $name2;
+
+            //Uncomment variable to see error: echo $name2;
         }
 
         print_name2();
     ?>
     <hr>
     <h1>Example 3</h1>
-    <p>Variables defined inside a function cannot be detected and show as undefined</p>
+    <p>Variables defined inside a function cannot be detected outside of itself, unless ran by the function</p>
     <?php
     
         function print_name3(){
