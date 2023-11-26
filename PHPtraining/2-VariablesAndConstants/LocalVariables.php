@@ -33,7 +33,7 @@
     ?>
     <hr>
     <h1>Example 3</h1>
-    <p>Variables defined outside a function cannot be detected and show as undefined</p>
+    <p>Variables defined inside a function cannot be detected and show as undefined</p>
     <?php
     
         function print_name3(){
@@ -43,6 +43,8 @@
         }
 
         print_name3();
+
+        echo $name3;
     ?>
     <hr>
 
