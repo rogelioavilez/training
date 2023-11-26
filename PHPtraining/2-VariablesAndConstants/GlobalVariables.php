@@ -17,11 +17,11 @@
         function print_name(){
             //Global Variable cannot access function
             $name = "PHP";
-            echo "Echo inside function" . $name;
+            echo "Echo inside function: " . $name;
         }
 
         print_name();
-        echo $name;
+        echo "<br>Echo outside function: " . $name;
     ?>
     
 </body>
