@@ -17,7 +17,7 @@
         echo "This prints the File Path: " . __FILE__ . "<\br>";
         </code>
     </pre>
-
+    <h3><i>Results:</i></h3>
     <?php
         echo "This prints the code line it was written: " . __LINE__ . "<br>";
 
