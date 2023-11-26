@@ -38,7 +38,7 @@
     echo $message;
     ?>
 
-<hr>
+    <hr>
     <!-- Print Variable with Double Quotes -->
     <h3>Print Variable with Double Quotes:</h3>
     <p>
@@ -50,6 +50,24 @@
     <?php 
     echo "Name variable = $name" . "<br>";
     echo 'Name variable = $name';
+    ?>
+
+<hr>
+    <!-- Variable Typing converting the String into Integer and Viceversa -->
+    <h3>PVariable Typing converting the String into Integer and Viceversa:</h3>
+    <p>
+        $lenght = "10";<br>
+        $width = 20;<br>
+        $area = $lenght * $width;<br>
+        echo "Area: $area";<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        $lenght = "10";
+        $width = 20;
+        $area = $lenght * $width;
+        echo "Area: $area";
     ?>
     
 </body>
