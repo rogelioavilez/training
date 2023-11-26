@@ -21,8 +21,8 @@
 
     <?php
     
-        define (LANGUAGE, "PHP");
-        define (VERSION, 7.3);
+        define ("LANGUAGE", "PHP");
+        define ("VERSION", 7.3);
 
         echo LANGUAGE . VERSION;
 
