@@ -76,7 +76,7 @@
 
     <hr>
     <h3>Good Practice 4:</h3>
-    <p>Use the same naming convention. Do not start Variables or Constants with Integers.</p>
+    <p>Use the same naming convention. Do not start Variables or Constants with Integers or Other Symbols, it might get confusing.</p>
 
     <pre>
         <code>
@@ -91,7 +91,7 @@
         $_1message = "Hello";
         define("_1message", "Hello");
 
-        echo "Variable: " . $_1message . "Constant: " . _1message;
+        echo "Variable: " . $_1message . ", Constant: " . _1message;
     ?>
     
 </body>
