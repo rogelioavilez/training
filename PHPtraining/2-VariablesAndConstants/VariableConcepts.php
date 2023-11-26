@@ -180,6 +180,20 @@
         }
         print_global_variables();
     ?>
+
+    <hr>    
+    <!-- Variable of Variables -->
+    <h3>Variable of Variables:</h3>
+    <p>
+        $countofcount = $count;<br>
+        echo $countofcount;<br>
+        <i>Result:</i><br>
+    </p>
+    <br>
+    <?php 
+        $countofcount = $count;
+        echo $countofcount;
+    ?>
      
 </body>
 </html>
