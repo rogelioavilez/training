@@ -29,6 +29,15 @@
         echo isset($name) ? "Variable Set: " . $name : "Variable Is Not Set";
     ?>
 
+    <br>
+    <h2>Example 3</h2>
+    <p>We got an variable set with an empty variable</p>
+
+    <?php
+        $firstname;
+        $name = $firstname;
+        echo isset($name) ? "Variable Set: " . $name : "Variable Is Not Set";
+    ?>
 
 </body>
 </html>
