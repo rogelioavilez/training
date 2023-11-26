@@ -65,6 +65,33 @@
     <hr>
 
     <h2>Static Variable:</h2>
+    <pre>
+        <code>
+            function static_var(){<br>
+                static $counter = 1;<br>
+                echo $counter . "<\br>";<br>
+                $counter = $counter + 1;<br>
+            }<br>
+            static_var();<br>
+            static_var();<br>
+            static_var();<br>
+            static_var();
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+
+        function static_var(){
+            static $counter = 1;
+            echo $counter . "<br>";
+            $counter = $counter + 1;
+        }
+        static_var();
+        static_var();
+        static_var();
+        static_var();
+    ?>
+    <hr>
 
     <h2>Global Variable:</h2>
 
