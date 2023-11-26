@@ -170,6 +170,7 @@
         function print_global_variables(){<br>
             echo $GLOBALS['count'];<br>
         }<br>
+        print_global_variables();<br>
         <i>Result:</i><br>
     </p>
     <br>
@@ -177,6 +178,7 @@
         function print_global_variables(){
             echo $GLOBALS['count'];
         }
+        print_global_variables();
     ?>
      
 </body>
