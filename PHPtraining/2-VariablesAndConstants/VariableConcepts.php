@@ -192,7 +192,7 @@
     <br>
     <?php 
         $countofcount = $count;
-        echo $$countofcount;
+        echo $countofcount;
     ?>
 
     <hr>    
