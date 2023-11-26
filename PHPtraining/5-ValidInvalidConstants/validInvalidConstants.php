@@ -20,10 +20,11 @@
     </pre>
 
     <?php
+    
         define (LANGUAGE, "PHP");
         define (VERSION, 7.3);
 
-        echo "Language" . LANGUAGE . "Version: " . VERSION;
+        echo "Language: " . LANGUAGE . "Version: " . VERSION;
 
     ?>
     
