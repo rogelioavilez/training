@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Constants</h1>
+
+    <h3>Defining a constant and multiple ways to get result</h3>
     <pre>
         <code>
             define("LANGUAGE", "PHP");
@@ -29,6 +31,32 @@
         echo"This Programm is written using $lang <br>";
         echo"This Programm is written using LANGUAGE <br>";
         echo"This Programm is written using " . LANGUAGE . "<br>";
+    ?>
+
+    <hr>
+
+    <h3>Cannot start a Constant with an integer or will show an error</h3>
+    <pre>
+        <code>
+            Mistake:
+            define ("1VERSION", 7.3);
+            echo 1VERSION;
+
+            Correct:
+            define ("VERSION", 7.3);
+            echo VERSION;
+        </code>
+    </pre>
+
+    <h3><i>Results:</i></h3>
+
+    <p>Unexpected 'Name'. Expected ','.</p>
+       
+    <?php 
+        //Do not start with Integer or will show error;
+        define ("VERSION", 7.3);
+        echo VERSION;
+
     ?>
     
 </body>
