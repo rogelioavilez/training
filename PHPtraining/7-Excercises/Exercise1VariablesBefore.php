@@ -94,6 +94,38 @@
     <hr>
 
     <h2>Global Variable:</h2>
+    <pre>
+        <code>
+            global $global_var;
+            $global_var = "Welcome to PHP from Global Variable";
+
+            function print_global_var(){
+                //$message1 global variable is detected if called inside function
+                global $global_var;
+                echo "Echo inside function: " . $global_var;
+            }
+
+            print_global_var();
+            
+            echo "<br>Echo outside function: " . $global_var;
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        global $global_var;
+        $global_var = "Welcome to PHP from Global Variable";
+
+        function print_global_var(){
+            //$message1 global variable is detected if called inside function
+            global $global_var;
+            echo "Echo inside function: " . $global_var;
+        }
+
+        print_global_var();
+
+        echo "<br>Echo outside function: " . $global_var;
+    ?>
+    <hr>
 
     <h2>Super Global Variable:</h2>
 
