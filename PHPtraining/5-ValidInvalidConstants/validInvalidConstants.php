@@ -12,8 +12,8 @@
 
     <pre>
         <code>
-            define (LANGUAGE, "PHP");
-            define (VERSION, 7.3);
+            define ("LANGUAGE", "PHP");
+            define ("VERSION", 7.3);
 
             echo "Language" . LANGUAGE . "Version: " . VERSION;
         </code>
@@ -24,9 +24,27 @@
         define ("LANGUAGE", "PHP");
         define ("VERSION", 7.3);
 
-        echo LANGUAGE . VERSION;
+        echo "Language: " . LANGUAGE . "Version: " . VERSION;
 
-        echo "Test";
+    ?>
+
+    <hr>
+    <h3>Good Practice 2:</h3>
+    <p>Do not use Constants like __CONSTANTS__</p>
+
+    <pre>
+        <code>
+            define ("__CONSTANTS__", "Wrong Practice");
+
+            echo __CONSTANTS__;
+        </code>
+    </pre>
+
+    <?php
+    
+        define ("__CONSTANTS__", "Wrong Practice");
+
+        echo __CONSTANTS__;
 
     ?>
     
