@@ -17,9 +17,13 @@
             3) Value can be assigned only once
             4) Constant has global scope. Can access anywhere.
             5) Constant can be used to access the constants
+    </pre>
     <hr>
+    <h3>Variable and Constant definition and print</h3>
+    <pre>
         <code>
             echo "Variable result: " . $name;
+            echo "<\br>";
             echo "Constant result: " . name;
 
         </code>
@@ -34,6 +38,7 @@
         define("name", "John, Smith");
 
         echo "Variable result: " . $name;
+        echo "<br>";
         echo "Constant result: " . name;
         
     ?>
