@@ -18,6 +18,7 @@
             4) Constant has global scope. Can access anywhere.
             5) Constant can be used to access the constants
     </pre>
+
     <hr>
     <h3>Variable and Constant definition and print</h3>
     <pre>
@@ -32,7 +33,7 @@
     <h3><i>Results:</i></h3>
        
     <?php 
-        //define ( NAME OF THE CONSTANT, VALUE OF THE CONSTANT);
+        //Creating a variable and constant
 
         $name = "Rogelio, Avilez";
         define("name", "John, Smith");
@@ -40,8 +41,34 @@
         echo "Variable result: " . $name;
         echo "<br>";
         echo "Constant result: " . name;
+    ?>
+
+    <hr>
+    <h3>Able to change Variable but not Constant</h3>
+    <pre>
+        <code>
+            $name = "Alberto, Garza";
+            define("name", "Charles, Duke");
+
+            echo "Variable result: " . $name;
+            echo "<br>";
+            echo "Constant result: " . name;
+        </code>
+    </pre>
+
+    <h3><i>Results:</i></h3>
+       
+    <?php 
+        //Changing values on a variable and constant
+
+        $name = "Alberto, Garza";
+
+        echo "Variable result: " . $name;
+        echo "<br>";
+        echo "Constant result: " . name;
         
     ?>
+    Duplicate symbol declaration 'name'.intelephense(P1004)
     
 </body>
 </html>
