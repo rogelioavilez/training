@@ -7,9 +7,21 @@
 </head>
 <body>
     <h1>Example 1</h1>
+    <p>Defining a global variable.</p>
 
     <?php
-        echo 'Test1';
+        //Defining a global variable
+        global $name;
+        $name = "Rogelio";
+
+        function print_name(){
+            //Global Variable cannot access function
+            $name = "PHP";
+            echo "Echo inside function" . $name;
+        }
+
+        print_name();
+        echo $name;
     ?>
     
 </body>
