@@ -42,6 +42,24 @@
         echo "<br>Echo outside function: " . $message;
     ?>
     <hr>
+    <h1>Example 3</h1>
+    <p>Defining a global variable.</p>
+
+    <?php
+        //Defining a global variable
+        global $message1;
+        $message1 = "Welcome to PHP from Global Variable";
+
+        function print_message1(){
+            //$message1 global variable is detected if called inside function
+            global $message1;
+            echo "Echo inside function: " . $message1;
+        }
+
+        print_message1();
+        echo "<br>Echo outside function: " . $message1;
+    ?>
+    <hr>
     
 </body>
 </html>
