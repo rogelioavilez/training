@@ -26,6 +26,8 @@
 
         echo LANGUAGE . VERSION;
 
+        echo "Test";
+
     ?>
     
 </body>
