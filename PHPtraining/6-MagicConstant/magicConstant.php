@@ -12,15 +12,17 @@
 
     <pre>
         <code>
-            echo __LINE__ . "<\br>";
-            echo __FILE__ . "<\br>";
+        echo "This prints the code line it was written: " . __LINE__ . "<\br>";
+
+        echo "This prints the File Path: " . __FILE__ . "<\br>";
 
         </code>
     </pre>
 
     <?php
-        echo __LINE__ . "<br>";
-        echo __FILE__ . "<br>";
+        echo "This prints the code line it was written: " . __LINE__ . "<br>";
+
+        echo "This prints the File Path: " . __FILE__ . "<br>";
     ?>
 </body>
 </html>
