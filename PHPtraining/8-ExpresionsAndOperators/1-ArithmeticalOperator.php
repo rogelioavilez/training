@@ -16,6 +16,8 @@
         Modulus         %
         Exponentiation  **
     -->
+
+    <!-- Addition (+) -->
     <div>
         <h3>Addition +</h3>
         <p>Calculate a Student's total marks for 3 Subjects</p>
@@ -38,6 +40,29 @@
             $totalMarks = ($math + $science + $english)/3;
 
             echo $totalMarks;
+        ?>
+
+    </div>
+
+    <!-- Substraction (-) -->
+    <div>
+        <h3>Substraction -</h3>
+        <p>Find the difference between Student's total marks, and maximum amount of Marks</p>
+
+        <pre>
+            <code>
+            $allMarks = 100;
+            $difMarks = $allMarks - $totalMarks;
+
+            echo "Need " . $difMarks . " points for a perfect score.";
+            </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $allMarks = 100;
+            $difMarks = $allMarks - $totalMarks;
+
+            echo "Need " . $difMarks . " points for a perfect score.";
         ?>
 
     </div>
