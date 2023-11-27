@@ -74,5 +74,24 @@
 </div>
 <hr>
 
+<div>
+    <h3>&& where both conditions are true</h3>
+    <p>Find the difference between AND <-> &&.</p>
+    <pre>
+        <code>
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $result1 = true && false;
+        $result2 = true && false;
+        
+        echo ($result1) ? "true" : "false";
+        echo "<br>";
+        echo ($result2) ? "true" : "false";
+    ?>
+</div>
+<hr>
+
 </body>
 </html>
