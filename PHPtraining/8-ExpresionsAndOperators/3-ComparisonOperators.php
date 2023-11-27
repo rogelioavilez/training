@@ -16,9 +16,9 @@
         >= Greater Than or Equal
         <= Less than or Equal
     -->
-
-    <h3></h3>
-    <p>Use Equal to == Operator to check the PHP Version</p>
+<div>
+    <h3>Equal to ==</h3>
+    <p>Use Operator to check if the PHP Version matches</p>
 
     <pre>
         <code>
@@ -42,6 +42,31 @@
         echo ($php_version == $php_system_version)? "Version Match" : "Version don't match, current PHP version is: " . $php_version . " , Please Update to most recent version";
 
     ?>
+</div>
+<hr>
+<div>
+    <h3>Data Type and Value Identical ===</h3>
+    <p>Data and Value need to match</p>
+
+    <pre>
+        <code>
+        $name1 = "10";
+        $name2 = 20;
+
+        echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
+        </code>
+    </pre>
+
+    <h3><i>Result:</i></h3>
+
+    <?php
+        $name1 = "10";
+        $name2 = 20;
+
+        echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
+    ?>
+</div>
+    
 
 </body>
 </html>
