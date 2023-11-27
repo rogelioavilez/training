@@ -233,7 +233,7 @@
         <code>
             $produce = "Tomatoes";
             echo isset($produce) ? "Variable Set: " . $produce : "Variable Is Not Set";
-
+            echo "<\br>";
             echo "Variable content is: " . $produce;
         </code>
     </pre>
@@ -241,7 +241,7 @@
     <?php
         $produce = "Tomatoes";
         echo isset($produce) ? "Variable Set: " . $produce : "Variable Is Not Set";
-
+        echo "<br>";
         echo "Variable content is: " . $produce;
     ?>
     
