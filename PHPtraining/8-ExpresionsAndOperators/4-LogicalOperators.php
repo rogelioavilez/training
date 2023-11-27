@@ -19,7 +19,7 @@
 
 <div>
     <h3>AND where both conditions are true</h3>
-    <p>Great Hello, Name if the user is logged in and has permission.</p>
+    <p>Great Hello to User if is logged in and has permission.</p>
     <pre>
         <code>
         $permission = true;
