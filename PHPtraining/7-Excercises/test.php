@@ -16,10 +16,24 @@
             $lastname = "Avilez Garza";
         </code>
     </pre>
-    <h3>Result:</h3>
     <?php
         $firstname = "Rogelio";
         $lastname = "Avilez Garza";
+    ?>
+    <hr>
+
+    <h3>2) Print the $firstname and $lastname using echo/print.</h3>
+
+    <pre>
+        <code>
+            echo "My Full Name is: " . $firstname . " " . $lastname . "<\br>";
+            print "My Full Name is: " . $firstname . " " . $lastname;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        echo "My Full Name is: " . $firstname . " " . $lastname . "<br>";
+        print "My Full Name is: " . $firstname . " " . $lastname;
     ?>
     
 </body>
