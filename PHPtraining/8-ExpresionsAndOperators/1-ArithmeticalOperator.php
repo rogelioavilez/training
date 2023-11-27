@@ -37,7 +37,7 @@
             $math = 70;
             $science = 30;
             $english = 80;
-            $totalMarks = $math + $science + $english;
+            $totalMarkPoints = $math + $science + $english;
 
             echo $totalMarkPoints . " out of 300.";
         ?>
