@@ -126,6 +126,33 @@
         echo "<br>";
         echo $classroom;
     ?>
+
+    <hr>    
+    <h3>7) Define and show a Global Variable.</h3>
+
+    <pre>
+        <code>
+            global $schoolName;
+            $schoolName = "Great School";
+
+            function print_global(){
+                global $schoolName;
+                echo $schoolName;
+            }
+            print_global();
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        global $schoolName;
+        $schoolName = "Great School";
+
+        function print_global(){
+            global $schoolName;
+            echo $schoolName;
+        }
+        print_global();
+    ?>
     
 </body>
 </html>
