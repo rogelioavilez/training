@@ -27,9 +27,9 @@
             $math = 70;
             $science = 30;
             $english = 80;
-            $totalMarks = ($math + $science + $english)/3;
+            $totalMarkPoints = $math + $science + $english;
 
-            echo $totalMarks;
+            echo $totalMarkPoints;
             </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -37,9 +37,9 @@
             $math = 70;
             $science = 30;
             $english = 80;
-            $totalMarks = ($math + $science + $english)/3;
+            $totalMarks = $math + $science + $english;
 
-            echo $totalMarks;
+            echo $totalMarkPoints . " out of 300.";
         ?>
 
     </div>
@@ -53,15 +53,15 @@
         <pre>
             <code>
             $allMarks = 100;
-            $difMarks = $allMarks - $totalMarks;
+            $difMarks = $allMarks - $totalMarkPoints;
 
             echo "Need " . $difMarks . " points for a perfect score.";
             </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-            $allMarks = 100;
-            $difMarks = $allMarks - $totalMarks;
+            $allMarks = 300;
+            $difMarks = $allMarks - $totalMarkPoints;
 
             echo "Need " . $difMarks . " points for a perfect score.";
         ?>
@@ -90,6 +90,27 @@
             $area = $lenght * $width;
 
             echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2";
+        ?>
+
+    </div>
+
+    <!-- Division (/) -->
+    <div>
+        <h3>Division /</h3>
+        <p>Calculate the percentage on Overall Score</p>
+
+        <pre>
+            <code>
+            $percentage = ($totalMarkPoints/$allMarks)/100;
+
+            
+            </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $percentage = ($totalMarkPoints/$allMarks)/100;
+
+            echo "Percentage Scored: " . $percentage . "%";
         ?>
 
     </div>
