@@ -68,8 +68,8 @@
     <h3>Result:</h3>
     <?php
         function print_name(){
-            $firstname = "Rogelio";
-            echo $firstname;
+            $name = "Rogelio Avilez Garza";
+            echo $name;
         }
 
         print_name();
