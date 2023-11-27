@@ -210,7 +210,10 @@
             $inventory = "vehicles";
 
             echo $inventory;
-            echo $$inventory; //$($inventory) ==> $(vehicles)
+            echo "<\br>";
+            echo $$inventory;
+            
+             //$($inventory) ==> $(vehicles)
         </code>
     </pre>
     <h3>Result:</h3>
@@ -219,7 +222,7 @@
         $inventory = "vehicles";
 
         echo $inventory;
-        echo "<br>":
+        echo "<br>";
         echo $$inventory;
     ?>
     
