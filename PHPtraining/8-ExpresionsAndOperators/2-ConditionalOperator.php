@@ -13,7 +13,8 @@
 
     <pre>
         <code>
-
+        $flag = (true) ? "Correct" : "Wrong";
+        echo "Condition is: " . $flag;
         </code>
     </pre>
 
