@@ -193,7 +193,10 @@
     </pre>
     <h3>Result:</h3>
     <?php
-        echo $GLOBALS [schoolName];
+        global $superGlobal;
+        $superGlobal = "Get the test right!";
+
+        echo $GLOBALS ["superGlobal"];
     ?>
     
 </body>
