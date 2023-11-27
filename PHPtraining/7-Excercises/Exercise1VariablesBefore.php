@@ -129,7 +129,51 @@
 
     <h2>Super Global Variable:</h2>
 
+    <pre>
+        <code>
+            global $superGlobalMessage;
+            $superGlobalMessage = "Welcome to PHP!";
+
+            echo $GLOBALS['superGlobalMessage'];
+
+            echo "Filename: " . $_SERVER['PHP_SELF'];
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        global $superGlobalMessage;
+        $superGlobalMessage = "Welcome to PHP!";
+
+        echo $GLOBALS['superGlobalMessage'];
+
+        echo "Filename: " . $_SERVER['PHP_SELF'];
+    ?>
+    <hr>
+
     <h2>Variables of Variables:</h2>
+
+    <pre>
+        <code>
+            //$male is a variale
+            $male = "Rogelio, Avilez";
+            //male is holding a variable name
+            $gender = "male";
+
+            echo $gender;
+            echo $$gender; //$($gender) ==> $(male)
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        //$male is a variale
+        $male = "Rogelio, Avilez";
+        //male is holding a variable name
+        $gender = "male";
+
+        echo $gender;
+        echo $$gender; //$($gender) ==> $(male)
+    ?>
+    <hr>
 
 </body>
 </html>
