@@ -83,7 +83,9 @@
         $fruit1 = "Apple";
         $fruit2 = "Oranges";
 
-        echo ($specialFruit != $fruit1) ? "It is not Oranges" : "It is Oranges";
+        echo ($specialFruit != $fruit1) ? "Fruit1 is not Oranges" : "Fruit1 is Oranges";
+        echo "<\br>";
+        echo ($specialFruit != $fruit2) ? "Fruit2 is not Oranges" : "Fruit2 is Oranges";
         </code>
     </pre>
 
@@ -94,7 +96,9 @@
         $fruit1 = "Apple";
         $fruit2 = "Oranges";
 
-        echo ($specialFruit != $fruit1) ? "It is not Oranges" : "It is Oranges";
+        echo ($specialFruit != $fruit1) ? "Fruit1 is not Oranges" : "Fruit1 is Oranges";
+        echo "<br>";
+        echo ($specialFruit != $fruit2) ? "Fruit2 is not Oranges" : "Fruit2 is Oranges";
     ?>
 </div>
     
