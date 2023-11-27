@@ -74,7 +74,7 @@
 </div>
 <hr>
 <div>
-    <h3>Not Equal To !=  ,  < >   ,   !== <h3>
+    <h3>Not Equal To !=  ,  < >   ,   !== </h3>
     <p>Find oranges using !=  ,  < >   ,   !== </p>
 
     <pre>
