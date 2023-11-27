@@ -134,18 +134,22 @@
         <code>
         $total = 34;
         $passingMarks = 35;
-        $isPassed = ($total >= $passingMarks) ? true : false;
+        $isPassed = ( $total >= $passingMarks ) ? true : false;
 
-        echo (!$isPassed) ? "Not Passed" : "Passed";
+        echo ($isPassed) ? "Not Passed" : "Passed";
+        echo "<br>";
+        echo (!$isPassed) ? "Passed" : "Not Passed";
         </code>
     </pre>
     <h3><i>Result:</i></h3>
     <?php
         $total = 34;
         $passingMarks = 35;
-        $isPassed = ($total >= $passingMarks) ? true : false;
+        $isPassed = ( $total >= $passingMarks ) ? true : false;
 
-        echo (!$isPassed) ? "Not Passed" : "Passed";
+        echo ($isPassed) ? "Not Passed" : "Passed";
+        echo "<br>";
+        echo (!$isPassed) ? "Passed" : "Not Passed";
     ?>
 </div>
 <hr>
