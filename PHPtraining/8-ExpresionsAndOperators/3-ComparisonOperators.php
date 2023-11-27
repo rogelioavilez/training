@@ -134,8 +134,8 @@
 
     <?php
         $citizen1 = "Jhon";
-        $citizen1 = "Mark";
-        $citizen1 = "Luke";
+        $citizen2 = "Mark";
+        $citizen3 = "Luke";
 
         $ageLimit = 60;
         $citizenAge1 = 40;
