@@ -72,22 +72,24 @@
     <!-- Multiplication (*) -->
     <div>
         <h3>Multiplication *</h3>
-        <p>Find the difference between Student's total marks, and maximum amount of Marks</p>
+        <p>Calculate the area, using lenght and width.</p>
 
         <pre>
             <code>
-            $allMarks = 100;
-            $difMarks = $allMarks - $totalMarks;
+            $lenght = 10;
+            $width = 20;
+            $area = $lenght * $width;
 
-            echo "Need " . $difMarks . " points for a perfect score.";
+            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2<\sup>";
             </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-            $allMarks = 100;
-            $difMarks = $allMarks - $totalMarks;
+            $lenght = 10;
+            $width = 20;
+            $area = $lenght * $width;
 
-            echo "Need " . $difMarks . " points for a perfect score.";
+            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2<\sup>";
         ?>
 
     </div>
