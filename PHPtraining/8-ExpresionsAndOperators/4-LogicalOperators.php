@@ -88,6 +88,7 @@
         </code>
     </pre>
     <h3><i>Result:</i></h3>
+    <p><i>When 2 Operators are present in the same Expression, && has more precedence than =, and = has more precedence than AND, that is the reason the result changes, even when the AND and && search for both conditions to be true.</i></p>
     <?php
         $result1 = true && false;
         $result2 = true and false;
