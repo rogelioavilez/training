@@ -45,16 +45,24 @@
 <hr>
 
 <div>
-    <h3>OR when at leastone of the conditions is true</h3>
-    <p></p>
+    <h3>OR where at leastone of the conditions is true</h3>
+    <p>Check if Student passed at least one exam</p>
     <pre>
         <code>
+        $student = "John";
+        $mathPassed = true;
+        $sciencePassed = false;
 
+        echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
         </code>
     </pre>
     <h3><i>Result:</i></h3>
     <?php
+        $student = "John";
+        $mathPassed = true;
+        $sciencePassed = false;
 
+        echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
     ?>
 </div>
 <hr>
