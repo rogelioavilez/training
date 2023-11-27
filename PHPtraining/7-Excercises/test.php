@@ -58,8 +58,8 @@
     <pre>
         <code>
             function print_name(){
-                $firstname = "Rogelio";
-                echo $firstname;
+                $name = "Rogelio Avilez Garza";
+                echo $name;
             }
 
             print_name();
