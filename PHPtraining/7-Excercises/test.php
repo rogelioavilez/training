@@ -261,6 +261,19 @@
 
         echo "Coworker's ID: " . COWORKER_ID;
     ?>
+
+    <hr>    
+    <h3>13) Show a Magic Constant.</h3>
+
+    <pre>
+        <code>
+            echo "This is the file directory:<br>" . __FILE__;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        echo "This is the file directory:<br>" . __FILE__;
+    ?>
     
 </body>
 </html>
