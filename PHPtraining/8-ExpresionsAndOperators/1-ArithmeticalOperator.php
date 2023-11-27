@@ -144,7 +144,7 @@
     <!-- Exponential (**) -->
     <div>
         <h3>Exponential **</h3>
-        <p>Find the reminder of an operation</p>
+        <p>Use the same values to get the value of both sides with exponent 2, and multiply each other.</p>
 
         <pre>
             <code>
