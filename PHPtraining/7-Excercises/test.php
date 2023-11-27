@@ -74,6 +74,25 @@
 
         print_name();
     ?>
+
+    <hr>
+    <h3>5) Show PHP Variables are Case Sensitive.</h3>
+
+    <pre>
+        <code>
+            echo $flavour;
+            echo "<br>";
+            echo $Flavour;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        $flavour = "Chocolate";
+
+        echo $flavour;
+        echo "<br>";
+        echo $Flavour;
+    ?>
     
 </body>
 </html>
