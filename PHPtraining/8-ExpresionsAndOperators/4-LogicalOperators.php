@@ -18,7 +18,7 @@
     </p>
 
 <div>
-    <h3></h3>
+    <h3>AND where both conditions are true</h3>
     <p>Great Hello, Name if the user is logged in and has permission.</p>
     <pre>
         <code>
