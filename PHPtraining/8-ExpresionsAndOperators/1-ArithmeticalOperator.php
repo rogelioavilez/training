@@ -94,6 +94,7 @@
 
     </div>
 
+    <hr>
     <!-- Division (/) -->
     <div>
         <h3>Division /</h3>
@@ -108,7 +109,7 @@
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-            $percentage = ($totalMarkPoints/$allMarks)/100;
+            $percentage = ($totalMarkPoints/$allMarks)*100;
 
             echo "Percentage Scored: " . $percentage . "%";
         ?>
