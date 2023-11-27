@@ -80,7 +80,7 @@
             $width = 20;
             $area = $lenght * $width;
 
-            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2<\sup>";
+            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2";
             </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -89,7 +89,7 @@
             $width = 20;
             $area = $lenght * $width;
 
-            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2<\sup>";
+            echo "The total area when you have " . $lenght . "ft in lenght, and " . $width . "ft in width is: " . $area . "ft<sup>2";
         ?>
 
     </div>
