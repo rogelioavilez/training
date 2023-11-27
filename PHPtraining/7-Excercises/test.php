@@ -244,6 +244,23 @@
         echo "<br>";
         echo "Variable content is: " . $produce;
     ?>
+
+    <hr>    
+    <h3>12) Define and display a Constant.</h3>
+
+    <pre>
+        <code>
+            define ("COWORKER_ID", "ABC123");
+
+            echo "Coworker's ID: " . COWORKER_ID;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        define ("COWORKER_ID", "ABC123");
+
+        echo "Coworker's ID: " . COWORKER_ID;
+    ?>
     
 </body>
 </html>
