@@ -139,6 +139,28 @@
         ?>
 
     </div>
+
+    <hr>
+    <!-- Exponential (**) -->
+    <div>
+        <h3>Modulus %</h3>
+        <p>Find the reminder of an operation</p>
+
+        <pre>
+            <code>
+            $a = 10;
+            $b = 20;
+            $result = ($a ** 2) * ($b ** 2);
+            </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+        $a = 10;
+        $b = 20;
+        $result = ($a ** 2) * ($b ** 2);
+        ?>
+
+    </div>
     
     
 </body>
