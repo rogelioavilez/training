@@ -83,7 +83,7 @@
             $flavour = "Chocolate";
 
             echo "Properly Spelled Variable: " . $flavour;
-            echo "<br>";
+            echo "<\br>";
             echo "Not Properly Spelled Variable is Blank: -> " . $Flavour;
         </code>
     </pre>
