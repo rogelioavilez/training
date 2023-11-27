@@ -126,6 +126,30 @@
 </div>
 <hr>
 
+<!-- || -->
+<div>
+    <h3>! If Not Operator</h3>
+    <p>Check if a student has not passed, and print the results.</p>
+    <pre>
+        <code>
+        $total = 34;
+        $passingMarks = 35;
+        $isPassed = ($total >= $passingMarks) ? true : false;
+
+        echo ($isPassed) ? "Not Passed" : "Passed";
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $total = 34;
+        $passingMarks = 35;
+        $isPassed = ($total >= $passingMarks) ? true : false;
+
+        echo ($isPassed) ? "Not Passed" : "Passed";
+    ?>
+</div>
+<hr>
+
 
 
 </body>
