@@ -135,7 +135,7 @@
             $superGlobalMessage = "Welcome to PHP!";
 
             echo $GLOBALS['superGlobalMessage'];
-
+            echo "<\br>";
             echo "Filename: " . $_SERVER['PHP_SELF'];
         </code>
     </pre>
@@ -145,7 +145,7 @@
         $superGlobalMessage = "Welcome to PHP!";
 
         echo $GLOBALS['superGlobalMessage'];
-
+        echo "<br>";
         echo "Filename: " . $_SERVER['PHP_SELF'];
     ?>
     <hr>
@@ -160,6 +160,7 @@
             $gender = "male";
 
             echo $gender;
+            echo "<\br>";
             echo $$gender; //$($gender) ==> $(male)
         </code>
     </pre>
@@ -171,6 +172,7 @@
         $gender = "male";
 
         echo $gender;
+        echo "<br>";
         echo $$gender; //$($gender) ==> $(male)
     ?>
     <hr>
