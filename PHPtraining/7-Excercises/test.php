@@ -51,6 +51,29 @@
         $numberToAdd = "3";
         echo 3 + $numberToAdd;
     ?>
+
+    <hr>
+    <h3>4) Define a function to print the name.</h3>
+
+    <pre>
+        <code>
+            function print_name(){
+                $firstname = "Rogelio";
+                echo $firstname;
+            }
+
+            print_name();
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        function print_name(){
+            $firstname = "Rogelio";
+            echo $firstname;
+        }
+
+        print_name();
+    ?>
     
 </body>
 </html>
