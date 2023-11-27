@@ -22,12 +22,12 @@
 
         <pre>
             <code>
-                $math = 70;
-                $science = 30;
-                $english = 80;
-                $totalMarks = ($math + $science + $english)/3;
+            $math = 70;
+            $science = 30;
+            $english = 80;
+            $totalMarks = ($math + $science + $english)/3;
 
-                echo $totalMarks;
+            echo $totalMarks;
             </code>
         </pre>
         <h3><i>Result:</i></h3>
