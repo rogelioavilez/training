@@ -26,7 +26,7 @@
         $loggedIn = true;
         $user = "Rogelio Avilez";
         echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
-        echo "<br>";
+        echo "<\br>";
         $permission = false;
         echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
         </code>
