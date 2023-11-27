@@ -153,6 +153,35 @@
         }
         print_global();
     ?>
+
+    <hr>    
+    <h3>8) Define and show a Static Variable.</h3>
+
+    <pre>
+        <code>
+            function print_static(){
+                static $addStudent = 1;
+                echo $addStudent . "<\br>";
+                $addStudent += 1;
+            }
+            print_static();
+            print_static();
+            print_static();
+            print_static();
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        function print_static(){
+            static $addStudent = 1;
+            echo $addStudent . "<br>";
+            $addStudent += 1;
+        }
+        print_static();
+        print_static();
+        print_static();
+        print_static();
+    ?>
     
 </body>
 </html>
