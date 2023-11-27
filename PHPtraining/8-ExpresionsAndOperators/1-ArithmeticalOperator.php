@@ -102,7 +102,7 @@
 
         <pre>
             <code>
-            $percentage = ($totalMarkPoints/$allMarks)/100;
+            $percentage = ($totalMarkPoints/$allMarks)*100;
 
             
             </code>
