@@ -24,6 +24,8 @@
         <code>
         $php_version = 7.5;
         $php_system_version = PHP_MAJOR_VERSION . "." . PHP_MINOR_VERSION;
+        PHP_MAJOR_VERSION;
+        echo "<\br>";
         echo ($php_version == $php_system_version)? "Version Match" : "Version don't match";
         </code>
     </pre>
@@ -33,7 +35,10 @@
     <?php
         $php_version = 7.5;
         $php_system_version = PHP_MAJOR_VERSION . "." . PHP_MINOR_VERSION;
+        echo PHP_MAJOR_VERSION;
+        echo "<br>";
         echo ($php_version == $php_system_version)? "Version Match" : "Version don't match";
+
     ?>
 
 </body>
