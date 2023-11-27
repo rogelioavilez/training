@@ -95,6 +95,37 @@
         echo "<br>";
         echo "Not Properly Spelled Variable is Blank: -> " . $Flavour;
     ?>
+
+    <hr>
+    <h3>6) Create local variable and repeat it inside a function with different value and print both.</h3>
+
+    <pre>
+        <code>
+            $classroom = "Science";
+
+            function print_classroom(){
+                $classroom = "Mathematics";
+                echo $classroom;
+            }
+
+            print_classroom();
+            echo "<\br>";
+            echo $classroom;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        $classroom = "Science";
+
+        function print_classroom(){
+            $classroom = "Mathematics";
+            echo $classroom;
+        }
+
+        print_classroom();
+        echo "<br>";
+        echo $classroom;
+    ?>
     
 </body>
 </html>
