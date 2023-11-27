@@ -55,7 +55,7 @@
         $name3 = "10";
 
         echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
-
+        echo "<\br>";
         echo ($name1 === $name3) ? "Name1 and Name3 matched" : "Name1 does not match Name3";
         </code>
     </pre>
@@ -68,7 +68,7 @@
         $name3 = "10";
 
         echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
-
+        echo "<br>";
         echo ($name1 === $name3) ? "Name1 and Name3 matched" : "Name1 does not match Name3";
     ?>
 </div>
