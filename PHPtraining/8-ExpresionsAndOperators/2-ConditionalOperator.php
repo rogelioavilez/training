@@ -8,6 +8,21 @@
 <body>
     <h1>Conditional Operator</h1>
 
-    
+    <h3>How to use Conditional/Ternary Operator</h3>
+    <p> (condition) ? true : false;</p>
+
+    <pre>
+        <code>
+
+        </code>
+    </pre>
+
+    <h3><i>Result:</i></h3>
+
+    <?php
+        $flag = (true) ? "Correct" : "Wrong";
+        echo "Condition is: " . $flag;
+    ?>
+
 </body>
 </html>
