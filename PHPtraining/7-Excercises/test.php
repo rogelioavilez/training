@@ -182,6 +182,19 @@
         print_static();
         print_static();
     ?>
+
+<hr>    
+    <h3>9) Show a Super Global Variable.</h3>
+
+    <pre>
+        <code>
+        echo $GLOBALS [$schoolName];
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        echo $GLOBALS [$schoolName];
+    ?>
     
 </body>
 </html>
