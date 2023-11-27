@@ -157,20 +157,20 @@
 
     <pre>
         <code>
-        $citizen1 = "Jhon";
-        $citizen1 = "Mark";
-        $citizen1 = "Luke";
+        $name1 = "Jhonny";
+        $name2 = "Markus";
+        $name3 = "Lukas";
 
         $ageLimit = 10;
-        $citizenAge1 = 40;
-        $citizenAge2 = 64;
-        $citizenAge3 = 80;
+        $nameAge1 = 4;
+        $nameAge2 = 64;
+        $nameAge3 = 8;
 
-        echo ($citizenAge1 > $ageLimit) ? $citizen1 . " is a Senior Citizen" : $citizen1 . " is not a Senior Citizen";
+        echo ($nameAge1 < $ageLimit) ? $name1 . " gets to eat pizza for free" : $name1 . " doesn't get pizza";
         echo "<\br>";
-        echo ($citizenAge2 > $ageLimit) ? $citizen2 . " is a Senior Citizen" : $citizen2 . " is not a Senior Citizen";
+        echo ($nameAge2 < $ageLimit) ? $name2 . " gets to eat pizza for free" : $name2 . " doesn't get pizza";
         echo "<\br>";
-        echo ($citizenAge3 > $ageLimit) ? $citizen3 . " is a Senior Citizen" : $citizen3 . " is not a Senior Citizen";
+        echo ($nameAge3 < $ageLimit) ? $name3 . " gets to eat pizza for free" : $name3 . " doesn't get pizza";
         </code>
     </pre>
 
@@ -190,7 +190,7 @@
         echo "<br>";
         echo ($nameAge2 < $ageLimit) ? $name2 . " gets to eat pizza for free" : $name2 . " doesn't get pizza";
         echo "<br>";
-        echo ($nameAge3 < $ageLimit) ? $name3 . " gets to eat pizza for free" : $name3 . " doesn't get pizza";        
+        echo ($nameAge3 < $ageLimit) ? $name3 . " gets to eat pizza for free" : $name3 . " doesn't get pizza";
     ?>
 </div>
 <hr>
