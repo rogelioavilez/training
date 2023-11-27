@@ -198,7 +198,7 @@
         echo $GLOBALS ["schoolName"];
     ?>
 
-<hr>    
+    <hr>    
     <h3>10) Define and Show a Variable of Variables.</h3>
 
     <pre>
@@ -224,6 +224,25 @@
         echo $inventory;
         echo "<br>";
         echo $$inventory;
+    ?>
+
+    <hr>    
+    <h3>11) Use Insset method using tenary operators.</h3>
+
+    <pre>
+        <code>
+            $produce = "Tomatoes";
+            echo isset($produce) ? "Variable Set: " . $produce : "Variable Is Not Set";
+
+            echo "Variable content is: " . $produce;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        $produce = "Tomatoes";
+        echo isset($produce) ? "Variable Set: " . $produce : "Variable Is Not Set";
+
+        echo "Variable content is: " . $produce;
     ?>
     
 </body>
