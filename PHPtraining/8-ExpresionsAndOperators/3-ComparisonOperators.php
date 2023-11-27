@@ -46,7 +46,7 @@
 <hr>
 <div>
     <h3>Data Type and Value Identical ===</h3>
-    <p>Data and Value need to match</p>
+    <p>Data Type and Value need to be identical</p>
 
     <pre>
         <code>
