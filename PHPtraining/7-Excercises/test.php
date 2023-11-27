@@ -80,18 +80,20 @@
 
     <pre>
         <code>
-            echo $flavour;
+            $flavour = "Chocolate";
+
+            echo "Properly Spelled Variable: " . $flavour;
             echo "<br>";
-            echo $Flavour;
+            echo "Not Properly Spelled Variable is Blank: -> " . $Flavour;
         </code>
     </pre>
     <h3>Result:</h3>
     <?php
         $flavour = "Chocolate";
 
-        echo $flavour;
+        echo "Properly Spelled Variable: " . $flavour;
         echo "<br>";
-        echo $Flavour;
+        echo "Not Properly Spelled Variable is Blank: -> " . $Flavour;
     ?>
     
 </body>
