@@ -54,6 +54,9 @@
         $sciencePassed = false;
 
         echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
+        echo "<\br>";
+        $mathPassed = false;
+        echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
         </code>
     </pre>
     <h3><i>Result:</i></h3>
@@ -63,6 +66,10 @@
         $sciencePassed = false;
 
         echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
+        echo "<br>";
+        $mathPassed = false;
+        echo ($mathPassed or $sciencePassed) ? $student . " has passed at least one" : $student . " has not passed";
+
     ?>
 </div>
 <hr>
