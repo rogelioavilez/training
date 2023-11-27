@@ -26,6 +26,9 @@
         $loggedIn = true;
         $user = "Rogelio Avilez";
         echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
+        echo "<br>";
+        $permission = false;
+        echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
         </code>
     </pre>
     <h3><i>Result:</i></h3>
@@ -34,12 +37,15 @@
         $loggedIn = true;
         $user = "Rogelio Avilez";
         echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
+        echo "<br>";
+        $permission = false;
+        echo ($permission and $loggedIn) ? "Hello " . $user : "Hello Guest";
     ?>
 </div>
 <hr>
 
 <div>
-    <h3></h3>
+    <h3>OR when at leastone of the conditions is true</h3>
     <p></p>
     <pre>
         <code>
