@@ -103,8 +103,6 @@
         <pre>
             <code>
             $percentage = ($totalMarkPoints/$allMarks)*100;
-
-            
             </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -112,6 +110,31 @@
             $percentage = ($totalMarkPoints/$allMarks)*100;
 
             echo "Percentage Scored: " . $percentage . "%";
+        ?>
+
+    </div>
+
+    <!-- Modulus (%) -->
+    <div>
+        <h3>Division /</h3>
+        <p>Find the reminder of an operation</p>
+
+        <pre>
+            <code>
+            $a = 100 % 5;
+            echo $a;
+
+            $b = 101 % 5;
+            echo $b;
+            </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+        $a = 100 % 5;
+        echo $a;
+
+        $b = 101 % 5;
+        echo $b;
         ?>
 
     </div>
