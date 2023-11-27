@@ -101,12 +101,12 @@
 <hr>
 <!-- || -->
 <div>
-    <h3>Diference between OR and ||</h3>
-    <p>.</p>
+    <h3>|| where one of the conditions needs to be true</h3>
+    <p>Find the Diference between OR and ||</p>
     <pre>
         <code>
-        $result1 = true || false;
-        $result2 = true or false;
+        $result1 = false || true;
+        $result2 = false or true;
         
         echo ($result1) ? "true" : "false";
         echo "<br>";
@@ -115,8 +115,8 @@
     </pre>
     <h3><i>Result:</i></h3>
     <?php
-        $result1 = true || false;
-        $result2 = true or false;
+        $result1 = false || true;
+        $result2 = false or true;
         
         echo ($result1) ? "true" : "false";
         echo "<br>";
