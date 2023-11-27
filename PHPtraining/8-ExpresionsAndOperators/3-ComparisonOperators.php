@@ -51,7 +51,7 @@
     <pre>
         <code>
         $name1 = "10";
-        $name2 = 20;
+        $name2 = 10;
 
         echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
         </code>
@@ -61,7 +61,7 @@
 
     <?php
         $name1 = "10";
-        $name2 = 20;
+        $name2 = 10;
 
         echo ($name1 === $name2) ? "Name1 and Name2 matched" : "Name1 does not match Name2";
     ?>
