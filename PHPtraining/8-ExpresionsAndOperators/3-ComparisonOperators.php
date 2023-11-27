@@ -16,6 +16,8 @@
         >= Greater Than or Equal
         <= Less than or Equal
     -->
+
+    <!-- ==  Equal -->
 <div>
     <h3>Equal to ==</h3>
     <p>Use Operator to check if the PHP Version matches</p>
@@ -44,6 +46,7 @@
     ?>
 </div>
 <hr>
+    <!-- === Data/Value Identical -->
 <div>
     <h3>Data Type and Value Identical ===</h3>
     <p>Data Type and Value need to be identical</p>
@@ -73,6 +76,7 @@
     ?>
 </div>
 <hr>
+    <!-- !=  /  < >   /   !==    Not Equal To -->
 <div>
     <h3>Not Equal To !=  ,  < >   ,   !== </h3>
     <p>Find oranges using !=  ,  < >   ,   !== </p>
@@ -99,6 +103,50 @@
         echo ($specialFruit != $fruit1) ? "Fruit1 is not Oranges" : "Fruit1 is Oranges";
         echo "<br>";
         echo ($specialFruit != $fruit2) ? "Fruit2 is not Oranges" : "Fruit2 is Oranges";
+    ?>
+</div>
+<hr>
+<!-- !=  /  < >   /   !==    Not Equal To -->
+<div>
+    <h3>Greater than ></h3>
+    <p>Find the senior citizen whose age is greater than 60 using greater than operator</p>
+
+    <pre>
+        <code>
+        $citizen1 = "Jhon";
+        $citizen1 = "Mark";
+        $citizen1 = "Luke";
+
+        $ageLimit = 60;
+        $citizenAge1 = 40;
+        $citizenAge2 = 64;
+        $citizenAge3 = 80;
+
+        echo ($citizenAge1 > $ageLimit) ? $citizen1 . " is a Senior Citizen" : $citizen1 . " is not a Senior Citizen";
+        echo "<\br>";
+        echo ($citizenAge2 > $ageLimit) ? $citizen2 . " is a Senior Citizen" : $citizen2 . " is not a Senior Citizen";
+        echo "<\br>";
+        echo ($citizenAge3 > $ageLimit) ? $citizen3 . " is a Senior Citizen" : $citizen3 . " is not a Senior Citizen";
+        </code>
+    </pre>
+
+    <h3><i>Result:</i></h3>
+
+    <?php
+        $citizen1 = "Jhon";
+        $citizen1 = "Mark";
+        $citizen1 = "Luke";
+
+        $ageLimit = 60;
+        $citizenAge1 = 40;
+        $citizenAge2 = 64;
+        $citizenAge3 = 80;
+
+        echo ($citizenAge1 > $ageLimit) ? $citizen1 . " is a Senior Citizen" : $citizen1 . " is not a Senior Citizen";
+        echo "<br>";
+        echo ($citizenAge2 > $ageLimit) ? $citizen2 . " is a Senior Citizen" : $citizen2 . " is not a Senior Citizen";
+        echo "<br>";
+        echo ($citizenAge3 > $ageLimit) ? $citizen3 . " is a Senior Citizen" : $citizen3 . " is not a Senior Citizen";
     ?>
 </div>
     
