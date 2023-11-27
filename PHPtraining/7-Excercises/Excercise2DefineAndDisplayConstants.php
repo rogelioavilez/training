@@ -39,7 +39,11 @@
     <h3>Print Constant From Function</h3>
     <pre>
         <code>
-            
+            function print_constant(){
+                    echo "Coworker: " . COWORKER_NAME . " Has ID # " . COWORKER_ID;
+            }
+
+            print_constant();
         </code>
     </pre>
     <h3><i>Results:</i></h3>
