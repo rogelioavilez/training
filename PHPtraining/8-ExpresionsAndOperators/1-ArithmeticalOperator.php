@@ -114,9 +114,10 @@
 
     </div>
 
+    <hr>
     <!-- Modulus (%) -->
     <div>
-        <h3>Division /</h3>
+        <h3>Modulus %</h3>
         <p>Find the reminder of an operation</p>
 
         <pre>
