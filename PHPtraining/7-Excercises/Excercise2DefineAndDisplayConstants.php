@@ -59,12 +59,14 @@
     <h3>Display Magic Constant</h3>
     <pre>
         <code>
-
+            echo __LINE__;
+            echo __FILE__;
         </code>
     </pre>
     <h3><i>Results:</i></h3>
     <?php
-
+        echo __LINE__;
+        echo __FILE__;
     ?>
     <hr>
     
