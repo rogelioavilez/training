@@ -188,14 +188,13 @@
 
     <pre>
         <code>
-        echo $GLOBALS [schoolName];
+            Getting the global from previous example:
+
+            echo $GLOBALS ["schoolName"];
         </code>
     </pre>
     <h3>Result:</h3>
     <?php
-        global $superGlobal;
-        $superGlobal = "Get the test right!";
-
         echo $GLOBALS ["schoolName"];
     ?>
     
