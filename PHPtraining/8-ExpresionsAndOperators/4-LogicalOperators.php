@@ -79,12 +79,18 @@
     <p>Find the difference between AND <-> &&.</p>
     <pre>
         <code>
+        $result1 = true && false;
+        $result2 = true and false;
+        
+        echo ($result1) ? "true" : "false";
+        echo "<\br>";
+        echo ($result2) ? "true" : "false";
         </code>
     </pre>
     <h3><i>Result:</i></h3>
     <?php
         $result1 = true && false;
-        $result2 = true && false;
+        $result2 = true and false;
         
         echo ($result1) ? "true" : "false";
         echo "<br>";
