@@ -16,29 +16,32 @@
         Modulus         %
         Exponentiation  **
     -->
+    <div>
+        <h3>Addition +</h3>
+        <p>Calculate a Student's total marks for 3 Subjects</p>
 
-    <h3>Addition +</h3>
-    <p>Calculate a Student's total marks for 3 Subjects</p>
+        <pre>
+            <code>
+                $math = 70;
+                $science = 30;
+                $english = 80;
+                $totalMarks = ($math + $science + $english)/3;
 
-    <pre>
-        <code>
+                echo $totalMarks;
+            </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
             $math = 70;
             $science = 30;
             $english = 80;
             $totalMarks = ($math + $science + $english)/3;
 
             echo $totalMarks;
-        </code>
-    </pre>
-    <h3><i>Result:</i></h3>
-    <?php
-        $math = 70;
-        $science = 30;
-        $english = 80;
-        $totalMarks = ($math + $science + $english)/3;
+        ?>
 
-        echo $totalMarks;
-    ?>
+    </div>
+    
     
 </body>
 </html>
