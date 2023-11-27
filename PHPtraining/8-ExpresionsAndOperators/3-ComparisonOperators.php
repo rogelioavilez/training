@@ -27,7 +27,7 @@
         
         echo $php_system_version;
         echo "<\br>";
-        echo ($php_version == $php_system_version)? "Version Match" : "Version don't match, current PHP version is" . $php_version . " Please Update to most recent version";
+        echo ($php_version == $php_system_version)? "Version Match" : "Version don't match, current PHP version is: " . $php_version . " , Please Update to most recent version";
         </code>
     </pre>
 
@@ -39,7 +39,7 @@
         
         echo $php_system_version;
         echo "<br>";
-        echo ($php_version == $php_system_version)? "Version Match" : "Version don't match, current PHP version is" . $php_version . " Please Update to most recent version";
+        echo ($php_version == $php_system_version)? "Version Match" : "Version don't match, current PHP version is: " . $php_version . " , Please Update to most recent version";
 
     ?>
 
