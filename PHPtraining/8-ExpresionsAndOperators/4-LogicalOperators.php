@@ -114,6 +114,7 @@
         </code>
     </pre>
     <h3><i>Result:</i></h3>
+    <p><i>When 2 Operators are present in the same Expression, || has more precedence than =, and = has more precedence than OR, that is the reason the result changes, even when the OR and || search for one condition to be true.</i></p>
     <?php
         $result1 = false || true;
         $result2 = false or true;
