@@ -196,7 +196,7 @@
         global $superGlobal;
         $superGlobal = "Get the test right!";
 
-        echo $GLOBALS ["superGlobal"];
+        echo $GLOBALS ["schoolName"];
     ?>
     
 </body>
