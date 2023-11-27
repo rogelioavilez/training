@@ -188,12 +188,12 @@
 
     <pre>
         <code>
-        echo $GLOBALS [$schoolName];
+        echo $GLOBALS [schoolName];
         </code>
     </pre>
     <h3>Result:</h3>
     <?php
-        echo $GLOBALS [$schoolName];
+        echo $GLOBALS [schoolName];
     ?>
     
 </body>
