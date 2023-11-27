@@ -183,7 +183,7 @@
         print_static();
     ?>
 
-<hr>    
+    <hr>    
     <h3>9) Show a Super Global Variable.</h3>
 
     <pre>
@@ -196,6 +196,31 @@
     <h3>Result:</h3>
     <?php
         echo $GLOBALS ["schoolName"];
+    ?>
+
+<hr>    
+    <h3>10) Define and Show a Variable of Variables.</h3>
+
+    <pre>
+        <code>
+            vehicles is a variale:
+            $vehicles = "BMW, Audi, Ford, GMC";
+
+            Inventory is holding a variable vehicles
+            $inventory = "vehicles";
+
+            echo $inventory;
+            echo $$inventory; //$($inventory) ==> $(vehicles)
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+        $vehicles = "BMW, Audi, Ford, GMC";
+        $inventory = "vehicles";
+
+        echo $inventory;
+        echo "<br>":
+        echo $$inventory;
     ?>
     
 </body>

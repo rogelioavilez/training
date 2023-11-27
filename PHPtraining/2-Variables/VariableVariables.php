@@ -17,7 +17,7 @@
     <?php
         //Male is a variale
         $male = "Rogelio, Avilez";
-        //Male is holding a variable name
+        //Gender is holding a variable name
         $gender = "male";
 
         echo $gender;
