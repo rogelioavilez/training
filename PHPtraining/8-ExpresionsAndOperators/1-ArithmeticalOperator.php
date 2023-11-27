@@ -124,7 +124,7 @@
             <code>
             $a = 100 % 5;
             echo $a;
-
+            echo "<\br>";
             $b = 101 % 5;
             echo $b;
             </code>
@@ -133,7 +133,7 @@
         <?php
         $a = 100 % 5;
         echo $a;
-
+        echo "<br>";
         $b = 101 % 5;
         echo $b;
         ?>
