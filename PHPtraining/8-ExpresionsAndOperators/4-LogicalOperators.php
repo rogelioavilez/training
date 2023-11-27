@@ -16,7 +16,7 @@
         ! - If not.
         </pre>
     </p>
-
+<!-- AND -->
 <div>
     <h3>AND where both conditions are true</h3>
     <p>Great Hello to User if is logged in and has permission.</p>
@@ -43,7 +43,7 @@
     ?>
 </div>
 <hr>
-
+<!-- OR -->
 <div>
     <h3>OR where at leastone of the conditions is true</h3>
     <p>Check if Student passed at least one exam</p>
@@ -73,7 +73,7 @@
     ?>
 </div>
 <hr>
-
+<!-- && -->
 <div>
     <h3>&& where both conditions are true</h3>
     <p>Find the difference between AND <-> &&.</p>
@@ -99,6 +99,33 @@
     ?>
 </div>
 <hr>
+<!-- || -->
+<div>
+    <h3>Diference between OR and ||</h3>
+    <p>.</p>
+    <pre>
+        <code>
+        $result1 = true || false;
+        $result2 = true or false;
+        
+        echo ($result1) ? "true" : "false";
+        echo "<br>";
+        echo ($result2) ? "true" : "false";
+        </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $result1 = true || false;
+        $result2 = true or false;
+        
+        echo ($result1) ? "true" : "false";
+        echo "<br>";
+        echo ($result2) ? "true" : "false";
+    ?>
+</div>
+<hr>
+
+
 
 </body>
 </html>
