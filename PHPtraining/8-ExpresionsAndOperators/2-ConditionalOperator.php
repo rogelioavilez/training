@@ -14,6 +14,9 @@
     <pre>
         <code>
         $flag = (true) ? "Correct" : "Wrong";
+        echo "Condition is: " . $flag . "<\br>";
+
+        $flag = (false) ? "Correct" : "Wrong";
         echo "Condition is: " . $flag;
         </code>
     </pre>
@@ -22,6 +25,9 @@
 
     <?php
         $flag = (true) ? "Correct" : "Wrong";
+        echo "Condition is: " . $flag . "<br>";
+
+        $flag = (false) ? "Correct" : "Wrong";
         echo "Condition is: " . $flag;
     ?>
 
