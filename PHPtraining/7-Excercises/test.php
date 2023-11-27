@@ -267,7 +267,7 @@
 
     <pre>
         <code>
-            echo "This is the file directory:<br>" . __FILE__;
+            echo "This is the file directory:<\br>" . __FILE__;
         </code>
     </pre>
     <h3>Result:</h3>
