@@ -72,6 +72,31 @@
         echo ($name1 === $name3) ? "Name1 and Name3 matched" : "Name1 does not match Name3";
     ?>
 </div>
+<hr>
+<div>
+    <h3>Not Equal To !=  ,  < >   ,   !== <h3>
+    <p>Find oranges using !=  ,  < >   ,   !== </p>
+
+    <pre>
+        <code>
+        $specialFruit = "Oranges";
+        $fruit1 = "Apple";
+        $fruit2 = "Oranges";
+
+        echo ($specialFruit != $fruit1) ? "It is not Oranges" : "It is Oranges";
+        </code>
+    </pre>
+
+    <h3><i>Result:</i></h3>
+
+    <?php
+        $specialFruit = "Oranges";
+        $fruit1 = "Apple";
+        $fruit2 = "Oranges";
+
+        echo ($specialFruit != $fruit1) ? "It is not Oranges" : "It is Oranges";
+    ?>
+</div>
     
 
 </body>
