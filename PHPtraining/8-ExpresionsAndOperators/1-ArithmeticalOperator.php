@@ -143,7 +143,7 @@
     <hr>
     <!-- Exponential (**) -->
     <div>
-        <h3>Modulus %</h3>
+        <h3>Exponential **</h3>
         <p>Find the reminder of an operation</p>
 
         <pre>
@@ -151,6 +151,8 @@
             $a = 10;
             $b = 20;
             $result = ($a ** 2) * ($b ** 2);
+
+            echo $result;
             </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -158,6 +160,8 @@
         $a = 10;
         $b = 20;
         $result = ($a ** 2) * ($b ** 2);
+
+        echo $result;
         ?>
 
     </div>
