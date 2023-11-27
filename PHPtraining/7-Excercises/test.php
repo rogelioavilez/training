@@ -20,8 +20,8 @@
         $firstname = "Rogelio";
         $lastname = "Avilez Garza";
     ?>
+    
     <hr>
-
     <h3>2) Print the $firstname and $lastname using echo/print.</h3>
 
     <pre>
@@ -34,6 +34,22 @@
     <?php
         echo "My Full Name is: " . $firstname . " " . $lastname . "<br>";
         print "My Full Name is: " . $firstname . " " . $lastname;
+    ?>
+
+    <hr>
+    <h3>3) Embed the Variable in double quotes.</h3>
+
+    <pre>
+        <code>
+            $numberToAdd = "3";
+            echo 3 + $numberToAdd;
+        </code>
+    </pre>
+    <h3>Result:</h3>
+    <?php
+
+        $numberToAdd = "3";
+        echo 3 + $numberToAdd;
     ?>
     
 </body>
