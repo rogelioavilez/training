@@ -33,7 +33,10 @@
 <div>
     <h3></h3>
     <pre><code>
+        $first = 0; //0000
+        $second = 1; //0001
 
+        echo $first & $second;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
