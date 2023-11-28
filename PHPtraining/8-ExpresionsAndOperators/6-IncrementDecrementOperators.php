@@ -19,6 +19,10 @@
         $counter ++;
 
         echo "Increment by 1 the Counter, New counter value is: " . $counter;
+
+        echo "<\br>You can also add a value inside echo/print, like this: " . $counter++;
+        
+        echo $counter;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -26,6 +30,10 @@
         $counter ++;
 
         echo "Increment by 1 the Counter, New counter value is: " . $counter;
+
+        echo "<br>You can also add a value inside echo/print, like this: " . $counter++;
+        
+        echo $counter;
     ?>
     <hr>
 </div>
