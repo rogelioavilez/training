@@ -28,13 +28,14 @@
         $name .= "Avilez";
         echo "My Full Name is: " .  $name;
 
+        echo "<\br>";
 
         $counter = 1;
         $counter += 1;
         $counter += $counter;
         echo "Variable counter is equal to: " . $counter;
 
-        echo "<br>";
+        echo "<\br>";
 
         $marks += 10;
         echo "Variable marks is equal to: " . $marks;
@@ -48,6 +49,7 @@
         $name .= "Avilez";
         echo "My Full Name is: " .  $name;
 
+        echo "<br>";
 
         $counter = 1;
         $counter += 1;
