@@ -95,7 +95,28 @@
     <?php
         $square = 10;
         $square *= $square;
-        echo "Square root of 10= " . $square;
+        echo "Square root of 10 = " . $square;
+    ?>
+    <hr>
+</div>
+<!-- *= Divide -->
+<div>
+    <h3>Use /= and %= Operators</h3>
+
+    <pre><code>
+        
+    </code></pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $divideBy2 = 50;
+        $divideBy2 /= 2;
+        echo "50 between 2 is equal to: " . $divideBy2;
+
+        echo "<br>";
+
+        $remainder = 50;
+        $remainder %= 2;
+        echo "Remainder of 50 between 2 is equal to: " . $remainder;
     ?>
     <hr>
 </div>
