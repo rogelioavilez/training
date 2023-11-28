@@ -15,17 +15,17 @@
 <div>
     <h3>++ Increment</h3>
     <pre><code>
-        $counter = 1;
+        $counter = 10;
         $counter ++;
 
-        echo "Added 1 to Counter " . $counter;
+        echo "Increment by 1 the Counter, New counter value is: " . $counter;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
-        $counter = 1;
+        $counter = 10;
         $counter ++;
 
-        echo "Added 1 to Counter " . $counter;
+        echo "Increment by 1 the Counter, New counter value is: " . $counter;
     ?>
     <hr>
 </div>
@@ -33,11 +33,15 @@
 <div>
     <h3>-- Decrement</h3>
     <pre><code>
+        $counter --;
 
+        echo "Decrease by 1 the Counter, New counter value is back to: " . $counter;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
+        $counter --;
 
+        echo "Decrease by 1 the Counter, New counter value is back to: " . $counter;
     ?>
     <hr>
 </div>
