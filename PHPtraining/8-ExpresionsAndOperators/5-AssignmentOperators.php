@@ -108,7 +108,7 @@
         $divideBy2 /= 2;
         echo "50 between 2 is equal to: " . $divideBy2;
 
-        echo "<br>";
+        echo "<\br>";
 
         $remainder = 50;
         $remainder %= 2;
