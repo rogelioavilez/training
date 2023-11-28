@@ -36,13 +36,16 @@
         $second = 1; //0001
 
         // (0&0) & (0&0) & (0&0) & (0&1) = 0000
-        echo "First result is: " . $first & $second . "<\br>";
+        echo "First result is: ";
+        echo $first & $second;
+        echo "<\br>";
 
         $first = 2; //0010
         $second = 3; //0011
 
         // (0&0) & (0&0) & (1&1) & (0&1) = 0010
-        echo "Second result is: " . $first & $second;
+        echo "Second result is: ";
+        echo $first & $second;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -50,13 +53,16 @@
         $second = 1; //0001
 
         // (0&0) & (0&0) & (0&0) & (0&1) = 0000
-        echo "First result is: " . $first & $second . "<br>";
+        echo "First result is: ";
+        echo $first & $second;
+        echo "<br>";
 
         $first = 2; //0010
         $second = 3; //0011
 
         // (0&0) & (0&0) & (1&1) & (0&1) = 0010
-        echo "Second result is: " . $first & $second;
+        echo "Second result is: ";
+        echo $first & $second;
     ?>
 </div>
     
