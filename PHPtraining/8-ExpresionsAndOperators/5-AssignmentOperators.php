@@ -104,7 +104,15 @@
     <h3>Use /= and %= Operators</h3>
 
     <pre><code>
-        
+        $divideBy2 = 50;
+        $divideBy2 /= 2;
+        echo "50 between 2 is equal to: " . $divideBy2;
+
+        echo "<br>";
+
+        $remainder = 50;
+        $remainder %= 2;
+        echo "Remainder of 50 between 2 is equal to: " . $remainder;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
