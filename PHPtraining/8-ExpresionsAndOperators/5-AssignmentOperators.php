@@ -16,7 +16,7 @@
     /=  Divide Assignment Operator
     %=  Modulus Assignment Operator
     </pre></p>
-
+<!-- += , .= Add -->
 <div>
     <h3>Use Add Operator .=  and  +=</h3>
 
@@ -63,7 +63,7 @@
     ?>
     <hr>
 </div>
-
+<!-- -= Substract -->
 <div>
     <h3>Use -= Operator</h3>
 
@@ -79,6 +79,23 @@
         $counter -= 1;
         $counter -= $counter;
         echo "New value for Variable counter is: " . $counter;
+    ?>
+    <hr>
+</div>
+<!-- *= Multiply -->
+<div>
+    <h3>Use *= Operator</h3>
+
+    <pre><code>
+        $square = 10;
+        $square *= $square;
+        echo "Square root of 10= " . $square;
+    </code></pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $square = 10;
+        $square *= $square;
+        echo "Square root of 10= " . $square;
     ?>
     <hr>
 </div>
