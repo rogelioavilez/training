@@ -30,11 +30,18 @@
 
     </pre></p>
 <div>
-    <h3>Example 1</h3>
-    <pre>How to work with Bits and print<code>
+    <h3>Work with Bits and print</h3>
+    <pre><code>
         $first = 0; //0000
         $second = 1; //0001
 
+        // (0&0) & (0&0) & (0&0) & (0&1) = 0000
+        echo $first & $second;
+
+        $first = 2; //0000
+        $second = 3; //0001
+
+        // (0&0) & (0&0) & (0&0) & (0&1) = 0000
         echo $first & $second;
     </code></pre>
     <h3><i>Result:</i></h3>
@@ -42,6 +49,13 @@
         $first = 0; //0000
         $second = 1; //0001
 
+        // (0&0) & (0&0) & (0&0) & (0&1) = 0000
+        echo $first & $second;
+
+        $first = 2; //0000
+        $second = 3; //0001
+
+        // (0&0) & (0&0) & (0&0) & (0&1) = 0000
         echo $first & $second;
     ?>
 </div>
