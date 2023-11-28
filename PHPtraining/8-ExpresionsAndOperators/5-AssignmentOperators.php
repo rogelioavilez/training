@@ -68,10 +68,10 @@
     <h3>Use -= Operator</h3>
 
     <pre><code>
-        $counter = 1;
+        $counter = 4;
         $counter -= 1;
         $counter -= $counter;
-        echo "Variable counter is equal to: " . $counter;
+        echo "New value for Variable counter is: " . $counter;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -79,8 +79,6 @@
         $counter -= 1;
         $counter -= $counter;
         echo "New value for Variable counter is: " . $counter;
-
-        echo "<br>";
     ?>
     <hr>
 </div>
