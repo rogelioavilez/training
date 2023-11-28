@@ -18,7 +18,7 @@
     </pre></p>
 
 <div>
-    <h3>Use += Operator</h3>
+    <h3>Use Add Operator .=  and  +=</h3>
 
     <pre><code>
         $marks = 10;
