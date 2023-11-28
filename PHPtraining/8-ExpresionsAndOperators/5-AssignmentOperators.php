@@ -75,7 +75,7 @@
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
-        $counter = 1;
+        $counter = 4;
         $counter -= 1;
         $counter -= $counter;
         echo "New value for Variable counter is: " . $counter;
