@@ -20,7 +20,11 @@
 
         echo "Increment by 1 the Counter, New counter value is: " . $counter;
 
-        echo "<\br>You can also add a value inside echo/print, like this: " . $counter++;
+        echo "<\br>You can also add a value inside echo/print, like this: "; 
+        echo $counter++; 
+        echo "<\br>";
+        
+        echo $counter;
         
         echo $counter;
     </code></pre>
@@ -31,7 +35,9 @@
 
         echo "Increment by 1 the Counter, New counter value is: " . $counter;
 
-        echo "<br>You can also add a value inside echo/print, like this: " . $counter++;
+        echo "<br>You can also add a value inside echo/print, like this: "; 
+        echo $counter++; 
+        echo "<br>";
         
         echo $counter;
     ?>
