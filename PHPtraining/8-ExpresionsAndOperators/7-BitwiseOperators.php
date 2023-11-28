@@ -29,7 +29,6 @@
         1 - 0 = 0
 
     </pre></p>
-
 <div>
     <h3>Example 1</h3>
     <pre>How to work with Bits and print<code>
