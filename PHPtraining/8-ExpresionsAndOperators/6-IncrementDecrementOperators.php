@@ -24,9 +24,7 @@
         echo $counter++; 
         echo "<\br>";
         
-        echo $counter;
-        
-        echo $counter;
+        echo "But you need reprint/echo to show new value: " . $counter;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -39,7 +37,7 @@
         echo $counter++; 
         echo "<br>";
         
-        echo $counter;
+        echo "But you need reprint/echo to show new value: " . $counter;
     ?>
     <hr>
 </div>
