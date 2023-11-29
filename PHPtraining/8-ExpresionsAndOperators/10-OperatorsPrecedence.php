@@ -30,6 +30,9 @@
             echo "<\br>";
             $counter = $val++;
             echo $counter;
+
+            $math = 5 * 3 + 2;
+            echo $math;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
