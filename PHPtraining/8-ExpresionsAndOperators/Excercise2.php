@@ -32,12 +32,16 @@
         <h3>Show the negative of 5 using Bitwise Operator</h3>
         <pre><code>
             $number = 5;
+            echo "~ Result is: ";
             echo ~$number;
+            echo "<br>";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
             $number = 5;
+            echo "~ Result is: ";
             echo ~$number;
+            echo "<br>";
         ?>
     </div>
 
