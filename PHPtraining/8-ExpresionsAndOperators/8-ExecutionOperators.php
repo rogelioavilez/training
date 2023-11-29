@@ -14,7 +14,7 @@
         <pre><code>
             //WINDOWS
             echo `dir *.php`;
-            echo "<br>";
+            echo "<\br>";
             // MAC
             echo `ls *.php`;
         </code></pre>
