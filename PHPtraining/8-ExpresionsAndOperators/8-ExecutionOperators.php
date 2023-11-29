@@ -14,7 +14,7 @@
         <pre><code>
             //WINDOWS
             echo `dir *.php`;
-            echo "<\br>";
+            echo "<\br><\br>";
             // MAC
             echo `ls *.php`;
         </code></pre>
@@ -22,7 +22,7 @@
         <?php
             //WINDOWS
             echo `dir *.php`;
-            echo "<br>";
+            echo "<br><br>";
             // MAC
             echo `ls *.php`;
         ?>
