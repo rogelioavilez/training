@@ -94,21 +94,19 @@
         <p>Assign an Integer value and increment by 10 using Assign Operator</p>
         <pre><code>
             $integerVal = 0;
-            $integerVal +=10;
+            echo $integerVal;
+            echo "<\br>";
+            $integerVal += 10;
 
-            echo $integerVal;
-            echo $integerVal;
-            echo $integerVal;
             echo $integerVal;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
             $integerVal = 0;
-            $integerVal = $integerVal + 10;
+            echo $integerVal;
+            echo "<br>";
+            $integerVal += 10;
 
-            echo $integerVal;
-            echo $integerVal;
-            echo $integerVal;
             echo $integerVal;
         ?>
     </div>
