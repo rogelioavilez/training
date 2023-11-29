@@ -62,7 +62,7 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            @$error = 1/0;
+            $error = 1/0;
             echo "Like nothing happened";
         ?>
     </div>
