@@ -11,6 +11,7 @@
     <div>
         <h3></h3>
         <p><pre><code>
+        Higher precedence Chart
             Unary           !, ++, --
             Multiplication  *, /, %
             Add/Substract   +, -
@@ -20,12 +21,13 @@
             Logical OR      ||
             Conditional     ?:
             Assignment      =, +=, -=, *=, /=, %=
+        Lower Precedence
         </code></pre></p>
 
         <pre><code>
             $val = 10;
             echo $val++;
-
+            echo "<\br>";
             $counter = $val++;
             echo $counter;
         </code></pre>
@@ -33,9 +35,13 @@
         <?php
             $val = 10;
             echo $val++;
-
+            echo "<br>";
             $counter = $val++;
             echo $counter;
+            echo "<br>";
+
+            $math = 5 * 3 + 2;
+            echo $math;
         ?>
     </div>
 </body>
