@@ -9,22 +9,18 @@
     <h1>Error Control Operators</h1>
 
     <div>
-        <h3>Backtick symbol ``</h3>
-        <p>Left side to number one on keyboard</p>
+        <h3>Raise and Supress the error</h3>
+        <p></p>
         <pre><code>
-            //WINDOWS
-            echo `dir *.php`;
-            echo "<\br><\br>";
-            // MAC
-            echo `ls *.php`;
+            $value = 1/0; //This line is an error and will not preceed
+
+            echo "Hello";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            //WINDOWS
-            echo `dir *.php`;
-            echo "<br><br>";
-            // MAC
-            echo `ls *.php`;
+            $value = 1/0; //This line is an error and will not preceed
+
+            echo "Hello";
         ?>
     </div>
 </body>
