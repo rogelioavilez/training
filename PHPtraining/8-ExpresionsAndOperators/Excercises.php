@@ -54,7 +54,7 @@
             $number2 = 11;
             $result2 = $number2%2;
 
-            echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . "is an Odd Number";   
+            echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . " is an Odd Number";   
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -67,7 +67,7 @@
             $number2 = 11;
             $result2 = $number2%2;
 
-            echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . "is an Odd Number";            
+            echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . " is an Odd Number";            
         ?>
     </div>
 </body>
