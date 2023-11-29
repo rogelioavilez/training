@@ -66,6 +66,7 @@
     ?>
 </div>
 
+<hr>
 <div>
     <h3>&  |  ^</h3>
     <pre><code>
