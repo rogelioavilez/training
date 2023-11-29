@@ -9,10 +9,9 @@
     <h1>Excercises</h1>
 
     <div>
-        <h3>Excercise 1</h3>
-        <p>Decrement using Decrement Operator</p>
+        <h3>Decrement using Decrement Operator</h3>
         <pre><code>
-            $reduceVal = 0;
+            $reduceVal = 100;
             echo $reduceVal;
             echo "<\br>";
             $reduceVal -= 10;
@@ -20,7 +19,7 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $reduceVal = 0;
+            $reduceVal = 100;
             echo $reduceVal;
             echo "<br>";
             $reduceVal -= 10;
@@ -30,27 +29,27 @@
     </div>
 <hr>
     <div>
-        <h3>Excercise 2</h3>
-        <p></p>
+        <h3>Show the negative of 5 using Bitwise Operator</h3>
         <pre><code>
-            
+            $number = 5;
+            echo ~$number;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-
+            $number = 5;
+            echo ~$number;
         ?>
     </div>
 
 <hr>
     <div>
-        <h3>Excercise 3</h3>
-        <p></p>
+        <h3>Execute a dos command using Execution Operator</h3>
         <pre><code>
               
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+            echo`dir`;
         ?>
     </div>
 
