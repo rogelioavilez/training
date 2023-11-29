@@ -18,7 +18,7 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $value = 1/0; //This line is an error and will not preceed
+            @$value = 1/0; //This line is an error and will not preceed
 
             echo "Hello";
         ?>
