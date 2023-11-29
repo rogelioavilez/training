@@ -12,15 +12,17 @@
         <h3>Raise and Supress the error</h3>
         <p></p>
         <pre><code>
-            $value = 1/0; //This line is an error and will not preceed
+            echo "Hello1";
+            @$value = 1/0; //This line is an error and will not preceed
 
-            echo "Hello";
+            echo "Hello2";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            echo "Hello1";
             @$value = 1/0; //This line is an error and will not preceed
 
-            echo "Hello";
+            echo "Hello2";
         ?>
     </div>
 </body>
