@@ -23,7 +23,7 @@
         <?php
             echo "Hello1";
             //This line is an error and will not preceed
-            @$value = 1/0;
+            //$value = 1/0;
 
             echo "Hello2";
 

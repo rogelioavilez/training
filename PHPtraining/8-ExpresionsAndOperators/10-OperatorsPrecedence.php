@@ -10,13 +10,32 @@
 
     <div>
         <h3></h3>
-        <p></p>
+        <p><pre><code>
+            Unary           !, ++, --
+            Multiplication  *, /, %
+            Add/Substract   +, -
+            Relational      <, >, <=, >=
+            Equality        ==, !=
+            Logical AND     &&
+            Logical OR      ||
+            Conditional     ?:
+            Assignment      =, +=, -=, *=, /=, %=
+        </code></pre></p>
+
         <pre><code>
-            
+            $val = 10;
+            echo $val++;
+
+            $counter = $val++;
+            echo $counter;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+            $val = 10;
+            echo $val++;
+
+            $counter = $val++;
+            echo $counter;
         ?>
     </div>
 </body>
