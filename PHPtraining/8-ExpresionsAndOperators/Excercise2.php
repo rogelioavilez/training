@@ -62,21 +62,25 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $error = 1/0;
+            @$error = 1/0;
             echo "Like nothing happened";
         ?>
     </div>
 
     <hr>
     <div>
-        <h3>Excercise 5</h3>
+        <h3>Show an example for Operator Precedence</h3>
         <p></p>
         <pre><code>
-            
+            Although multiplication comes after, it has precedence against the addition symbol 
+
+            $valueX = 5 + 2 * 3;
+            echo $valueX;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+            $valueX = 5 + 2 * 3;
+            echo $valueX;
         ?>
     </div>
 </body>
