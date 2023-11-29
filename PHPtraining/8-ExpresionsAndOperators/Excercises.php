@@ -26,13 +26,13 @@
         <h3>Excercise 2</h3>
         <p>Find Student Passed or Failed using Conditional Operator</p>
         <pre><code>
-            $passed=(true) ? "Pass" : "Fail" ;
-            echo "Condition is: " . $passed;
+            $passed=(true) ? "Passed" : "Failed" ;
+            echo "Student Status: " . $passed;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $passed=(true) ? "Pass" : "Fail" ;
-            echo "Condition is: " . $passed;
+            $passed=(true) ? "Passed" : "Failed" ;
+            echo "Student Status: " . $passed;
         ?>
     </div>
 </body>
