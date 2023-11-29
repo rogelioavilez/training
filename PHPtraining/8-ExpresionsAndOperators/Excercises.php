@@ -45,7 +45,15 @@
         <h3>Excercise 3</h3>
         <p>Show an Even and Odd number</p>
         <pre><code>
-            
+            $number1 = 10;
+            $result1 = $number1%2;
+
+            echo ($result1 == 0)?  $number1 . " is an Even Number" :  $number1 . "Odd Number";
+
+            $number = 11;
+            $result2 = $number2%2;
+
+            echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . "Odd Number";   
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
