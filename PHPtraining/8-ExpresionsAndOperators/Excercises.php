@@ -32,13 +32,11 @@
         <pre><code>
             $result= "Passed";
             echo($result === "Passed") ? "Student Passed" : "Student Failed" ;
-            echo "Test Status: " . $result;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
             $result= "Passed";
             echo($result === "Passed") ? "Student Passed" : "Student Failed" ;
-            echo "Test Status: " . $result;
         ?>
     </div>
 </body>
