@@ -12,12 +12,19 @@
         <h3>Backtick symbol ``</h3>
         <p>Left side to number one on keyboard</p>
         <pre><code>
-
+            //WINDOWS
+            echo `dir *.php`;
+            echo "<br>";
+            // MAC
+            echo `ls *.php`;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            //WINDOWS
             echo `dir *.php`;
-            //echo `ls *.php`;
+            echo "<br>";
+            // MAC
+            echo `ls *.php`;
         ?>
     </div>
 </body>
