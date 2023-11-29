@@ -12,13 +12,17 @@
         <h3>Excercise 1</h3>
         <p>Add 2 numbers using Arithmeical operators</p>
         <pre><code>
-            $value = 2 + 2;
-            echo "2 + 2 = " . $value;
+            $value1 = 2;
+            $value2 = 4;
+            $add = $value1 + $value2;
+            echo $value1 . " + " . $value2 . " = " . $add;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $value = 2 + 2;
-            echo "2 + 2 = " . $value;
+            $value1 = 2;
+            $value2 = 4;
+            $add = $value1 + $value2;
+            echo $value1 . " + " . $value2 . " = " . $add;
         ?>
     </div>
 <hr>
