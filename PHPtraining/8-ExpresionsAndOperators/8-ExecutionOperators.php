@@ -17,7 +17,7 @@
         <h3><i>Result:</i></h3>
         <?php
             echo `dir *.php`;
-            echo `ls *.php`;
+            //echo `ls *.php`;
         ?>
     </div>
 </body>
