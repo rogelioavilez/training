@@ -50,7 +50,8 @@
 
             echo ($result1 == 0)?  $number1 . " is an Even Number" :  $number1 . "Odd Number";
 
-            $number = 11;
+            echo "<\br>";
+            $number2 = 11;
             $result2 = $number2%2;
 
             echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . "Odd Number";   
@@ -62,7 +63,8 @@
 
             echo ($result1 == 0)?  $number1 . " is an Even Number" :  $number1 . "Odd Number";
 
-            $number = 11;
+            echo "<br>";
+            $number2 = 11;
             $result2 = $number2%2;
 
             echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . "Odd Number";            
