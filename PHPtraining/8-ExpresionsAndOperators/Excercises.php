@@ -87,5 +87,30 @@
             echo($hasLogin && $hasAccess) ? "User Access Granted" : "User Access Blocked";
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Excercise 5</h3>
+        <p>Assign an Integer value and increment by 10 using Assign Operator</p>
+        <pre><code>
+            $integerVal = 0;
+            $integerVal +=10;
+
+            echo $integerVal;
+            echo $integerVal;
+            echo $integerVal;
+            echo $integerVal;
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $integerVal = 0;
+            $integerVal +=10;
+
+            echo $integerVal;
+            echo $integerVal;
+            echo $integerVal;
+            echo $integerVal;
+        ?>
+    </div>
 </body>
 </html>
