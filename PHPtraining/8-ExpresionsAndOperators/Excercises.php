@@ -21,7 +21,7 @@
             echo "2 + 2 = " . $value;
         ?>
     </div>
-
+<hr>
     <div>
         <h3>Excercise 2</h3>
         <p>Find Student Passed or Failed using Conditional Operator</p>
