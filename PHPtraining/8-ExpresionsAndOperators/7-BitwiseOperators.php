@@ -70,7 +70,7 @@
 <div>
     <h3>&  |  ^</h3>
     <pre><code>
-    $first = 2; //0010
+        $first = 2; //0010
         $second = 3; //0011
 
         // (0&0) & (0&0) & (1&1) & (0&1) = 0010
@@ -78,12 +78,23 @@
         echo $first & $second;
         echo "<\br>";
 
+        // 0 - 1 = 1
         echo "| Result is: ";
         echo $first | $second;
         echo "<\br>";
 
+        //0 - 1 = 1 and 1 - 1 = 0
         echo "^ Result is: ";
         echo $first ^ $second;
+        echo "<\br>";
+
+        //Invert the bits if 0 then 1, or 1 then 0
+        echo "~ Result is: ";
+        echo ~$first;
+        echo "<\br>";
+
+        echo "^ Result is: ";
+        echo ~$second;
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -95,12 +106,23 @@
         echo $first & $second;
         echo "<br>";
 
+        // 0 - 1 = 1
         echo "| Result is: ";
         echo $first | $second;
         echo "<br>";
 
+        //0 - 1 = 1 and 1 - 1 = 0
         echo "^ Result is: ";
         echo $first ^ $second;
+        echo "<br>";
+
+        //Invert the bits if 0 then 1, or 1 then 0
+        echo "~ Result is: ";
+        echo ~$first;
+        echo "<br>";
+
+        echo "^ Result is: ";
+        echo ~$second;
     ?>
 </div>
     
