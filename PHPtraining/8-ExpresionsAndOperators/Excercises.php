@@ -104,7 +104,7 @@
         <h3><i>Result:</i></h3>
         <?php
             $integerVal = 0;
-            $integerVal +=10;
+            $integerVal = $integerVal + 10;
 
             echo $integerVal;
             echo $integerVal;
