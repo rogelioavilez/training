@@ -23,6 +23,7 @@
         //Define and print Integer
             $marks = 87;
             echo $marks;
+            echo "<\br>";
 
         //Using 0x before the hexadecimal number you can get the HexaDecimal Value
             $marks = 0x19F2D7C1; //Value = 435345345
@@ -35,6 +36,7 @@
         //Define and print Integer
             $marks = 87;
             echo $marks;
+            echo "<br>";
 
         //Using 0x before the hexadecimal number you can get the HexaDecimal Value
             $marks = 0x19F2D7C1; //Value = 435345345
