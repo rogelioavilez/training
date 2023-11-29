@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Excercises</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Excercises</h1>
 
     <div>
-        <h3></h3>
-        <p></p>
+        <h3>Excercise 1</h3>
+        <p>Add 2 numbers using Arithmeical operators</p>
         <pre><code>
-            
+            $value = 2 + 2;
+            echo "Add 2 + 2 = " . $value;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+            $value = 2 + 2;
+            echo "Add 2 + 2 = " . $value;
         ?>
     </div>
 </body>
