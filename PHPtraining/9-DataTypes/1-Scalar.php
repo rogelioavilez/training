@@ -20,7 +20,13 @@
         Constant PHP_INT_SIZE can be used to find out the integer limit
 
         <code>
+        //Define and print Integer
             $marks = 87;
+            echo $marks;
+
+        //Using 0x before the hexadecimal number you can get the HexaDecimal Value
+            $marks = 0x19F2D7C1; //Value = 435345345
+
             echo $marks;
         </code>
         </pre>
