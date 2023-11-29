@@ -25,26 +25,45 @@
         </code></pre></p>
 
         <pre><code>
-            $val = 10;
+        $val = 10;
             echo $val++;
+            echo $val;
             echo "<\br>";
             $counter = $val++;
+            echo $val;
             echo $counter;
+            echo "<\br>";
 
             $math = 5 * 3 + 2;
             echo $math;
+
+            $result1 = true && false;
+            $result2 = true and false;
+
+            echo ($result1)?"true" : "false";
+            echo "<\br>";
+            echo ($result2)?"true" : "false";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
             $val = 10;
             echo $val++;
+            echo $val;
             echo "<br>";
             $counter = $val++;
+            echo $val;
             echo $counter;
             echo "<br>";
 
             $math = 5 * 3 + 2;
             echo $math;
+
+            $result1 = true && false;
+            $result2 = true and false;
+
+            echo ($result1)?"true" : "false";
+            echo "<br>";
+            echo ($result2)?"true" : "false";
         ?>
     </div>
 </body>
