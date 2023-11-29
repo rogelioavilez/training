@@ -25,11 +25,14 @@
         </code></pre></p>
 
         <pre><code>
-            $val = 10;
+        $val = 10;
             echo $val++;
+            echo $val;
             echo "<\br>";
             $counter = $val++;
+            echo $val;
             echo $counter;
+            echo "<\br>";
 
             $math = 5 * 3 + 2;
             echo $math;
@@ -38,8 +41,10 @@
         <?php
             $val = 10;
             echo $val++;
+            echo $val;
             echo "<br>";
             $counter = $val++;
+            echo $val;
             echo $counter;
             echo "<br>";
 
