@@ -37,6 +37,7 @@
             $math = 5 * 3 + 2;
             echo $math;
 
+            echo "<\br>";
             $result1 = true && false;
             $result2 = true and false;
 
@@ -61,6 +62,7 @@
             $result1 = true && false;
             $result2 = true and false;
 
+            echo "<br>";
             echo ($result1)?"true" : "false";
             echo "<br>";
             echo ($result2)?"true" : "false";
