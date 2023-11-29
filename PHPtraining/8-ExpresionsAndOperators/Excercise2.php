@@ -58,12 +58,12 @@
         <h3>Raise an Error and Control it using Execution Operation</h3>
         <p></p>
         <pre><code>
-            #$error = 1/0;
+            $error = @1/0;
             echo "Like nothing happened";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            #$error = 1/0;
+            $error = @1/0;
             echo "Like nothing happened";
         ?>
     </div>
