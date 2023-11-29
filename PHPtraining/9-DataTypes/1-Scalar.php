@@ -10,12 +10,17 @@
 
     <div>
         <h3>Integers</h3>
-        <p></p>
 
         <pre>
-            <code>
+        Integers are whole numbers
+        Integer values does not have decimals
+        Integer could have a + or - value
+        Integer value can hold Octal (base 8), Hexadecimal (base 16) and Binary (base 2) valuesEvery platform will have limited integer number to be defined
+        Constant PHP_INT_SIZE can be used to find out the integer limit
+
+        <code>
             
-            </code>
+        </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
