@@ -76,7 +76,9 @@
         <h3>Excercise 4</h3>
         <p>Check if User has access to log in rights using logical operators</p>
         <pre><code>
-            
+            $hasLogin = true;
+            $hasAccess = true;
+            echo($hasLogin && $hasAccess) ? "User Access Granted" : "User Access Blocked";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
