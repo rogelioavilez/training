@@ -70,5 +70,20 @@
             echo ($result2 == 0)?  $number2 . " is an Even Number" :  $number2 . " is an Odd Number";            
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Excercise 4</h3>
+        <p>Check if User has access to log in rights using logical operators</p>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $hasLogin = true;
+            $hasAccess = true;
+            echo($hasLogin && $hasAccess) ? "User Access Granted" : "User Access Blocked";
+        ?>
+    </div>
 </body>
 </html>
