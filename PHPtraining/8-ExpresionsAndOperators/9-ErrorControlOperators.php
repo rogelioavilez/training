@@ -22,7 +22,8 @@
         <h3><i>Result:</i></h3>
         <?php
             echo "Hello1";
-            @$value = 1/0; //This line is an error and will not preceed
+            //This line is an error and will not preceed
+            @$value = 1/0;
 
             echo "Hello2";
 
