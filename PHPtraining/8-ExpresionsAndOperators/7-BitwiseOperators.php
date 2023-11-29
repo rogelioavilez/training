@@ -65,6 +65,43 @@
         echo $first & $second;
     ?>
 </div>
+
+<div>
+    <h3>&  |  ^</h3>
+    <pre><code>
+    $first = 2; //0010
+        $second = 3; //0011
+
+        // (0&0) & (0&0) & (1&1) & (0&1) = 0010
+        echo "& Result is: ";
+        echo $first & $second;
+        echo "<\br>";
+
+        echo "| Result is: ";
+        echo $first | $second;
+        echo "<\br>";
+
+        echo "^ Result is: ";
+        echo $first ^ $second;
+    </code></pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        $first = 2; //0010
+        $second = 3; //0011
+
+        // (0&0) & (0&0) & (1&1) & (0&1) = 0010
+        echo "& Result is: ";
+        echo $first & $second;
+        echo "<br>";
+
+        echo "| Result is: ";
+        echo $first | $second;
+        echo "<br>";
+
+        echo "^ Result is: ";
+        echo $first ^ $second;
+    ?>
+</div>
     
 </body>
 </html>
