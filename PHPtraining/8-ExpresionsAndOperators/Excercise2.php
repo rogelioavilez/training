@@ -6,17 +6,26 @@
     <title>Excercises 2</title>
 </head>
 <body>
-    <h1>Excercises 2</h1>
+    <h1>Excercises</h1>
 
     <div>
         <h3>Excercise 1</h3>
-        <p></p>
+        <p>Decrement using Decrement Operator</p>
         <pre><code>
-            
+            $reduceVal = 0;
+            echo $reduceVal;
+            echo "<\br>";
+            $reduceVal -= 10;
+            echo $reduceVal;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+            $reduceVal = 0;
+            echo $reduceVal;
+            echo "<br>";
+            $reduceVal -= 10;
+            echo $reduceVal;
+
         ?>
     </div>
 <hr>
