@@ -59,17 +59,23 @@
         //Define and print decimal values
         $totalScore = 78.87;
         echo $totalScore;
+
+        //Negative Decimals
+        $temperature = -40.23;
+        echo $temperature;
+        echo "<br>";
     </code>
     </pre>
     <h3><i>Result:</i></h3>
     <?php
-        //Define and print decimal values
+        //Define and print Decimal values
         $totalScore = 78.87;
         echo $totalScore;
         echo "<br>";
 
-        round($totalScore);
-        echo $totalScore;
+        //Negative Decimals
+        $temperature = -40.23;
+        echo $temperature;
         echo "<br>";
     ?>
 
