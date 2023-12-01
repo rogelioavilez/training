@@ -187,6 +187,10 @@
             //Use back slack to add a double Tab
             $name4 = "\t\tThis is a \"Special\" String";
             echo $name4;
+
+            //Back slack only escapes special characters
+            $name4 = "\T\h\i\s is a \"Special\" String";
+            echo $name4;
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -210,8 +214,13 @@
             echo $name4;
             echo "<br>";
 
-            //Use back slack to add a double Tab
+            //Use back slack to add a double Tab in console
             $name4 = "\t\tThis is a \"Special\" String";
+            echo $name4;
+            echo "<br>";
+
+            //Back slack only escapes special characters
+            $name4 = "\T\h\i\s is a \"Special\" String";
             echo $name4;
         ?>
 
