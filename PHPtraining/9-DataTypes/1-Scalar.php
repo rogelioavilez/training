@@ -241,6 +241,8 @@
             echo $name;
             echo"<br>";
             echo ($name) ? "Has Value" : "Is empty";
+
+            echo (is_null($name)) ? "Has Value" : "Is empty";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -250,6 +252,15 @@
             echo $name;
             echo"<br>";
             echo ($name) ? "Has Value" : "Is empty";
+            echo"<br>";
+
+        //Define Null Keyword and check
+            $name = 0;
+            echo"<br>";
+            echo ($name) ? "Has Value" : "Is empty";
+            echo"<br>";
+            echo (is_null($name)) ? "Has Value" : "Is empty";
+            echo"<br>";
         ?>
 
     </div>
