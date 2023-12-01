@@ -25,7 +25,7 @@
     <?php
         include "NamespaceConstants1.php";
 
-        echo SubNamespaces\Sub1\FILE_NAME;
+        echo "SubNamespaces\Sub1\FILE_NAME";
     ?>
 
     </body>
