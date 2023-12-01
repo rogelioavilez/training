@@ -162,14 +162,26 @@
         <h3>String</h3>
 
         <pre>
-        * 
+        * Strings are defined in double quotes and single quotes.
+        * Double quotes String will interpolate variables values and Single Quotes does not.
+        * No limited to how much string variable holds, but limited with system memory.
+        * Use escape character to escape double quotes inside double quotes and other characters.
+        * String methods are available to work with String Manipulation.
         <code>
+        //Define Strings and print
+            $name1 = "Rogelio, Avilez";
+            $name2 = "Alberto, Garza";
 
+            echo "$name1 and $name2";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-        //
+        //Define Strings and print
+            $name1 = "Rogelio, Avilez";
+            $name2 = "Alberto, Garza";
+
+            echo "$name1 and $name2";
         ?>
 
     </div>
