@@ -117,15 +117,15 @@
             $flag1 = TRUE;
             $flag2 = FALSE;
             echo ($flag1) ? "True" : "False";
-            echo "<br>";
+            echo "<\br>";
             echo ($flag2) ? "True" : "False";
-            echo "<br>";
+            echo "<\br>";
 
         //Print Boolean Variables
             echo "True: " . $flag1;
-            echo "<br>";
+            echo "<\br>";
             echo "False: " . $flag2;
-            echo "<br>";
+            echo "<\br>";
 
         //Use String as Boolean Condition
             $isLoggedIn = true;
@@ -153,6 +153,23 @@
             $isLoggedIn = true;
             $userSessionName = "Rogelio, Avilez";
             echo ($isLoggedIn && $userSessionName) ? "User Logged In" : "User Not Logged In";
+        ?>
+
+    </div>
+    <hr>
+    <!--String-->
+        <div>
+        <h3>String</h3>
+
+        <pre>
+        * 
+        <code>
+
+        </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+        //
         ?>
 
     </div>
