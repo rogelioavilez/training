@@ -23,7 +23,7 @@
     <h3><i>Result:</i></h3>
 
     <?php
-        include "NamespaceConstants1.php";
+        include "NamespaceConstants2.php";
 
         echo "SubNamespaces\Sub1\FILE_NAME";
     ?>
