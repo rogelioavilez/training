@@ -113,12 +113,46 @@
         * Boolean is used in condition to check something
         * Opertors which results into boolean conditions
         <code>
-            
+        //Define a Boolean Variable
+            $flag1 = TRUE;
+            $flag2 = FALSE;
+            echo ($flag1) ? "True" : "False";
+            echo "<br>";
+            echo ($flag2) ? "True" : "False";
+            echo "<br>";
+
+        //Print Boolean Variables
+            echo "True: " . $flag1;
+            echo "<br>";
+            echo "False: " . $flag2;
+            echo "<br>";
+
+        //Use String as Boolean Condition
+            $isLoggedIn = true;
+            $userSessionName = "Rogelio, Avilez";
+            echo ($isLoggedIn && $userSessionName) ? "User Logged In" : "User Not Logged In"; 
         </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-            
+        //Define a Boolean Variable
+            $flag1 = TRUE;
+            $flag2 = FALSE;
+            echo ($flag1) ? "True" : "False";
+            echo "<br>";
+            echo ($flag2) ? "True" : "False";
+            echo "<br>";
+
+        //Print Boolean Variables
+            echo "True: " . $flag1;
+            echo "<br>";
+            echo "False: " . $flag2;
+            echo "<br>";
+
+        //Use String as Boolean Condition
+            $isLoggedIn = true;
+            $userSessionName = "Rogelio, Avilez";
+            echo ($isLoggedIn && $userSessionName) ? "User Logged In" : "User Not Logged In";
         ?>
 
     </div>
