@@ -12,12 +12,12 @@
         <h3>Integers</h3>
 
         <pre>
-        Integers are whole numbers
-        Integer values does not have decimals
-        Integer could have a + or - value
-        Integer value can hold Octal (base 8), Hexadecimal (base 16) and Binary (base 2) values
-        Every platform will have limited integer number to be defined
-        Constant PHP_INT_SIZE can be used to find out the integer limit
+        * Integers are whole numbers
+        * Integer values does not have decimals
+        * Integer could have a + or - value
+        * Integer value can hold Octal (base 8), Hexadecimal (base 16) and Binary (base 2) values
+        * Every platform will have limited integer number to be defined
+        * Constant PHP_INT_SIZE can be used to find out the integer limit
 
         <code>
         //Define and print Integer
@@ -51,10 +51,8 @@
         <h3>Doubles</h3>
 
         <pre>
-        Decimals have decimal points
-        Use round() method with precision
-
-
+        * Decimals have decimal points
+        * Use round() method with precision
         <code>
             //Define and print decimal values
             $totalScore = 78.87;
@@ -104,7 +102,7 @@
     <hr>
     <!--Boolean-->
     <div>
-        <h3>Doubles</h3>
+        <h3>Boolean</h3>
 
         <pre>
         * True or False can be used to assign a boolean variable
@@ -114,7 +112,6 @@
         * String variable with value 0 is false and anything else is true
         * Boolean is used in condition to check something
         * Opertors which results into boolean conditions
-
         <code>
             
         </code>
