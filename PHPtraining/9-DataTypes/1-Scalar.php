@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Scalar</h1>
-
+<!--integers-->
     <div>
         <h3>Integers</h3>
 
@@ -45,6 +45,30 @@
         ?>
 
     </div>
+
+<!--Doubles-->
+<div>
+    <h3>Doubles</h3>
+
+    <pre>
+    Decimals have decimal points
+    Use round() method with precision
+
+
+    <code>
+        //Define and print decimal values
+        $totalScore = 78.87;
+        echo $totalScore;
+    </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        //Define and print decimal values
+        $totalScore = 78.87;
+        echo $totalScore;
+    ?>
+
+</div>
     
     
 </body>
