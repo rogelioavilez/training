@@ -59,11 +59,16 @@
         //Define and print decimal values
         $totalScore = 78.87;
         echo $totalScore;
+        echo "<\br>";
 
         //Negative Decimals
         $temperature = -40.23;
         echo $temperature;
-        echo "<br>";
+        echo "<\br>";
+
+        //Round a double value
+        $price = 4.99;
+        echo $round($price);
     </code>
     </pre>
     <h3><i>Result:</i></h3>
@@ -77,6 +82,10 @@
         $temperature = -40.23;
         echo $temperature;
         echo "<br>";
+
+        //Round a double value
+        $price = 4.99;
+        echo $round($price);
     ?>
 
 </div>
