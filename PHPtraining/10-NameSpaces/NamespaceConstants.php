@@ -1,5 +1,5 @@
 <?php
-        namespace myconstants;
+    namespace myconstants;
 
-        const FILE_NAME = "NamespaceConstants.php";
-    ?>
+    const FILE_NAME = "NamespaceConstants.php";
+?>

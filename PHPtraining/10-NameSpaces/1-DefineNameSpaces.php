@@ -6,7 +6,7 @@
     <title>Define Name Spaces</title>
 </head>
 <body>
-    <h1>Define Name Spaces</h1>
+    <h1>Define Namespaces</h1>
 
     <pre>
         * Namespaces are case insensitive.
