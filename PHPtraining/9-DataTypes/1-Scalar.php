@@ -175,6 +175,10 @@
             echo "$name1 and $name2";
         //single quoted:
             echo '$name1 and $name2';
+
+        //Combine Strings
+            $name3 = $name1 . " - " . $name2;
+            echo $name3;
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -186,6 +190,11 @@
             echo "$name1 and $name2";
             echo "<br>";
             echo '$name1 and $name2';
+            echo "<br>";
+
+        //Combine Strings
+            $name3 = $name1 . " - " . $name2;
+            echo $name3;
         ?>
 
     </div>
