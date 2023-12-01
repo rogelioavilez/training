@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Scalar</h1>
-<!--integers-->
+    <!--integers-->
     <div>
         <h3>Integers</h3>
 
@@ -45,87 +45,87 @@
         ?>
 
     </div>
+    <hr>
+    <!--Doubles-->
+    <div>
+        <h3>Doubles</h3>
 
-<!--Doubles-->
-<div>
-    <h3>Doubles</h3>
-
-    <pre>
-    Decimals have decimal points
-    Use round() method with precision
+        <pre>
+        Decimals have decimal points
+        Use round() method with precision
 
 
-    <code>
-        //Define and print decimal values
-        $totalScore = 78.87;
-        echo $totalScore;
-        echo "<\br>";
+        <code>
+            //Define and print decimal values
+            $totalScore = 78.87;
+            echo $totalScore;
+            echo "<\br>";
 
-        //Negative Decimals
-        $temperature = -40.23;
-        echo $temperature;
-        echo "<\br>";
+            //Negative Decimals
+            $temperature = -40.23;
+            echo $temperature;
+            echo "<\br>";
 
-        //Round a double value
-        $price = 4.99;
-        echo round($price);
-        echo "<\br>";
+            //Round a double value
+            $price = 4.99;
+            echo round($price);
+            echo "<\br>";
 
-        //Compare 2 double values with precision
-        $price = 1.87;
-        $bid = 1.97;
-        echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
-    </code>
-    </pre>
-    <h3><i>Result:</i></h3>
-    <?php
-        //Define and print Decimal values
-        $totalScore = 78.87;
-        echo $totalScore;
-        echo "<br>";
+            //Compare 2 double values with precision
+            $price = 1.87;
+            $bid = 1.97;
+            echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
+        </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            //Define and print Decimal values
+            $totalScore = 78.87;
+            echo $totalScore;
+            echo "<br>";
 
-        //Negative Decimals
-        $temperature = -40.23;
-        echo $temperature;
-        echo "<br>";
+            //Negative Decimals
+            $temperature = -40.23;
+            echo $temperature;
+            echo "<br>";
 
-        //Round a double value
-        $price = 4.99;
-        echo round($price);
-        echo "<br>";
+            //Round a double value
+            $price = 4.99;
+            echo round($price);
+            echo "<br>";
 
-        //Compare 2 double values with precision
-        $price = 1.87;
-        $bid = 1.97;
-        echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
-    ?>
+            //Compare 2 double values with precision
+            $price = 1.87;
+            $bid = 1.97;
+            echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
+        ?>
 
-</div>
+    </div>
+    <hr>
+    <!--Boolean-->
+    <div>
+        <h3>Doubles</h3>
 
-<!--Boolean-->
-<div>
-    <h3>Doubles</h3>
+        <pre>
+        * True or False can be used to assign a boolean variable
+        * Boolean are literal are case insensitive - TRUE or True or true are the same.
+        * true = 1 and false = 0 when echo
+        * Integer variable with value 0 is false and anything else is true
+        * String variable with value 0 is false and anything else is true
+        * Boolean is used in condition to check something
+        * Opertors which results into boolean conditions
 
-    <pre>
-    * True or False can be used to assign a boolean variable
-    * Boolean are literal are case insensitive - TRUE or True or true are the same.
-    * true = 1 and false = 0 when echo
-    * Integer variable with value 0 is false and anything else is true
-    * String variable with value 0 is false and anything else is true
-    * Boolean is used in condition to check something
-    * Opertors which results into boolean conditions
+        <code>
+            
+        </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            
+        ?>
 
-    <code>
-        
-    </code>
-    </pre>
-    <h3><i>Result:</i></h3>
-    <?php
-        
-    ?>
-
-</div>
-    
+    </div>
+    <hr>
     
 </body>
 </html>
