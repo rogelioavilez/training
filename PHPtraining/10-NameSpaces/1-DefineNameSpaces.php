@@ -21,9 +21,9 @@
     <h3>Namespaces are case insensitive</h3>
     <pre>
         <code>
-        namespace myconstants;
+            include "NamespaceConstants.php";
 
-        const FILE_NAME = "NamespaceConstants.php";
+            echo myconstants\FILE_NAME;
         </code>
     </pre>
     <h3><i>Result:</i></h3>
