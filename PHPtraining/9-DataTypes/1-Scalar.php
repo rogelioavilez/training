@@ -245,6 +245,10 @@
             $name = 0;
             echo ($name) ? "Has Value" : "Is empty";
             echo (!is_null($name)) ? "Has Value" : "Is empty";
+
+        //Remove Variable from the program and memory
+            unset($name);
+            echo (!is_null($name)) ? "Has Value" : "Is empty";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -261,6 +265,29 @@
             echo ($name) ? "Has Value" : "Is empty";
             echo"<br>";
             echo (!is_null($name)) ? "Has Value" : "Is empty";
+            echo"<br>";
+
+        //Remove Variable from the program and memory
+            unset($name);
+            echo (!is_null($name)) ? "Has Value" : "Is empty";
+        ?>
+
+    </div>
+    <hr>
+
+    <!--Test-->
+    <div>
+        <h3>test</h3>
+
+        <pre>
+        * 
+        <code>
+
+        </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+
         ?>
 
     </div>
