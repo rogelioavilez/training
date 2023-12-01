@@ -231,15 +231,25 @@
         <h3>Null Keyword</h3>
 
         <pre>
-        * 
+        * Null is case Insensitive. Null / NULL is the session_name
+        * Null is used to initialize a variable with empty Value
+        * unset() and is_null() methods
+        * Most common use case is to check if the variable has a value or empty
         <code>
-
+        //Define Null Keyword and check
+            $name = NULL;
+            echo $name;
+            echo"<br>";
+            echo ($name) ? "Has Value" : "Is empty";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
         <?php
-        //Define Strings and print
-            
+        //Define Null Keyword and check
+            $name = NULL;
+            echo $name;
+            echo"<br>";
+            echo ($name) ? "Has Value" : "Is empty";
         ?>
 
     </div>
