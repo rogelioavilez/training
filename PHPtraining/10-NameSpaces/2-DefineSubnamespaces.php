@@ -15,7 +15,7 @@
     <h3>Sub Namespaces</h3>
     <pre>
         <code>
-        include "NamespaceConstants1.php";
+        include "NamespaceConstants2.php";
 
         echo SubNamespaces\Sub1\FILE_NAME;
         </code>
@@ -25,7 +25,7 @@
     <?php
         include "NamespaceConstants2.php";
 
-        echo "SubNamespaces\Sub1\FILE_NAME";
+        echo SubNamespaces\Sub1\FILE_NAME;
     ?>
 
     </body>
