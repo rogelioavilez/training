@@ -69,6 +69,12 @@
         //Round a double value
         $price = 4.99;
         echo round($price);
+        echo "<\br>";
+
+        //Compare 2 double values with precision
+        $price = 1.87;
+        $bid = 1.97;
+        echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
     </code>
     </pre>
     <h3><i>Result:</i></h3>
@@ -86,6 +92,12 @@
         //Round a double value
         $price = 4.99;
         echo round($price);
+        echo "<br>";
+
+        //Compare 2 double values with precision
+        $price = 1.87;
+        $bid = 1.97;
+        echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
     ?>
 
 </div>
