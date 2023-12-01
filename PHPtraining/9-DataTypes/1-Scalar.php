@@ -55,24 +55,24 @@
         * Use round() method with precision
         <code>
             //Define and print decimal values
-            $totalScore = 78.87;
-            echo $totalScore;
-            echo "<\br>";
+                $totalScore = 78.87;
+                echo $totalScore;
+                echo "<\br>";
 
             //Negative Decimals
-            $temperature = -40.23;
-            echo $temperature;
-            echo "<\br>";
+                $temperature = -40.23;
+                echo $temperature;
+                echo "<\br>";
 
             //Round a double value
-            $price = 4.99;
-            echo round($price);
-            echo "<\br>";
+                $price = 4.99;
+                echo round($price);
+                echo "<\br>";
 
             //Compare 2 double values with precision
-            $price = 1.87;
-            $bid = 1.97;
-            echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
+                $price = 1.87;
+                $bid = 1.97;
+                echo(abs($price - $bid) < 0.1) ? "Accepted" : "Rejected";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
