@@ -274,24 +274,6 @@
 
     </div>
     <hr>
-
-    <!--Test-->
-    <div>
-        <h3>test</h3>
-
-        <pre>
-        * 
-        <code>
-
-        </code>
-        </pre>
-        <h3><i>Result:</i></h3>
-        <?php
-
-        ?>
-
-    </div>
-    <hr>
     
 </body>
 </html>
