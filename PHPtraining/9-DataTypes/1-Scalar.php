@@ -101,6 +101,30 @@
     ?>
 
 </div>
+
+<!--Boolean-->
+<div>
+    <h3>Doubles</h3>
+
+    <pre>
+    * True or False can be used to assign a boolean variable
+    * Boolean are literal are case insensitive - TRUE or True or true are the same.
+    * true = 1 and false = 0 when echo
+    * Integer variable with value 0 is false and anything else is true
+    * String variable with value 0 is false and anything else is true
+    * Boolean is used in condition to check something
+    * Opertors which results into boolean conditions
+
+    <code>
+        
+    </code>
+    </pre>
+    <h3><i>Result:</i></h3>
+    <?php
+        
+    ?>
+
+</div>
     
     
 </body>
