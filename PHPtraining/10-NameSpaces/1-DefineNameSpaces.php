@@ -27,10 +27,12 @@
         </code>
     </pre>
     <h3><i>Result:</i></h3>
-    <?php
-        namespace myconstants;
 
-        const FILE_NAME = "NamespaceConstants.php";
+    <?php
+        include "NamespaceConstants.php";
+
+        echo myconstants\FILE_NAME;
     ?>
-</body>
+
+    </body>
 </html>
