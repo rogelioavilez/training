@@ -179,6 +179,14 @@
         //Combine Strings
             $name3 = $name1 . " - " . $name2;
             echo $name3;
+
+        //Use back slack to escape the characters
+            $name4 = "This is a \"Special\" String";
+            echo $name4;
+
+            //Use back slack to add a double Tab
+            $name4 = "\t\tThis is a \"Special\" String";
+            echo $name4;
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -195,6 +203,16 @@
         //Combine Strings
             $name3 = $name1 . " - " . $name2;
             echo $name3;
+            echo "<br>";
+
+        //Use back slack to escape the characters
+            $name4 = "This is a \"Special\" String";
+            echo $name4;
+            echo "<br>";
+
+            //Use back slack to add a double Tab
+            $name4 = "\t\tThis is a \"Special\" String";
+            echo $name4;
         ?>
 
     </div>
