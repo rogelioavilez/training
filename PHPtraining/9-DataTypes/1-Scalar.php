@@ -68,7 +68,7 @@
 
         //Round a double value
         $price = 4.99;
-        echo $round($price);
+        echo round($price);
     </code>
     </pre>
     <h3><i>Result:</i></h3>
@@ -85,7 +85,7 @@
 
         //Round a double value
         $price = 4.99;
-        echo $round($price);
+        echo round($price);
     ?>
 
 </div>
