@@ -1,5 +1,5 @@
 <?php
     namespace SubNamespaces\Sub1;
 
-    const FILE_NAME = "Sub1\NamespaceConstants2.php";
+    const FILE_NAME = "tester\Sub1\NamespaceConstants2.php";
 ?>
