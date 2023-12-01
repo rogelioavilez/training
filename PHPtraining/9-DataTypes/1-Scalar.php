@@ -226,6 +226,24 @@
 
     </div>
     <hr>
+    <!--Null Keyword-->
+    <div>
+        <h3>Null Keyword</h3>
+
+        <pre>
+        * 
+        <code>
+
+        </code>
+        </pre>
+        <h3><i>Result:</i></h3>
+        <?php
+        //Define Strings and print
+            
+        ?>
+
+    </div>
+    <hr>
     
 </body>
 </html>
