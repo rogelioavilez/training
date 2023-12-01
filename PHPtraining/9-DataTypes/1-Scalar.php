@@ -171,10 +171,10 @@
         //Define Strings and print
             $name1 = "Rogelio, Avilez";
             $name2 = "Alberto, Garza";
-
+        //double quoted:
             echo "$name1 and $name2";
-
-            echo "$name1 and $name2";
+        //single quoted:
+            echo '$name1 and $name2';
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -185,7 +185,7 @@
 
             echo "$name1 and $name2";
             echo "<br>";
-            echo "$name1 and $name2";
+            echo '$name1 and $name2';
         ?>
 
     </div>
