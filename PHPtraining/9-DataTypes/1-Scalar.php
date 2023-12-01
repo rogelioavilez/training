@@ -66,6 +66,11 @@
         //Define and print decimal values
         $totalScore = 78.87;
         echo $totalScore;
+        echo "<br>";
+
+        round($totalScore);
+        echo $totalScore;
+        echo "<br>";
     ?>
 
 </div>
