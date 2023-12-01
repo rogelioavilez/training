@@ -173,6 +173,8 @@
             $name2 = "Alberto, Garza";
 
             echo "$name1 and $name2";
+
+            echo "$name1 and $name2";
         </code>
         </pre>
         <h3><i>Result:</i></h3>
@@ -181,6 +183,8 @@
             $name1 = "Rogelio, Avilez";
             $name2 = "Alberto, Garza";
 
+            echo "$name1 and $name2";
+            echo "<br>";
             echo "$name1 and $name2";
         ?>
 
