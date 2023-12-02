@@ -110,9 +110,10 @@
     <div>
         <h3>Recommended Practice</h3>
         <pre><code>
-            Always use brackets to have better visual organization.
+            Always use brackets to have better visual organization, and provide space between variables, functions, and results.
 
             $some_boolean_condition = FALSE;
+
             if ($some_boolean_condition) {
                 echo "<\h4>This is a If block condition written in one line</\h4>
                 <\p>This is a True Condition</\p><\br>"; 
@@ -124,6 +125,7 @@
         <h3><i>Result:</i></h3>
         <?php
             $some_boolean_condition = FALSE;
+
             if($some_boolean_condition){
                 echo "<h4>This is a If block condition written in one line</h4>
                 <p>This is a True Condition</p><br>"; 
