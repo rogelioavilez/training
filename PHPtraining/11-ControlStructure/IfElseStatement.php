@@ -115,10 +115,10 @@
             $some_boolean_condition = FALSE;
 
             if ($some_boolean_condition) {
-                echo "<\h4>This is a If block condition written in one line</\h4>
+                echo "<\h4>This is a If block condition written in Recommended Structure</\h4>
                 <\p>This is a True Condition</\p><\br>"; 
             } else {
-                echo "<\h4>This is an Else block condition written in one line</\h4>
+                echo "<\h4>This is an Else block condition written in Recommended Structure</\h4>
                 <\p>This is a False Condition</\p>";
             }
         </code></pre>
@@ -127,10 +127,10 @@
             $some_boolean_condition = FALSE;
 
             if($some_boolean_condition){
-                echo "<h4>This is a If block condition written in one line</h4>
+                echo "<h4>This is a If block condition written in Recommended Structure</h4>
                 <p>This is a True Condition</p><br>"; 
             }else { 
-                echo "<h4>This is an Else block condition written in one line</h4>
+                echo "<h4>This is an Else block condition written in Recommended Structure</h4>
                 <p>This is a False Condition</p>";
             }
         ?>
