@@ -32,8 +32,12 @@
             $some_boolean_condition = FALSE;
 
             if ($some_boolean_condition) {
-                echo "This is a If block condition";
-                echo "This is a True Condition<br>";
+        ?>
+            <h2>This is a If block condition</h2>
+            <p>This is a True Condition</p>
+            <br>
+
+        <?php
             } else {
                 echo "This is an Else block condition<br>";
                 echo "This is a False Condition";
