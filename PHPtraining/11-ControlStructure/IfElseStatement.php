@@ -94,5 +94,16 @@
                 echo "<h4>This is an Else block condition without brackets</h4><p>This is a False Condition</p>";
         ?>
     </div>
+    <hr>
+    <div>
+        <h3>One Liner</h3>
+        <pre><code>
+        $some_boolean_condition = FALSE; if ($some_boolean_condition) echo "<\h4>This is a If block condition written in one line</\h4><\p>This is a True Condition</\p><\br>"; else echo "<\h4>This is an Else block condition written in one line</\h4><\p>This is a False Condition</\p>";
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $some_boolean_condition = FALSE; if($some_boolean_condition)echo "<h4>This is a If block condition written in one line</h4><p>This is a True Condition</p><br>"; else echo "<h4>This is an Else block condition written in one line</h4><p>This is a False Condition</p>";
+        ?>
+    </div>
 </body>
 </html>
