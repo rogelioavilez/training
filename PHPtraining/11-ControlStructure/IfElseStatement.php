@@ -29,18 +29,22 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $some_boolean_condition = FALSE;
+            $some_boolean_condition = TRUE;
 
             if ($some_boolean_condition) {
         ?>
             <h2>This is a If block condition</h2>
+            <br>
             <p>This is a True Condition</p>
             <br>
 
         <?php
             } else {
-                echo "This is an Else block condition<br>";
-                echo "This is a False Condition";
+        ?>
+                <h2>This is an Else block condition</h2>
+                <br>
+                <p>This is a False Condition</p>
+        <?php
             }
         ?>
     </div>
