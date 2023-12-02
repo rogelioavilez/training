@@ -49,7 +49,15 @@
     <div>
         <h3>Check if Inputs given by user are correct</h3>
         <pre><code>
-            
+            $input1 = "Some Text for the User";
+
+            $input2 = 34;
+
+            if (isset($input1) && !is_null($input1)){
+                echo '$input1 is not empty, the value is: ' . $input1;
+            } else {
+                echo '$input1 is not set or empty';
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
