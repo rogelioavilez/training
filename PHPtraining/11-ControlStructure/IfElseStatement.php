@@ -73,5 +73,22 @@
             
         ?>
     </div>
+    <hr>
+    <div>
+        <h3>If condition without braces</h3>
+        <pre><code>
+           
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $some_boolean_condition = FALSE;
+
+            if ($some_boolean_condition)
+                echo "<h4>This is a If block condition</h4><p>This is a True Condition</p><br>"
+             else
+
+                echo "<h4>This is an Else block condition</h4><p>This is a False Condition</p>"
+        ?>
+    </div>
 </body>
 </html>
