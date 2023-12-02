@@ -45,7 +45,7 @@
             }
         ?>
     </div>
-
+    <hr>
     <div>
         <h3>Check if Inputs given by user are correct</h3>
         <pre><code>
