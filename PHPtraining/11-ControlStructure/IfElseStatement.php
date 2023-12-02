@@ -135,5 +135,25 @@
             }
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Check if Student Passed or Failed</h3>
+        <pre><code>
+
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $result = "No Test Results";
+            $testScore = 70;
+            if($testScore > 65){
+                $result = "Student Passed";
+            }else { 
+                $result = "Student Failed";
+            }
+
+            echo $result;
+        ?>
+    </div>
 </body>
 </html>
