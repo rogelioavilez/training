@@ -110,7 +110,7 @@
     <div>
         <h3>Recommended Practice</h3>
         <pre><code>
-            Always use brackets to have better visual organization, and provide space between variables, functions, and results.
+        Always use brackets to have better visual organization, and provide space between variables, functions, and results.
 
             $some_boolean_condition = FALSE;
 
