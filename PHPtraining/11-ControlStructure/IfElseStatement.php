@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control Structures</title>
+    <title>If, Else, Statement</title>
 </head>
 <body>
-    <h1>Control Structures</h1>
+    <h1>If, Else, Statement</h1>
 </body>
 </html>
