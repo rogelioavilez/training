@@ -34,7 +34,6 @@
             if ($some_boolean_condition) {
         ?>
             <h4>This is a If block condition</h4>
-            <br>
             <p>This is a True Condition</p>
             <br>
 
@@ -42,7 +41,6 @@
             } else {
         ?>
                 <h4>This is an Else block condition</h4>
-                <br>
                 <p>This is a False Condition</p>
         <?php
             }
