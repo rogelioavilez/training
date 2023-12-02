@@ -20,10 +20,10 @@
             $some_boolean_condition = FALSE;
 
             if ($some_boolean_condition) {
-                echo "This is a If block condition";
+                echo "This is a If block condition<br>";
                 echo "This is a True Condition";
             } else {
-                echo "This is an Else block condition";
+                echo "This is an Else block condition<br>";
                 echo "This is a False Condition";
             }
         </code></pre>
