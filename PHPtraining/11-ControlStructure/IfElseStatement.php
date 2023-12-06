@@ -14,6 +14,7 @@
         4) Check if student passed or failed.
     </pre>
     <hr>
+    <!-- If, Else Statement -->
     <div>
         <h3>If, Else Statement</h3>
         <pre><code>
@@ -46,6 +47,7 @@
         ?>
     </div>
     <hr>
+    <!-- Check if Inputs given by user are correct -->
     <div>
         <h3>Check if Inputs given by user are correct</h3>
         <pre><code>
@@ -74,6 +76,7 @@
         ?>
     </div>
     <hr>
+    <!-- If condition without braces -->
     <div>
         <h3>If condition without braces</h3>
         <pre><code>
@@ -95,6 +98,7 @@
         ?>
     </div>
     <hr>
+    <!-- One Liner -->
     <div>
         <h3>One Liner</h3>
         <pre><code>
@@ -105,8 +109,8 @@
             $some_boolean_condition = FALSE; if($some_boolean_condition)echo "<h4>This is a If block condition written in one line</h4><p>This is a True Condition</p><br>"; else echo "<h4>This is an Else block condition written in one line</h4><p>This is a False Condition</p>";
         ?>
     </div>
-
     <hr>
+    <!-- Recommended Practice -->
     <div>
         <h3>Recommended Practice</h3>
         <pre><code>
