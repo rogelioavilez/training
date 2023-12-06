@@ -21,7 +21,7 @@
 
                 $result = $value %2;
 
-                if ($result > 0){
+                if (!$result > 0){
                     echo "Even Number " . $value . "<\br>";
                 }
 
@@ -35,7 +35,7 @@
 
                 $result = $value %2;
 
-                if ($result > 0){
+                if (!$result > 0){
                     echo "Even Number " . $value . "<br>";
                 }
 
