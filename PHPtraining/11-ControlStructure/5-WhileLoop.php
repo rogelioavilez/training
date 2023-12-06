@@ -22,9 +22,9 @@
                 $result = $value %2;
 
                 if ($result > 0){
-                    echo "Even Number " . $value;
                     $value++;
                 } else {
+                    echo "Even Number " . $value . "<\br>";
                     $value++;
                 }
                 
@@ -38,9 +38,9 @@
                 $result = $value %2;
 
                 if ($result > 0){
-                    echo "Even Number " . $value;
                     $value++;
                 } else {
+                    echo "Even Number " . $value . "<br>";
                     $value++;
                 }
 
