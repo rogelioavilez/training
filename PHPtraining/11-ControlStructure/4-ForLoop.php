@@ -22,30 +22,23 @@
             $result = $value %2;
 
             if ($result > 0){
-                echo "Odd Number ";
+                echo "Odd Number " . $value;
             } else {
-                echo "Even number ";
+                echo "Even number " . $value;
             }
-
-            echo $value . "<\br>";
-
             }
         </code></pre>
         <h3><i>Result:</i></h3>
-        <?php
-            
+        <?php 
             for($value = 1; $value <=10; $value ++){
 
                 $result = $value %2;
 
                 if ($result > 0){
-                    echo "Odd Number ";
+                    echo "Odd Number " . $value;
                 } else {
-                    echo "Even number ";
+                    echo "Even number " . $value;
                 }
-
-                echo $value . "<br>";
-
             }
         ?>
     </div>
