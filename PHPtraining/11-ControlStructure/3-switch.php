@@ -7,12 +7,31 @@
 </head>
 <body>
     <h1>Switch Statements</h1>
-    <pre>
-
-    </pre>
     <hr>
     <pre><code>
+        $input_number = 10;
+        $result = $input_number % 2;
 
+        if ( $result ){
+
+            echo 'Odd Number in If Statement';
+
+        } else if (!$result){
+
+            echo 'Even Number in If Statement';
+
+        } switch ($result) {
+
+            case 1:
+                echo 'Odd Number in switch';
+                break;
+            case 0:
+                echo 'Even Number in switch';
+                break;
+            default:
+                echo 'Invalid Input';
+
+        }
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
