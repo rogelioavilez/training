@@ -33,7 +33,7 @@
         <?php
 
             $max_value = 100;
-            $initial_value = 4;
+            $initial_value = 2;
             $value1 = $initial_value;
 
             do{
