@@ -7,9 +7,12 @@
 </head>
 <body>
     <h1>For Loops</h1>
-        for (Inialization; Condition; Increment) {
+    <pre>
+    for (Inialization; Condition; Increment) {
             ** Code to be executed **
         }
+    </pre>
+        
     <hr>
     <div>
         <h3>Print all numbers from 1 to 10</h3>
