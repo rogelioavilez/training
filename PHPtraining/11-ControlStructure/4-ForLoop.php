@@ -27,7 +27,7 @@
                 echo "Even number ";
             }
 
-            echo $value . "<br>";
+            echo $value . "<\br>";
 
             }
         </code></pre>
