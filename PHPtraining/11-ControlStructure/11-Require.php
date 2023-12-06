@@ -8,7 +8,7 @@
 
     <?php
         include "10.2-menu.php";
-        include "10.2-submenu.php";
+        require "10.2-submenu.php";
 
     ?>
     <pre><code>
