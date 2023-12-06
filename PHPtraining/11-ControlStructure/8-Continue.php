@@ -33,10 +33,11 @@
     <h3><i>Result:</i></h3>
     <?php
         $value1 = 1;
-        while (true){
+        while(true){
             $result = $value1 %2;
 
             if($result == 1){
+                $value1 ++;
                 continue;
             }
 
@@ -46,7 +47,7 @@
 
             echo "Even Numbers: " . $value1 . "<br>";
 
-            $value1++;
+            $value1 ++;
         }
     ?>
     
