@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Switch Statements</h1>
+    <p>Make sure to use the breaks in between cases, as Switch does not have brackets to mark where one condition ends or other starts.</p>
     <hr>
     <!-- Example 1 -->
     <div>
