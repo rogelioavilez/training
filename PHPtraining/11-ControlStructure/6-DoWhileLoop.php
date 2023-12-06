@@ -22,10 +22,10 @@
 
             do{
                 echo "Square: " . $value1 . PHP_EOL;
-                $value1 *= 2;
+                $value1 *= $value1;
             } 
             while ($value1 <= $max_value);
-            
+
             //Dont forget semicolon after While Condition
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -36,7 +36,7 @@
 
             do{
                 echo "Square: " . $value1 . PHP_EOL;
-                $value1 *= 2;
+                $value1 *= $value1;
             } 
             while ($value1 <= $max_value);
             //Dont forget semicolon after While Condition
