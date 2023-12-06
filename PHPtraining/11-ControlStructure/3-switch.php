@@ -58,6 +58,31 @@
                 echo 'Invalid Input';
 
         }
+
+
+        $input_number = 9;
+        $result = $input_number % 2;
+
+        if ( $result ){
+
+            echo 'Odd Number in If Statement';
+
+        } else if (!$result){
+
+            echo 'Even Number in If Statement';
+
+        } switch ($result) {
+
+            case $input_number > 10:
+                echo '$input_number is greater than 10';
+                break;
+            case $input_number == 10:
+                echo '$input_number is equal to 10';
+                break;
+            default:
+                echo '$input_number is less than 10';
+
+        }
     ?>
 </body>
 </html>
