@@ -22,12 +22,10 @@
                 $result = $value %2;
 
                 if ($result > 0){
-                    $value++;
-                } else {
                     echo "Even Number " . $value . "<\br>";
-                    $value++;
                 }
-                
+
+                $value++;
             }
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -38,12 +36,10 @@
                 $result = $value %2;
 
                 if ($result > 0){
-                    $value++;
-                } else {
                     echo "Even Number " . $value . "<br>";
-                    $value++;
                 }
 
+                $value++;
             }
         ?>
     </div>
