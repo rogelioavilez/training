@@ -1,0 +1,1 @@
+<h1>This text comes from footer.php</h1>
