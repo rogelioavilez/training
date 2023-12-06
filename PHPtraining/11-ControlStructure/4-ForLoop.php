@@ -69,7 +69,7 @@
         //Pre-increment makes $value start adding before it runs in the loop
             
         $value = 0;
-            for(++$value ; $value <=10; ){
+            for( ; $value <=10; ++$value){
 
                 $result = $value %2;
 
