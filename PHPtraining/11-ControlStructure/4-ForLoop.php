@@ -17,7 +17,7 @@
     <div>
         <h3>Print all numbers from 1 to 10</h3>
         <pre><code>
-            for($value = 1; $value <=10; $value ++){
+        for($value = 1; $value <=10; $value ++){
 
             $result = $value %2;
 
@@ -26,7 +26,8 @@
             } else {
                 echo "Even number " . $value . "<\br>";
             }
-            }
+            
+        }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php 
