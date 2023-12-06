@@ -17,11 +17,36 @@
     <div>
         <h3>Print all numbers from 1 to 10</h3>
         <pre><code>
+            for($value = 1; $value <=10; $value ++){
 
+            $result = $value %2;
+
+            if ($result > 0){
+                echo "Odd Number ";
+            } else {
+                echo "Even number ";
+            }
+
+            echo $value . "<br>";
+
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            
+            for($value = 1; $value <=10; $value ++){
 
+                $result = $value %2;
+
+                if ($result > 0){
+                    echo "Odd Number ";
+                } else {
+                    echo "Even number ";
+                }
+
+                echo $value . "<br>";
+
+            }
         ?>
     </div>
     
