@@ -33,7 +33,7 @@
         <?php
 
             $max_value = 100;
-            $initial_value = 2;
+            $initial_value = 3;
             $value1 = $initial_value;
 
             do{
@@ -41,7 +41,7 @@
                 $value1 *= $initial_value;
             } 
             while ($value1 <= $max_value);
-            
+
             //Dont forget semicolon after While Condition
         ?>
     </div>
