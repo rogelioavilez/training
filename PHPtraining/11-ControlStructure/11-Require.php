@@ -6,6 +6,8 @@
 
 <body>
 
+    <h1>** After an error, require will stop loading and any items after will be dismissed.</h1>
+
     <?php
         include "10.2-menu.php";
         require "10.2-submenu.php";
