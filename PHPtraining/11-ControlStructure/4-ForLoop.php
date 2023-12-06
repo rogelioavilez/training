@@ -26,12 +26,46 @@
             } else {
                 echo "Even number " . $value . "<\br>";
             }
-            
+
         }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php 
             for($value = 1; $value <=10; $value ++){
+
+                $result = $value %2;
+
+                if ($result > 0){
+                    echo "Odd Number " . $value . "<br>";
+                } else {
+                    echo "Even number " . $value . "<br>";
+                }
+            }
+        ?>
+    </div>
+            <!-- Value with Pre-Increment -->
+    <hr>
+    <div>
+        <h3>Use Pre-Increment in the condition</h3>
+        <pre><code>
+        //Pre-increment makes $value start adding before it runs in the loop
+
+        for($value = 0; $value <=10; ++$value){
+
+            $result = $value %2;
+
+            if ($result > 0){
+                echo "Odd Number " . $value . "<\br>";
+            } else {
+                echo "Even number " . $value . "<\br>";
+            }
+            
+        }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+        //Pre-increment makes $value start adding before it runs in the loop
+            for($value = 0; $value <=10; ++$value){
 
                 $result = $value %2;
 
