@@ -25,7 +25,8 @@
                 break;
             }
 
-            echo "Even Numbers: " . $value1 . "<br>";
+            echo "Even Numbers: " . $value1 . "<\br>";
+
             $value1++;
         }
     </code></pre>
@@ -33,9 +34,9 @@
     <?php
         $value1 = 1;
         while (true){
-            $result = $value1 % 2;
+            $result = $value1 %2;
 
-            if($result ==1){
+            if($result == 1){
                 continue;
             }
 
@@ -44,6 +45,7 @@
             }
 
             echo "Even Numbers: " . $value1 . "<br>";
+
             $value1++;
         }
     ?>
