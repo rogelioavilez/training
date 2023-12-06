@@ -14,3 +14,9 @@
     <h3><i>Result:</i></h3>
 
     <h1>This text comes from menu.php</h1>
+
+    <ul>
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Contact</li>
+    </ul>

@@ -1,1 +1,1 @@
-<h1>This text comes from footer.php</h1>
+<p>@Copyrights - 2023 - Rogelio Test</p>
