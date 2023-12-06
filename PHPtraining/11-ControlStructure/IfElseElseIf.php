@@ -41,6 +41,30 @@
         ?>
     </div>
     <hr>
+    <div>
+        <h3>Check if input_number is greater than 10</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+
+            if ( $input_number > 10 ){
+
+                echo 'Yes, $input_number is Greater than 10';
+
+            } else if ($input_number < 10){
+
+                echo 'No, $input_number is Lower than 10';
+
+            } else {
+
+                echo '$input_number is equal to 10';
+                
+            }
+        ?>
+    </div>
+    <hr>
 
 </body>
 </html>
