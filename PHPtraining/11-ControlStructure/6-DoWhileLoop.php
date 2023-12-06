@@ -18,11 +18,12 @@
         <h3>Print Square of a number maximum until 100 using Do While Loop</h3>
         <pre><code>
             $max_value = 100;
-            $value1 = 2;
+            $initial_value = 2;
+            $value1 = $initial_value;
 
             do{
                 echo "Square: " . $value1 . PHP_EOL;
-                $value1 *= $value1;
+                $value1 *= $initial_value;
             } 
             while ($value1 <= $max_value);
 
@@ -32,13 +33,15 @@
         <?php
 
             $max_value = 100;
-            $value1 = 2;
+            $initial_value = 2;
+            $value1 = $initial_value;
 
             do{
                 echo "Square: " . $value1 . PHP_EOL;
-                $value1 *= $value1;
+                $value1 *= $initial_value;
             } 
             while ($value1 <= $max_value);
+            
             //Dont forget semicolon after While Condition
         ?>
     </div>
