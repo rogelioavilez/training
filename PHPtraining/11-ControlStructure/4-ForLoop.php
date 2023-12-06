@@ -50,7 +50,9 @@
         <pre><code>
         //Pre-increment makes $value start adding before it runs in the loop
 
-        for($value = 0; $value <=10; ++$value){
+        $value = 0;
+
+        for(; $value <=10; ++$value){
 
             $result = $value %2;
 
@@ -65,7 +67,9 @@
         <h3><i>Result:</i></h3>
         <?php
         //Pre-increment makes $value start adding before it runs in the loop
-            for($value = 0; $value <=10; ++$value){
+            
+        $value = 0;
+            for(; $value <=10; ++$value){
 
                 $result = $value %2;
 
