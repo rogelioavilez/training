@@ -20,7 +20,7 @@
             exit();
 
             error_block:
-                echo "This is an Error Block and will excecute anyway";
+                echo "This is an Error Block and will excecute if value is correct";
         </code></pre>
 
         <h3><i>Result:</i></h3>
@@ -40,11 +40,20 @@
 
     </div>
     <hr>
-    
+
     <div>
         <h3>Example 2</h3>
         <pre><code>
-            
+            for($count = 0; $count <=10; $count++ ){
+
+                if($count == 2){
+                    goto loop2;
+                }
+
+            }
+
+            loop2:
+                echo "Counter value is $count";
         </code></pre>
 
         <h3><i>Result:</i></h3>
