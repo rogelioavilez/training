@@ -8,105 +8,153 @@
 <body>
     <h1>Switch Statements</h1>
     <hr>
-    <pre><code>
-        $input_number = 10;
-        $result = $input_number % 2;
+    <!-- Example 1 -->
+    <div>
+        <pre><code>
+            $input_number = 10;
+            $result = $input_number % 2;
 
-        if ( $result ){
+            if ( $result ){
 
-            echo 'Odd Number in If Statement';
+                echo 'Odd Number in If Statement';
 
-        } else if (!$result){
+            } else if (!$result){
 
-            echo 'Even Number in If Statement';
+                echo 'Even Number in If Statement';
 
-        } switch ($result) {
+            } switch ($result) {
 
-            case 1:
-                echo 'Odd Number in switch';
-                break;
-            case 0:
-                echo 'Even Number in switch';
-                break;
-            default:
-                echo 'Invalid Input';
+                case 1:
+                    echo 'Odd Number in switch';
+                    break;
+                case 0:
+                    echo 'Even Number in switch';
+                    break;
+                default:
+                    echo 'Invalid Input';
 
-        }
+            }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $input_number = 10;
+            $result = $input_number % 2;
 
-        $input_number = 9;
-        $result = $input_number % 2;
+            if ( $result ){
 
-        if ( $result ){
+                echo 'Odd Number in If Statement';
 
-            echo 'Odd Number in If Statement';
+            } else if (!$result){
 
-        } else if (!$result){
+                echo 'Even Number in If Statement';
 
-            echo 'Even Number in If Statement';
+            } switch ($result) {
 
-        } switch ($result) {
+                case 1:
+                    echo 'Odd Number in switch';
+                    break;
+                case 0:
+                    echo 'Even Number in switch';
+                    break;
+                default:
+                    echo 'Invalid Input';
 
-            case $input_number > 10:
-                echo '$input_number is greater than 10';
-                break;
-            case $input_number == 10:
-                echo '$input_number is equal to 10';
-                break;
-            default:
-                echo '$input_number is less than 10';
+            }
+        ?>
+    </div>
+    <hr>
+    <!-- Example 2 -->
+    <div>
+        <pre><code>
+            $input_number = 9;
+            $result = $input_number % 2;
 
-        }
-    </code></pre>
-    <h3><i>Result:</i></h3>
-    <?php
-        $input_number = 10;
-        $result = $input_number % 2;
+            if ( $result ){
 
-        if ( $result ){
+                echo 'Odd Number in If Statement';
 
-            echo 'Odd Number in If Statement';
+            } else if (!$result){
 
-        } else if (!$result){
+                echo 'Even Number in If Statement';
 
-            echo 'Even Number in If Statement';
+            } switch ($result) {
 
-        } switch ($result) {
+                case $input_number > 10:
+                    echo '$input_number is greater than 10';
+                    break;
+                case $input_number == 10:
+                    echo '$input_number is equal to 10';
+                    break;
+                default:
+                    echo '$input_number is less than 10';
 
-            case 1:
-                echo 'Odd Number in switch';
-                break;
-            case 0:
-                echo 'Even Number in switch';
-                break;
-            default:
-                echo 'Invalid Input';
+            }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $input_number = 9;
+            $result = $input_number % 2;
 
-        }
+            if ( $result ){
 
+                echo 'Odd Number in If Statement';
 
-        $input_number = 9;
-        $result = $input_number % 2;
+            } else if (!$result){
 
-        if ( $result ){
+                echo 'Even Number in If Statement';
 
-            echo 'Odd Number in If Statement';
+            } switch ($result) {
 
-        } else if (!$result){
+                case $input_number > 10:
+                    echo '$input_number is greater than 10';
+                    break;
+                case $input_number == 10:
+                    echo '$input_number is equal to 10';
+                    break;
+                default:
+                    echo '$input_number is less than 10';
 
-            echo 'Even Number in If Statement';
+            }
+        ?>
+    </div>
+    <hr>
+    <!-- Example 3 -->
+    <div>
+        <h3>String Base Condition</h3>
+        <pre><code>
+            $weekday = "Fri";
 
-        } switch ($result) {
+            switch ($weekday){
 
-            case $input_number > 10:
-                echo '$input_number is greater than 10';
-                break;
-            case $input_number == 10:
-                echo '$input_number is equal to 10';
-                break;
-            default:
-                echo '$input_number is less than 10';
+                case "Mon":
+                    echo 'Monday';
+                    break;
+                case "Fri":
+                    echo 'Friday';
+                    break;
+                default:
+                    echo 'Others';
 
-        }
-    ?>
+            }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $weekday = "Fri";
+
+            switch ($weekday){
+
+                case "Mon":
+                    echo 'Monday';
+                    break;
+                case "Fri":
+                    echo 'Friday';
+                    break;
+                default:
+                    echo 'Others';
+
+            }
+
+        ?>
+    </div>
 </body>
 </html>
