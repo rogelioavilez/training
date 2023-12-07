@@ -22,7 +22,7 @@
     <div>
         <h3>Number of Words</h3>
         <p>
-
+            Use of (str_word_count) in order to get number of words in a String value.
         </p>
         <pre><code>
             $content = "You can do String operations easily with String functions";
@@ -38,6 +38,8 @@
             $position = FALSE;
 
             echo $content;
+
+            echo "Number of words in the String is: " . str_word_count($content);
         ?>
     </div>
 </body>
