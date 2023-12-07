@@ -145,5 +145,28 @@
             echo strtolower($content);
         ?>
     </div>
+
+    <hr>
+    <!-- Word Wrap -->
+    <div>
+        <h3>Word Wrap</h3>
+        <pre>
+            Use of (wordwrap) in order to limit the lenght per line in String.
+        </pre>
+        <pre><code>
+            $content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet minima perferendis totam sint ex ipsam quidem, fuga excepturi eveniet enim voluptatum doloribus beatae autem tempore sapiente temporibus quasi rerum?";
+
+            //Indicate the lenght of lines in word wrap
+            echo wordwrap($content, 25);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+
+            $content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet minima perferendis totam sint ex ipsam quidem, fuga excepturi eveniet enim voluptatum doloribus beatae autem tempore sapiente temporibus quasi rerum?";
+
+            //Indicate the lenght of lines in word wrap
+            echo wordwrap($content, 25);
+        ?>
+    </div>
 </body>
 </html>
