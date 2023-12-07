@@ -33,6 +33,14 @@
         ];
 
         var_dump($string_array);
+
+        echo "<\br>";
+
+        $integer_array = [
+            5, 6, 7, 8
+        ];
+
+        var_dump($integer_array);
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
@@ -53,6 +61,14 @@
         ];
 
         var_dump($string_array);
+
+        echo "<br>";
+
+        $integer_array = [
+            5, 6, 7, 8
+        ];
+
+        var_dump($integer_array);
     ?>
     
 </body>
