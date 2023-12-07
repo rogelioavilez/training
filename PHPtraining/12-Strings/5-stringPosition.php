@@ -41,7 +41,7 @@
     <div>
         <h3>Example 2:</h3>
         <p>
-            
+            String has to respect Case style.
         </p>
         <pre><code>
             $content = "This is a very long content and it is a String";
@@ -50,7 +50,11 @@
 
             $position = strpos($content, $findContentWord);
 
-            echo $position;
+            if (($position) == 0){
+                echo "Content not found";
+            } else {
+                echo "Position is: " . $position;
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -60,7 +64,11 @@
 
             $position = strpos($content, $findContentWord);
 
-            echo $position;
+            if (($position) == 0){
+                echo "Content not found";
+            } else {
+                echo "Position is: " . $position;
+            }
         ?>
     </div>
 </body>
