@@ -160,8 +160,8 @@
             echo $content;
 
             echo "<\br>";
-            
-            echo wordwrap($content, 5);
+
+            echo wordwrap($content, 1);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -173,7 +173,9 @@
 
             echo "<br>";
 
-            echo wordwrap($content, 1);
+            $content = wordwrap($content, 1);
+
+            echo $content;
         ?>
     </div>
 </body>
