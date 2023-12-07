@@ -53,10 +53,10 @@
     <!-- Replace Strings -->
     <div>
         <h3>Replace Strings</h3>
-        <p>
+        <pre>
             - Use of (str_replace) in order to Find and Replace a String.
             - The content in String will not change permanently
-        </p>
+        </pre>
         <pre><code>
             echo "Find and Replace operations with manipulaton: " . str_replace("operations", "manipulations", $content);
 
@@ -119,6 +119,30 @@
         <h3><i>Result:</i></h3>
         <?php
             echo stripos($content, "OPERATIONS");
+        ?>
+    </div>
+
+    <hr>
+    <!-- Upper Case and Lower Case -->
+    <div>
+        <h3>Upper Case and Lower Case</h3>
+        <pre>
+            Use of (strtoupper  &  strtolower) in order to change font casing inside String content. 
+        </pre>
+        <pre><code>
+            echo strtoupper($content);
+
+            echo "<br>";
+
+            echo strtolower($content);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            echo strtoupper($content);
+
+            echo "<br>";
+
+            echo strtolower($content);
         ?>
     </div>
 </body>
