@@ -48,8 +48,8 @@
 
             echo "<br>";
 
-            //NULL Variable example
-            echo strlen($name3);
+            //NULL Variable example creates an error
+            // echo strlen($name3);
         ?>
     </div>
 
