@@ -68,9 +68,9 @@
     <hr>
     <!-- Reverse Strings -->
     <div>
-        <h3>Replace Strings</h3>
+        <h3>Reverse Strings</h3>
         <p>
-            Use of (strrev) in order to Reverse Value in String.
+            Use of (strrev) in order to Reverse the content in String, letters will appear backwards.
         </p>
         <pre><code>
             echo strrev($content);
