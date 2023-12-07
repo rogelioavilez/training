@@ -8,13 +8,13 @@
 <body>
     <h1>String Position</h1>
     <pre>
-
+        * String Position (strpos) will help us find the position of the first character that is searched inside a String.
     </pre>
     <hr>
     <div>
         <h3>Example 1:</h3>
         <p>
-            Find the String position inside another String.
+            Find the String's $findContentWord position inside $content String.
         </p>
         <pre><code>
             $content = "This is a very long content and it is a String";
