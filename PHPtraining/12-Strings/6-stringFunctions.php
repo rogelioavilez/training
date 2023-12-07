@@ -18,7 +18,7 @@
         * Word Wrap the String
     </pre>
     <hr>
-    <!-- Example 1 -->
+    <!-- Number of Words -->
     <div>
         <h3>Number of Words</h3>
         <p>
@@ -44,8 +44,24 @@
             echo $content;
 
             echo "<br>";
-            
+
             echo "Number of words in the String is: " . str_word_count($content);
+        ?>
+    </div>
+
+    <hr>
+    <!-- Replace Strings -->
+    <div>
+        <h3>Replace Strings</h3>
+        <p>
+            Use of (str_replace) in order to Find and Replace a String.
+        </p>
+        <pre><code>
+            echo "Find and Replace operations with manipulaton: " . str_replace("operations", "manipulations", $content);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            echo "Find and Replace operations with manipulaton: " . str_replace("operations", "manipulations", $content);
         ?>
     </div>
 </body>
