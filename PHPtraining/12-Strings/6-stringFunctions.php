@@ -80,5 +80,21 @@
             echo strrev($content);
         ?>
     </div>
+
+    <hr>
+    <!-- Shuffle Strings -->
+    <div>
+        <h3>Shuffle Strings</h3>
+        <p>
+            Use of (str_shuffle) in order to Shuffle the content in String, letters be unordered/shuffled.
+        </p>
+        <pre><code>
+            echo str_shuffle($content);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            echo str_shuffle($content);
+        ?>
+    </div>
 </body>
 </html>
