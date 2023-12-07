@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1>Combine Strings</h1>
-    <pre>
-        * '.' (dot) operator is used to combine 2 strings together
-    </pre>
     <hr>
-
+    <!-- Example 1-->
     <div>
         <h3>Example 1:</h3>
+        <p>
+            '.' (dot) operator is used to combine 2 strings together
+        </p>
         <pre><code>
             $firstName = "Rogelio ";
             $secondName = "Alberto ";
@@ -32,6 +32,35 @@
             $fullName = $firstName . $secondName . $lastName;
 
             echo $fullName;
+        ?>
+    </div>
+    <hr>
+    <!-- Example 2-->
+    <div>
+        <h3>Example 2:</h3>
+        <p>
+            Add String, Integer, Boolean, and other basic Variable types with operator '.'
+        </p>
+        <pre><code>
+            $marks = 100;
+            $passed = true;
+
+            $fullName = $firstName . $secondName . $lastName;
+
+            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test";
+
+            echo $content;
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $marks = 100;
+            $passed = true;
+
+            $fullName = $firstName . $secondName . $lastName;
+
+            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test";
+
+            echo $content;
         ?>
     </div>
 </body>
