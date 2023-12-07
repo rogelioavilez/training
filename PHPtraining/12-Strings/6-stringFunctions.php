@@ -96,5 +96,21 @@
             echo str_shuffle($content);
         ?>
     </div>
+
+    <hr>
+    <!-- Find position Case Insensitive -->
+    <div>
+        <h3>Find position Case Insensitive</h3>
+        <p>
+            Use of (stripos) in order to Find a position using case insensitive.
+        </p>
+        <pre><code>
+            echo stripos($content, "OPERATIONS");
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            echo stripos($content, "OPERATIONS");
+        ?>
+    </div>
 </body>
 </html>
