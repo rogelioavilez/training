@@ -15,7 +15,8 @@
     <!-- Example 1 -->
     <h3>Learn how to define and use Array</h3>
     <pre>
-        - Define an Array
+        - To Define an Array use []
+        - Use var_dump in order to print Array contents
     </pre>
     <pre><code>
         //This was the old version of creating arrays:
@@ -23,9 +24,9 @@
         $old_array = array("old food", "old drinks");
         var_dump($old_array);
 
-        echo "<br>";
+        echo "<\br>";
 
-        //After PHP 5.4 you can replace array {} with []
+        //After PHP 5.4 you can replace array () with []
 
         $string_array = [
             "food", "drinks"
@@ -45,7 +46,7 @@
 
         echo "<br>";
 
-        //After PHP 5.4 you can replace array {} with []
+        //After PHP 5.4 you can replace array () with []
 
         $string_array = [
             "food", "drinks"
