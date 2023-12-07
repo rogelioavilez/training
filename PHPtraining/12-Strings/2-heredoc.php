@@ -16,7 +16,7 @@
         <p>
             Write a block of strings.
         </p>
-        <code>
+        <pre><code>
             $name = "Rogelio Avilez";
             $number = 10;
 
@@ -28,11 +28,11 @@
             ($number * 10)
             New lines and Strings.
             (true) ? "Some Efect" : "No Efect";
-            <strong> Is this Bold </strong>
+            <\strong> Is this Bold <\/strong>
             Apart from variable nothing will work.
 
             DOC_LABEL;
-        </code>
+        </code></pre>
         <h3><i>Result:</i></h3>
         <?php
             $name = "Rogelio Avilez";
