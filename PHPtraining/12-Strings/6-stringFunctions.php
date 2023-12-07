@@ -173,7 +173,7 @@
 
             echo "<br>";
 
-            echo wordwrap($content, $width = 5);
+            echo wordwrap($content, 1);
         ?>
     </div>
 </body>
