@@ -16,7 +16,7 @@
         <p>
             Write a block of strings.
         </p>
-        <pre><code>
+        <code>
             $name = "Rogelio Avilez";
             $number = 10;
 
@@ -32,7 +32,7 @@
             Apart from variable nothing will work.
 
             DOC_LABEL;
-        </code></pre>
+        </code>
         <h3><i>Result:</i></h3>
         <?php
             $name = "Rogelio Avilez";
