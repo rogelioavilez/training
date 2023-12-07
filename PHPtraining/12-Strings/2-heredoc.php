@@ -7,21 +7,52 @@
 </head>
 <body>
     <h1>HereDoc</h1>
-    <pre>
-        * Write a block of strings with HereDoc.
-    </pre>
-    <hr>
-    <h3>Example 1:</h3>
-    <p>
+    <div>
+        <pre>
+            * Write a block of strings with HereDoc.
+        </pre>
+        <hr>
+        <h3>Example 1:</h3>
+        <p>
+            Write a block of strings.
+        </p>
+        <pre><code>
+            $name = "Rogelio Avilez";
+            $number = 10;
 
-    </p>
-    <pre><code>
+            echo <<< DOC_LABEL
+            You can write anything inside this
+            "Double Quotes" . Anything
+            'Single Quotes' ... . . . .
+            $name know how to write PHP
+            ($number * 10)
+            New lines and Strings.
+            (true) ? "Some Efect" : "No Efect";
+            <strong> Is this Bold </strong>
+            Apart from variable nothing will work.
 
-    </code></pre>
-    <h3><i>Result:</i></h3>
-    <?php
-        
-    ?>
+            DOC_LABEL;
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $name = "Rogelio Avilez";
+            $number = 10;
+
+            echo <<< DOC_LABEL
+            You can write anything inside this
+            "Double Quotes" . Anything
+            'Single Quotes' ... . . . .
+            $name know how to write PHP
+            ($number * 10)
+            New lines and Strings.
+            (true) ? "Some Efect" : "No Efect";
+            <strong> Is this Bold </strong>
+            Apart from variable nothing will work.
+
+            DOC_LABEL;
+
+        ?>
+    </div>
     
 </body>
 </html>
