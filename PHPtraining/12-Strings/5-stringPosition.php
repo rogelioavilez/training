@@ -71,5 +71,30 @@
             }
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Example 3:</h3>
+        <p>
+            
+        </p>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $content = "This is a very long content and it is a String";
+
+            $findContentWord = "content1";
+
+            $position = strpos($content, $findContentWord);
+
+            if (($position) == false){
+                echo "1) Not found";
+            } else {
+                echo "Position is: " . $position;
+            }
+        ?>
+    </div>
 </body>
 </html>
