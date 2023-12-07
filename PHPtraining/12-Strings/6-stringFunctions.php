@@ -157,7 +157,7 @@
             $content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet minima perferendis totam sint ex ipsam quidem, fuga excepturi eveniet enim voluptatum doloribus beatae autem tempore sapiente temporibus quasi rerum?";
 
             //Indicate the lenght of lines in word wrap
-            echo wordwrap($content, 25);
+            echo wordwrap($content, 5);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -165,7 +165,7 @@
             $content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet minima perferendis totam sint ex ipsam quidem, fuga excepturi eveniet enim voluptatum doloribus beatae autem tempore sapiente temporibus quasi rerum?";
 
             //Indicate the lenght of lines in word wrap
-            echo wordwrap($content, 25);
+            echo wordwrap($content, 5);
         ?>
     </div>
 </body>
