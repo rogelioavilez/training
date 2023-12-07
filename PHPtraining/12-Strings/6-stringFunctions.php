@@ -161,7 +161,7 @@
 
             echo "<\br>";
 
-            echo wordwrap($content, 1);
+            echo wordwrap($content, 3);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -173,9 +173,7 @@
 
             echo "<br>";
 
-            $content = wordwrap($content, 1);
-
-            echo $content;
+            echo wordwrap($content, 3);
         ?>
     </div>
 </body>
