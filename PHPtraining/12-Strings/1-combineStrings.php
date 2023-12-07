@@ -47,7 +47,7 @@
 
             $fullName = $firstName . $secondName . $lastName;
 
-            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test";
+            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test. He got " . $passed . " out of 1 completed";
 
             echo $content;
         </code></pre>
@@ -58,7 +58,7 @@
 
             $fullName = $firstName . $secondName . $lastName;
 
-            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test";
+            $content = "Student $fullName got a Total " . $marks . ", with this score he passed the test. He got " . $passed . " out of 1 completed";
 
             echo $content;
         ?>
