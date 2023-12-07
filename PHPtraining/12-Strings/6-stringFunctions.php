@@ -64,5 +64,21 @@
             echo "Find and Replace operations with manipulaton: " . str_replace("operations", "manipulations", $content);
         ?>
     </div>
+
+    <hr>
+    <!-- Reverse Strings -->
+    <div>
+        <h3>Replace Strings</h3>
+        <p>
+            Use of (strrev) in order to Reverse Value in String.
+        </p>
+        <pre><code>
+            echo strrev($content);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            echo strrev($content);
+        ?>
+    </div>
 </body>
 </html>
