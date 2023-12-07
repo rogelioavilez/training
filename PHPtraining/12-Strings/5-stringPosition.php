@@ -76,10 +76,20 @@
     <div>
         <h3>Example 3:</h3>
         <p>
-            
+            You can also use the TRUE or FALSE conditions to verify if value is found.
         </p>
         <pre><code>
-            
+            $content = "This is a very long content and it is a String";
+
+            $findContentWord = "content1";
+
+            $position = strpos($content, $findContentWord);
+
+            if (($position) == false){
+                echo "1) Not found";
+            } else {
+                echo "Position is: " . $position;
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
