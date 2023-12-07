@@ -13,42 +13,72 @@
         * Blank spaces are counted as part of the String Lenght.
     </pre>
     <hr>
-    <h3>Example 1:</h3>
-    <p>
-        Get String Lenght on variable $name1.
-    </p>
-    <pre><code>
-    $name1 = "Rogelio Avilez";
-        $name3 = null;
-        //Set Variable example
-        echo strlen($name1);
-
-        echo "<\br>";
-
-        //UnSet Variable example
-        echo strlen($name2);
-
-        echo "<\br>";
-
-        //NULL Variable example
-        echo strlen($name3);
-    </code></pre>
-    <h3><i>Result:</i></h3>
-    <?php
+    <div>
+        <h3>Example 1:</h3>
+        <p>
+            Get String Lenght on variable $name1.
+        </p>
+        <pre><code>
         $name1 = "Rogelio Avilez";
-        $name3 = null;
-        //Set Variable example
-        echo strlen($name1);
+            $name3 = null;
+            //Set Variable example
+            echo strlen($name1);
 
-        echo "<br>";
+            echo "<\br>";
 
-        //UnSet Variable example
-        echo strlen($name2);
+            //UnSet Variable example
+            echo strlen($name2);
 
-        echo "<br>";
+            echo "<\br>";
 
-        //NULL Variable example
-        echo strlen($name3);
-    ?>
+            //NULL Variable example
+            echo strlen($name3);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $name1 = "Rogelio Avilez";
+            $name3 = null;
+            //Set Variable example
+            echo strlen($name1);
+
+            echo "<br>";
+
+            //UnSet Variable example
+            echo strlen($name2);
+
+            echo "<br>";
+
+            //NULL Variable example
+            echo strlen($name3);
+        ?>
+    </div>
+
+    <hr>
+    <div>
+        <h3>Example 2:</h3>
+        <p>
+            Use strlen for a condition.
+        </p>
+        <pre><code>
+            $name = "Something";
+
+            if (strlen($name) > 0){
+                echo $name;
+            } else {
+                echo "$name is Empty";
+            }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $name = "Something";
+
+            if (strlen($name) > 0){
+                echo $name;
+            } else {
+                echo "$name is Empty";
+            }
+        ?>
+    </div>
+    
 </body>
 </html>
