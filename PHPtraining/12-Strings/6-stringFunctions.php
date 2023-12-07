@@ -30,6 +30,10 @@
             $position = FALSE;
 
             echo $content;
+
+            echo "<\br>";
+
+            echo "Number of words in the String is: " . str_word_count($content);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -39,6 +43,8 @@
 
             echo $content;
 
+            echo "<br>";
+            
             echo "Number of words in the String is: " . str_word_count($content);
         ?>
     </div>
