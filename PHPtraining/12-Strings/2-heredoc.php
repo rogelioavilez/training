@@ -7,11 +7,11 @@
 </head>
 <body>
     <h1>HereDoc</h1>
+    <pre>
+        * Write a block of strings with HereDoc.
+    </pre>
+    <hr>
     <div>
-        <pre>
-            * Write a block of strings with HereDoc.
-        </pre>
-        <hr>
         <h3>Example 1:</h3>
         <p>
             Write a block of strings.

@@ -7,14 +7,11 @@
 </head>
 <body>
     <h1>NowDoc</h1>
+    <hr>
     <div>
-        <pre>
-            * 
-        </pre>
-        <hr>
         <h3>Example 1:</h3>
         <p>
-            
+            Write a block of String using NowDoc.
         </p>
         <pre><code>
             
@@ -24,7 +21,7 @@
             $name = "Rogelio Avilez";
             $number = 10;
 
-            echo <<< DOC_LABEL
+            echo <<< 'DOC_LABEL'
             You can write anything inside this
             "Double Quotes" . Anything
             'Single Quotes' ... . . . .
@@ -33,7 +30,8 @@
             New lines and Strings.
             (true) ? "Some Efect" : "No Efect";
             <strong> Is this Bold </strong>
-            Apart from variable nothing will work.
+
+            Even the variable substitution will Not work.
 
             DOC_LABEL;
 
