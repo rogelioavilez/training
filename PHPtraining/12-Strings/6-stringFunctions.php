@@ -25,11 +25,19 @@
 
         </p>
         <pre><code>
+            $content = "You can do String operations easily with String functions";
+            $findWord = "operations";
+            $position = FALSE;
 
+            echo $content;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            $content = "You can do String operations easily with String functions";
+            $findWord = "operations";
+            $position = FALSE;
 
+            echo $content;
         ?>
     </div>
 </body>
