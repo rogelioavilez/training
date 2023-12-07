@@ -36,5 +36,32 @@
             echo $position;
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Example 2:</h3>
+        <p>
+            
+        </p>
+        <pre><code>
+            $content = "This is a very long content and it is a String";
+
+            $findContentWord = "CONTENT";
+
+            $position = strpos($content, $findContentWord);
+
+            echo $position;
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $content = "This is a very long content and it is a String";
+
+            $findContentWord = "CONTENT";
+
+            $position = strpos($content, $findContentWord);
+
+            echo $position;
+        ?>
+    </div>
 </body>
 </html>
