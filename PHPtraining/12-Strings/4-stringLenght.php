@@ -18,14 +18,20 @@
         Get String Lenght on variable $name1.
     </p>
     <pre><code>
-        $name1 = "Rogelio Avilez";
+    $name1 = "Rogelio Avilez";
+        $name3 = null;
         //Set Variable example
         echo strlen($name1);
 
         echo "<\br>";
-        
+
         //UnSet Variable example
         echo strlen($name2);
+
+        echo "<\br>";
+
+        //NULL Variable example
+        echo strlen($name3);
     </code></pre>
     <h3><i>Result:</i></h3>
     <?php
