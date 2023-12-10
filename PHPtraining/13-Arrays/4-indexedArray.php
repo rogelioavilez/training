@@ -24,6 +24,17 @@
         <?php
             $arr = [1, 2, 3, 4,5 ];
             var_dump($arr);
+
+            //If break a sequence array skips blank values when adding a new array value
+
+            $arr[100] = 100;
+            $arr[] = 101;
+            var_dump($arr);
+
+            //If want to erase the whole array values and replace them for something new you dont have to add brackets before adding value, for example:
+
+            $arr = ["one", "two", "three", "four"];
+            var_dump($arr);
         ?>
     </div>
 </body>
