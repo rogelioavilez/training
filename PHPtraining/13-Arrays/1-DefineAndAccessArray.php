@@ -86,6 +86,10 @@
 
             //Human readable
             print_r($arr);
+
+            //Do not use echo to print Arrays, you can only use echo to print an item inside array
+
+            echo $arr[0];
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -98,6 +102,12 @@
             echo "<br>";
             //Human readable
             print_r($arr);
+
+            echo "<br>";
+
+            //Do not use echo to print Arrays, you can only use echo to print an item inside array
+
+            echo $arr[0];
         ?>
     </div>
     
