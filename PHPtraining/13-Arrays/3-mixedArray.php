@@ -11,9 +11,7 @@
     * If index is not specified, PHP will use the increment of the largest previously used integer key.
     </pre>
 
-    <hr>
-
-    <div>
+    <hr><div>
         <h3>Add after largest used integer key</h3>
         <pre><code>
             //Defining arrays while skiping some key elements
