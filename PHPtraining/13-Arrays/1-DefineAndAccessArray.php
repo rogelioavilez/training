@@ -164,6 +164,7 @@
                 echo $arr[$count];
                 echo "<br>";
                 echo "$arr[$count]";
+                echo "<br>";
             }
         ?>
     </div>
