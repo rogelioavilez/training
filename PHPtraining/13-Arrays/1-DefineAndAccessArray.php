@@ -196,7 +196,6 @@
         <h3>Change Array Value</h3>
         <pre><code>
             print_r($arr);
-            echo "<br>";
 
             $arr[0] = 5;
             $arr[1] = 6;
