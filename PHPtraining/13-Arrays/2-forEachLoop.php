@@ -44,6 +44,29 @@
             }
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Proper way to define an array and array inside of array</h3>
+        <pre><code>
+            $array2 = [10];
+            var_dump($array2);
+
+            $array2[10] = [5];
+            var_dump($array2);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $array2 = [10];
+            var_dump($array2);
+
+            echo "<br>";
+
+            $array2[10] = [5];
+            var_dump($array2);
+
+        ?>
+    </div>
     
 </body>
 </html>
