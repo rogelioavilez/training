@@ -235,6 +235,31 @@
             var_dump($arr);
         ?>
     </div>
+
+    <hr>
+    <!-- Store any Data Types in Arrays and See Indentations -->
+    <div>
+        <h3>Store any Data Types in Arrays and See Indentations</h3>
+        <pre><code>
+            $arrNew = [ 1,
+                        "String",
+                        false,
+                        23.2
+                    ];
+
+            var_dump($arrNew);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arrNew = [ 1,
+                        "String",
+                        false,
+                        23.2
+                    ];
+
+            var_dump($arrNew);
+        ?>
+    </div>
     
     
 </body>
