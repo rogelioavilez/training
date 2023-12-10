@@ -45,6 +45,23 @@
                 echo $value;
                 echo "<br>";
             }
+
+            $arr = ["CustomIndex" => "mon", 1 => "tues", 2 => "wed", 3 => "thurs", 4 => "fri", 5 => "sat", 6 => "sun"];
+
+            var_dump($arr);
+
+            echo "<br>";
+
+            foreach($arr as $value){
+                echo $value;
+                echo "<br>";
+            }
+
+            foreach($arr as $key => $value){
+                echo $key . " => " . $value;
+                echo "<br>";
+            }
+            
         ?>
     </div>
 </body>
