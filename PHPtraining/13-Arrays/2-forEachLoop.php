@@ -19,7 +19,16 @@
     <div>
         <h3></h3>
         <pre><code>
+            $arr = ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"];
+                var_dump($arr);
 
+                $counter = 0;
+
+                foreach($arr as $values){
+                    echo "[$counter] => $values => $arr[$counter]";
+
+                    $counter++;
+                }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
