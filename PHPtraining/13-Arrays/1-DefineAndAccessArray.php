@@ -126,6 +126,37 @@
             echo "$arr[2]";
         ?>
     </div>
+
+    <!-- Understand Array definitions -->
+    <div>
+        <h3>Understand Array Definitions
+        </h3>
+        <pre><code>
+        * $arr is an Array Variable
+        * $arr[0] is an Array Element
+        * 0 in an index of an Array
+        $Array index starts with 0 not 1
+        * Array can store any type of value - String, Integer, Double, Boolean
+        *Array has a lenght based on the number of elements it has.
+        * You can also have Array inside of another Array - More of it in the next lecture.
+        * Usecase: Collection of Variables together.
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+
+            //To get array lenght
+            echo "Array length: " . count($arr);
+
+            echo "<br>";
+
+            //Loop through the Array using for Loop
+            for($count = 0; $count < $count($arr); $count++){
+                echo $arr[$count];
+                echo "<br>";
+                echo "$arr[$count]";
+            }
+        ?>
+    </div>
     
     
 </body>
