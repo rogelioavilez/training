@@ -189,6 +189,31 @@
             echo "{$arr[ARRAY_ELEMENT]}";
         ?>
     </div>
+
+    <hr>
+    <!-- Change Array Value -->
+    <div>
+        <h3>Change Array Value</h3>
+        <pre><code>
+            print_r($arr);
+            echo "<br>";
+
+            $arr[0] = 5;
+            $arr[1] = 6;
+            $arr[2] = 7;
+            print_r($arr);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            print_r($arr);
+            echo "<br>";
+
+            $arr[0] = 5;
+            $arr[1] = 6;
+            $arr[2] = 7;
+            print_r($arr);
+        ?>
+    </div>
     
     
 </body>
