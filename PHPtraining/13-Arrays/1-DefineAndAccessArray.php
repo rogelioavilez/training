@@ -145,7 +145,7 @@
             echo "Array length: " . count($arr);
 
             //Loop through the Array using for Loop
-            for($count = 0; $count < $count($arr); $count++){
+            for($count = 0; $count < count($arr); $count++){
                 echo $arr[$count];
                 
                 echo "$arr[$count]";
@@ -160,7 +160,7 @@
             echo "<br>";
 
             //Loop through the Array using for Loop
-            for($count = 0; $count < $count($arr); $count++){
+            for($count = 0; $count < count($arr); $count++){
                 echo $arr[$count];
                 echo "<br>";
                 echo "$arr[$count]";
