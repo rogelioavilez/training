@@ -126,7 +126,8 @@
             echo "$arr[2]";
         ?>
     </div>
-
+    
+    <hr>
     <!-- Understand Array definitions -->
     <div>
         <h3>Understand Array Definitions
@@ -166,6 +167,26 @@
                 echo "$arr[$count]";
                 echo "<br>";
             }
+        ?>
+    </div>
+
+    <hr>
+    <!-- Access Array Element inside the String using Constant -->
+    <div>
+        <h3>Access Array Element inside the String using Constant
+        </h3>
+        <pre><code>
+        * For this process you need to use curly brackets in order to use Array with Constants. For example:
+
+            const ARRAY_ELEMENT = 1;
+            echo "{$arr[ARRAY_ELEMENT]}";
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            //For this process you need to use curly brackets in order to use Array with Constants. For example:
+
+            const ARRAY_ELEMENT = 1;
+            echo "{$arr[ARRAY_ELEMENT]}";
         ?>
     </div>
     
