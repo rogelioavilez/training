@@ -78,7 +78,14 @@
     <div>
         <h3>find references in <a href="https://www.php.net/manual/en">https://www.php.net/manual/en</a></h3>
         <pre><code>
-            
+            $arr = [1, 2, 3];
+
+            //function to print array
+
+            var_dump($arr);
+
+            //Human readable
+            print_r($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -87,6 +94,9 @@
             //function to print array
 
             var_dump($arr);
+
+            //Human readable
+            print_r($arr);
         ?>
     </div>
     
