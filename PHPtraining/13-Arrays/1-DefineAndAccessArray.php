@@ -90,6 +90,13 @@
             //Do not use echo to print Arrays, you can only use echo to print an item inside array
 
             echo $arr[0];
+            echo $arr[1];
+            echo $arr[2];
+
+            //Also you can print inside a String
+            echo "$arr[0]";
+            echo "$arr[1]";
+            echo "$arr[2]";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -108,6 +115,15 @@
             //Do not use echo to print Arrays, you can only use echo to print an item inside array
 
             echo $arr[0];
+            echo $arr[1];
+            echo $arr[2];
+
+            echo "<br>";
+
+            //Also you can print inside a String
+            echo "$arr[0]";
+            echo "$arr[1]";
+            echo "$arr[2]";
         ?>
     </div>
     
