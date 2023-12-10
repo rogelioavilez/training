@@ -195,15 +195,26 @@
     <div>
         <h3>Change Array Value</h3>
         <pre><code>
+        // Change Array Value Example:
             print_r($arr);
 
             $arr[0] = 5;
             $arr[1] = 6;
             $arr[2] = 7;
             print_r($arr);
+
+        // Change Data Type Example:
+
+            var_dump($arr);
+            
+            $arr[0] = "This is a String";
+            $arr[1] = true;
+            $arr[2] = 7.5;
+            var_dump($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            // Change Array Value Example:
             print_r($arr);
             echo "<br>";
 
@@ -211,6 +222,17 @@
             $arr[1] = 6;
             $arr[2] = 7;
             print_r($arr);
+            echo "<br>";
+
+            // Change Data Type Example:
+
+            var_dump($arr);
+            echo "<br>";
+
+            $arr[0] = "This is a String";
+            $arr[1] = true;
+            $arr[2] = 7.5;
+            var_dump($arr);
         ?>
     </div>
     
