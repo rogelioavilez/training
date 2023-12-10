@@ -95,6 +95,7 @@
 
             var_dump($arr);
 
+            echo "<br>";
             //Human readable
             print_r($arr);
         ?>
