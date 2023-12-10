@@ -49,19 +49,23 @@
     <div>
         <h3>Proper way to define an array and array inside of array</h3>
         <pre><code>
+        //Adds value to and Array
             $array2 = [10];
             var_dump($array2);
 
+            //Creates an Array inside of Array value
             $array2[10] = [5];
             var_dump($array2);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+            //Adds value to and Array
             $array2 = [10];
             var_dump($array2);
 
             echo "<br>";
 
+            //Creates an Array inside of Array value
             $array2[10] = [5];
             var_dump($array2);
 
