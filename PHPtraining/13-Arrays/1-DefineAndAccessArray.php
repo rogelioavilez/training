@@ -140,6 +140,18 @@
         *Array has a lenght based on the number of elements it has.
         * You can also have Array inside of another Array - More of it in the next lecture.
         * Usecase: Collection of Variables together.
+
+            //To get array lenght
+            echo "Array length: " . count($arr);
+
+            echo "<br>";
+
+            //Loop through the Array using for Loop
+            for($count = 0; $count < $count($arr); $count++){
+                echo $arr[$count];
+                echo "<br>";
+                echo "$arr[$count]";
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
