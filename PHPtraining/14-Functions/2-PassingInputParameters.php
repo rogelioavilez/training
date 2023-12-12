@@ -49,7 +49,7 @@
         //define function
             function printOddNumbers(int $limit, $skipNumber){
 
-                for($index = 0; $index <=$limit; $index++){
+                for($index = 0; $index <= $limit; $index++){
 
                     if($index == $skipNumber){
                         continue;
