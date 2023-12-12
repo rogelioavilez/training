@@ -8,7 +8,7 @@
 <body>
     <h1>Split Array</h1>
     <pre>
-        * 
+        * Use explode to get values from a Value into Arrays
 
     </pre>
     <hr>
