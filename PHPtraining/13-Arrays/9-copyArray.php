@@ -77,5 +77,30 @@
         ?>
     </div>
 
+    <hr>
+    <!-- Copy Associative Array with foreach -->
+    <div>
+        <h3>Example 3: Copy Associative Array using foreach</h3>
+        <pre><code>
+            $arr5 = [];
+
+            foreach($arr4 as $key => $value){
+                $arr5[$key] = $value;
+            }
+
+            var_dump($arr5);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr5 = [];
+
+            foreach($arr4 as $key => $value){
+                $arr5[$key] = $value;
+            }
+
+            var_dump($arr5);
+        ?>
+    </div>
+
 </body>
 </html>
