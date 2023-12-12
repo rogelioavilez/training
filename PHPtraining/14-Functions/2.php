@@ -22,6 +22,7 @@
     </pre>
     <hr>
 
+    
     <div>
         <h3>Define and Call the function</h3>
         <pre><code>
@@ -55,28 +56,6 @@
         //Call the function
 
             printEvenNumbers(20);
-        ?>
-    </div>
-
-    <hr>
-
-    <div>
-        <h3>Example 2</h3>
-        <pre><code>
-        </code></pre>
-        <h3><i>Result:</i></h3>
-        <?php
-
-        // Define a function
-
-            function add($a, $b){
-                
-                return $a + $b;
-            }
-
-        //Call the function
-
-            echo add(10, 20);
         ?>
     </div>
 
