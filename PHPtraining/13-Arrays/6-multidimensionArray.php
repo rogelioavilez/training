@@ -52,7 +52,19 @@
     <div>
         <h3>Multi Dimension with Indexed</h3>
         <pre><code>
-            
+            $arr2 = [
+                [0,1,2,3,4,5],
+                [6,7,8],
+                [9,10],
+                
+            ];
+            var_dump($arr2);
+
+            echo "<br><br>";
+
+            foreach($arr2 as $singleArr){
+                var_dump($singleArr);
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -76,7 +88,21 @@
     <div>
         <h3>Multi Dimension With Associative</h3>
         <pre><code>
-            
+            $arr3 = [
+                "emailList1" => [
+                    "John" => "john@email.com",
+                    "Ruth" => "ruth@email.com",
+                    "Elmo" => "elmo@email.com"
+                ],
+
+                "emailList2" => [
+                    "Johny" => "johny@email.com",
+                    "Ruthy" => "ruthy@email.com",
+                    "Alma" => "alma@email.com"
+                ]
+                
+            ];
+            var_dump($arr3);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
