@@ -44,7 +44,7 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            declare(strict_types=1);
+            declare(strict_types = 1);
 
         //define function
             function printOddNumbers(int $limit, $skipNumber){
