@@ -104,5 +104,48 @@
             
         ?>
     </div>
+
+    <hr><div>
+        <h3>Create your own Arrays Variables</h3>
+        <pre><code>
+            $userDetails = [
+                "John" => "john@email.com",
+                "Lucas" => "lucas@email.com",
+                "Sofia" => "sofia@email.com"
+            ];
+
+            var_dump($userDetails);
+
+            echo "<\br>";
+
+            $userDetails["Rogelio"] = "rogelio@email.com";
+
+            var_dump($userDetails);
+
+            echo "<\br>";
+
+            echo $userDetails["Rogelio"];
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $userDetails = [
+                "John" => "john@email.com",
+                "Lucas" => "lucas@email.com",
+                "Sofia" => "sofia@email.com"
+            ];
+
+            var_dump($userDetails);
+
+            echo "<br>";
+
+            $userDetails["Rogelio"] = "rogelio@email.com";
+
+            var_dump($userDetails);
+
+            echo "<br>";
+
+            echo $userDetails["Rogelio"];
+        ?>
+    </div>
 </body>
 </html>
