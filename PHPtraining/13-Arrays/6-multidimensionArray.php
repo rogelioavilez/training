@@ -121,6 +121,16 @@
                 
             ];
             var_dump($arr3);
+
+            echo "<br>";
+
+            foreach($arr3 as $valueArray){
+
+                foreach($valueArray as $values){
+                    echo $values;
+                }
+
+            }
         ?>
     </div>
     
