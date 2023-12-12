@@ -30,7 +30,12 @@
     <div>
         <h3>Single Dimension Associative Array</h3>
         <pre><code>
-            
+            $arr1 = [
+                "John" => "john@email.com",
+                "Ruth" => "ruth@email.com",
+                "Elmo" => "elmo@email.com"
+            ];
+            var_dump($arr1);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -40,6 +45,24 @@
                 "Elmo" => "elmo@email.com"
             ];
             var_dump($arr1);
+        ?>
+    </div>
+
+    <hr>
+    <div>
+        <h3>Multi Dimension with Indexed</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr2 = [
+                [0,1,2,3,4,5],
+                [6,7,8],
+                [9,10],
+                
+            ];
+            var_dump($arr2);
         ?>
     </div>
     
