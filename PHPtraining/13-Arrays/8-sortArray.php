@@ -9,12 +9,15 @@
     <h1>Sort Array</h1>
     <pre>
         * sort() and rsort()
+            - Indexed Ascending and Descending Sorting
+        * asort() and arsort()
+            - Associative Ascending and Descending Sorting
     </pre>
     <hr>
 
-    <!-- Ascending/Descending Sort -->
+    <!-- Indexed Ascending/Descending Sort -->
     <div>
-        <h3>Ascending/Descending Sort</h3>
+        <h3>Indexed Ascending/Descending Sort</h3>
         <pre><code>
             $arr = [
                 5, 2, 4, 3, 0, 1
@@ -43,6 +46,45 @@
             echo "<br>";
             rsort($arr);
             print_r($arr);
+
+        ?>
+    </div>
+
+    <!-- Associative Ascending/Descending Sort -->
+    <div>
+        <h3>Indexed Ascending/Descending Sort</h3>
+        <pre><code>
+            $arr1 = [
+                "3" => "John",
+                "1" => "Sofia",
+                "2" => "Roger"
+            ];
+            print_r($arr1);
+            asort($arr1);
+
+            echo "<br>";
+            print_r($arr1);
+            
+            echo "<br>";
+            arsort($arr1);
+            print_r($arr1);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr1 = [
+                "3" => "John",
+                "1" => "Sofia",
+                "2" => "Roger"
+            ];
+            print_r($arr1);
+            asort($arr1);
+
+            echo "<br>";
+            print_r($arr1);
+            
+            echo "<br>";
+            arsort($arr1);
+            print_r($arr1);
 
         ?>
     </div>
