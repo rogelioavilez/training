@@ -57,7 +57,13 @@
     <div>
         <h3>Example 3: Copy Associative Array</h3>
         <pre><code>
-            
+            $arr3 = [
+                "3" => "John",
+                "1" => "Ana",
+                "2" => "Roger"
+            ];
+            $arr4 = $arr3;
+            var_dump($arr4);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
