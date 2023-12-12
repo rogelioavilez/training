@@ -26,7 +26,7 @@
 
                 for($index = 0; $index <=$limit; $index++){
 
-                    if($index === $skipNumber){
+                    if($index == $skipNumber){
                         continue;
                     }
 
@@ -51,12 +51,12 @@
 
                 for($index = 0; $index <=$limit; $index++){
 
-                    if($index === $skipNumber){
+                    if($index == $skipNumber){
                         continue;
                     }
 
                     if($index%2!=0){
-                        echo "Odd Number: $index";
+                        echo "Odd Number: $index <br>";
                     }
 
                 }
