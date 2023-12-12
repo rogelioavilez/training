@@ -63,6 +63,16 @@
     <div>
         <h3>Example 2</h3>
         <pre><code>
+        // Define a function
+
+            function add($a, $b){
+                
+                return $a + $b;
+            }
+
+        //Call the function
+
+            echo add(10, 20);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
