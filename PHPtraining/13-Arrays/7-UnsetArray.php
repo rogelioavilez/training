@@ -53,7 +53,19 @@
     <div>
         <h3>Unset Associative Array</h3>
         <pre><code>
+            $arr1 = [
+                "first" => 1,2,3,4, 
+                "last" => 5];
             
+            print_r($arr1);
+
+            unset($arr1["last"]);
+            echo "<br>";
+            print_r($arr1);
+
+            $arr1["last"] = 5;
+            echo "<br>";
+            print_r($arr1);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
