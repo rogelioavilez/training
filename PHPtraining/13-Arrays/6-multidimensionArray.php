@@ -63,6 +63,10 @@
                 
             ];
             var_dump($arr2);
+
+            foreach($arr2 as $singleArr){
+                var_dump($singleArr);
+            }
         ?>
     </div>
     
