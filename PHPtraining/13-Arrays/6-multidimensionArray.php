@@ -103,6 +103,14 @@
                 
             ];
             var_dump($arr3);
+
+            foreach($arr3 as $valueArray){
+
+                foreach($valueArray as $values){
+                    echo $values;
+                }
+
+            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -122,7 +130,7 @@
             ];
             var_dump($arr3);
 
-            echo "<br>";
+            echo "<br><br>";
 
             foreach($arr3 as $valueArray){
 
@@ -130,6 +138,28 @@
                     echo $values;
                 }
 
+            }
+        ?>
+    </div>
+
+    <hr>
+    <div>
+        <h3>Access all the key value pair. Key is String and Value is Arrays</h3>
+        <pre><code>
+        foreach($arr3 as $key => $valueArray){
+
+            foreach($valueArray as $values){
+                echo $values;
+            }
+        }
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            foreach($arr3 as $key => $valueArray){
+
+                foreach($valueArray as $values){
+                    echo $values;
+                }
             }
         ?>
     </div>
