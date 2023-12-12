@@ -38,7 +38,10 @@
     <div>
         <h3>Example 2: Copy Array using foreach</h3>
         <pre><code>
-            
+            foreach($arr as $values){
+                $arr2[] = $values;
+            }
+            var_dump($arr2);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -46,6 +49,25 @@
                 $arr2[] = $values;
             }
             var_dump($arr2);
+        ?>
+    </div>
+
+    <hr>
+    <!-- Copy Associative Array -->
+    <div>
+        <h3>Example 3: Copy Associative Array</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr3 = [
+                "3" => "John",
+                "1" => "Ana",
+                "2" => "Roger"
+            ];
+            $arr4 = $arr3;
+            var_dump($arr4);
         ?>
     </div>
 
