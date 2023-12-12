@@ -25,10 +25,10 @@
             print_r($arr);
             sort($arr);
 
-            echo "<br>";
+            echo "<\br>";
             print_r($arr);
             
-            echo "<br>";
+            echo "<\br>";
             rsort($arr);
             print_r($arr);
         </code></pre>
@@ -50,6 +50,7 @@
         ?>
     </div>
 
+    <hr>
     <!-- Associative Ascending/Descending Sort -->
     <div>
         <h3>Indexed Ascending/Descending Sort</h3>
@@ -62,10 +63,10 @@
             print_r($arr1);
             asort($arr1);
 
-            echo "<br>";
+            echo "<\br>";
             print_r($arr1);
             
-            echo "<br>";
+            echo "<\br>";
             arsort($arr1);
             print_r($arr1);
         </code></pre>
