@@ -34,7 +34,7 @@
 
     <!-- Array to String -->
     <div>
-        <h3>Example 1: String to Array</h3>
+        <h3>Example 2: Array to String</h3>
         <pre><code>
             $studentList = implode(",", $studentArr);
             print_r($studentArr);
