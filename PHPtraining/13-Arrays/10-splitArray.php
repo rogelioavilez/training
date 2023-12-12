@@ -46,6 +46,21 @@
         ?>
     </div>
 
+    <hr>
+    <!-- Limited number of Array Elements -->
+    <div>
+        <h3>Example 3: Limited number of Array Elements</h3>
+        <pre><code>
+            $studentArr = explode(",", $students, 3);
+            print_r($studentArr);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $studentArr = explode(",", $students, 3);
+            print_r($studentArr);
+        ?>
+    </div>
+
 
 </body>
 </html>
