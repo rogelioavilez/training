@@ -49,6 +49,7 @@
         ?>
     </div>
 
+    <hr>
     <!-- Example 2 -->
     <div>
         <h3>Unset Associative Array</h3>
