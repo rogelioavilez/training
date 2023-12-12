@@ -15,7 +15,7 @@
 
     <!-- Copy Array from one variable to Other -->
     <div>
-        <h3>Example: Copy Array from one variable to Other</h3>
+        <h3>Example 1: Copy Array from one variable to Other</h3>
         <pre><code>
             $arr = [0,1,2,3,4,5];
 
@@ -30,6 +30,22 @@
             $arr1 = $arr;
 
             var_dump($arr1);
+        ?>
+    </div>
+
+    <hr>
+    <!-- Copy Array using foreach -->
+    <div>
+        <h3>Example 2: Copy Array using foreach</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            foreach($arr as $values){
+                $arr2[] = $values;
+            }
+            var_dump($arr2);
         ?>
     </div>
 
