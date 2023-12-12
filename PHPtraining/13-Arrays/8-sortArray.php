@@ -12,9 +12,9 @@
     </pre>
     <hr>
 
-    <!-- Example 1 -->
+    <!-- Ascending/Descending Sort -->
     <div>
-        <h3>Indexed Array</h3>
+        <h3>Ascending/Descending Sort</h3>
         <pre><code>
             $arr = [
                 5, 2, 4, 3, 0, 1
@@ -26,7 +26,7 @@
             print_r($arr);
             
             echo "<br>";
-            sort($arr);
+            rsort($arr);
             print_r($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -41,7 +41,7 @@
             print_r($arr);
             
             echo "<br>";
-            sort($arr);
+            rsort($arr);
             print_r($arr);
 
         ?>
