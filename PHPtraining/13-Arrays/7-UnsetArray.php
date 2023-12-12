@@ -24,6 +24,12 @@
 
             echo "<\br>";
             print_r($arr);
+
+            //Index 4 is not used automatically, new item is added on the next index
+            
+            $arr[] = 5;
+            echo "<\br>";
+            print_r($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -36,6 +42,7 @@
             echo "<br>";
             print_r($arr);
 
+            //Index 4 is not used automatically, new item is added on the next index
             $arr[] = 5;
             echo "<br>";
             print_r($arr);
