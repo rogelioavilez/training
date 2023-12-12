@@ -17,7 +17,9 @@
     <div>
         <h3>Example 1: String to Array</h3>
         <pre><code>
-            
+            $students = "John, Roger, Anna, Jacob, Ruth";
+            $studentArr = explode(",", $students);
+            print_r($studentArr);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
