@@ -71,6 +71,32 @@
             }
         ?>
     </div>
+
+    <hr>
+    <div>
+        <h3>Multi Dimension With Associative</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr3 = [
+                "emailList1" => [
+                    "John" => "john@email.com",
+                    "Ruth" => "ruth@email.com",
+                    "Elmo" => "elmo@email.com"
+                ],
+
+                "emailList2" => [
+                    "Johny" => "johny@email.com",
+                    "Ruthy" => "ruthy@email.com",
+                    "Alma" => "alma@email.com"
+                ]
+                
+            ];
+            var_dump($arr3);
+        ?>
+    </div>
     
 </body>
 </html>
