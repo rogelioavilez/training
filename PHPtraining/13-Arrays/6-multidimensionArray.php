@@ -64,6 +64,8 @@
             ];
             var_dump($arr2);
 
+            echo "<br><br>";
+
             foreach($arr2 as $singleArr){
                 var_dump($singleArr);
             }
