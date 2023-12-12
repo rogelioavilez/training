@@ -26,7 +26,7 @@
             print_r($arr);
 
             //Index 4 is not used automatically, new item is added on the next index
-            
+
             $arr[] = 5;
             echo "<\br>";
             print_r($arr);
@@ -46,6 +46,30 @@
             $arr[] = 5;
             echo "<br>";
             print_r($arr);
+        ?>
+    </div>
+
+    <!-- Example 2 -->
+    <div>
+        <h3>Unset Associative Array</h3>
+        <pre><code>
+            
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr1 = [
+                "first" => 1,2,3,4, 
+                "last" => 5];
+            
+            print_r($arr1);
+
+            unset($arr1["last"]);
+            echo "<br>";
+            print_r($arr1);
+
+            $arr1["last"] = 5;
+            echo "<br>";
+            print_r($arr1);
         ?>
     </div>
     
