@@ -37,11 +37,11 @@
         <h3>Example 2: Array to String</h3>
         <pre><code>
             $studentList = implode(",", $studentArr);
-            print_r($studentArr);
+            print_r($studentList);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $studentArr = implode(",", $studentArr);
+            $studentList = implode(",", $studentArr);
             print_r($studentList);
         ?>
     </div>
