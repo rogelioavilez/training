@@ -12,6 +12,9 @@
             - Indexed Ascending and Descending Sorting
         * asort() and arsort()
             - Associative Ascending and Descending Sorting
+        * ksort() and krsort()
+            - Key Ascending and Descending Sorting
+
     </pre>
     <hr>
 
@@ -53,7 +56,7 @@
     <hr>
     <!-- Associative Ascending/Descending Sort -->
     <div>
-        <h3>Indexed Ascending/Descending Sort</h3>
+        <h3>Associative Ascending/Descending Sort</h3>
         <pre><code>
             $arr1 = [
                 "3" => "John",
@@ -86,6 +89,46 @@
             echo "<br>";
             arsort($arr1);
             print_r($arr1);
+
+        ?>
+    </div>
+
+    <hr>
+    <!-- Key Ascending/Descending Sort -->
+    <div>
+        <h3>Key Ascending/Descending Sort</h3>
+        <pre><code>
+            $arr2 = [
+                "3" => "John",
+                "1" => "Sofia",
+                "2" => "Roger"
+            ];
+            print_r($arr2);
+            ksort($arr2);
+
+            echo "<\br>";
+            print_r($arr2);
+            
+            echo "<\br>";
+            krsort($arr2);
+            print_r($arr2);
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $arr2 = [
+                "3" => "John",
+                "1" => "Sofia",
+                "2" => "Roger"
+            ];
+            print_r($arr2);
+            ksort($arr2);
+
+            echo "<br>";
+            print_r($arr2);
+            
+            echo "<br>";
+            krsort($arr2);
+            print_r($arr2);
 
         ?>
     </div>
