@@ -17,6 +17,11 @@
     <div>
         <h3>Example: Copy Array from one variable to Other</h3>
         <pre><code>
+            $arr = [0,1,2,3,4,5];
+
+            $arr1 = $arr;
+
+            var_dump($arr1);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
