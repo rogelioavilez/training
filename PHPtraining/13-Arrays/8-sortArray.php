@@ -8,19 +8,42 @@
 <body>
     <h1>Sort Array</h1>
     <pre>
-        *
+        * sort() and rsort()
     </pre>
     <hr>
 
     <!-- Example 1 -->
     <div>
-        <h3>Unset Array</h3>
+        <h3>Indexed Array</h3>
         <pre><code>
+            $arr = [
+                5, 2, 4, 3, 0, 1
+            ];
+            print_r($arr);
+            sort($arr);
+
+            echo "<br>";
+            print_r($arr);
             
+            echo "<br>";
+            sort($arr);
+            print_r($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-        
+            $arr = [
+                5, 2, 4, 3, 0, 1
+            ];
+            print_r($arr);
+            sort($arr);
+
+            echo "<br>";
+            print_r($arr);
+            
+            echo "<br>";
+            sort($arr);
+            print_r($arr);
+
         ?>
     </div>
     
