@@ -10,6 +10,7 @@
     <pre>
         * Use explode to get values from a Value into Arrays.
         *Use implode to get String values from Array.
+        * If provide a limit while exploding an element, the left over will be added to the last index.
 
     </pre>
     <hr>
