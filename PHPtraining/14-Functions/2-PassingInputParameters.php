@@ -24,6 +24,8 @@
         <?php
 
         //define function
+            declare(strict_types = 1);
+
             function printOddNumbers(int $limit, $skipNumber){
 
                 for($index = 0; $index <= $limit; $index++){
