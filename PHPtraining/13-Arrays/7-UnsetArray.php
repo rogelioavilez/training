@@ -8,7 +8,7 @@
 <body>
     <h1>Unset Array</h1>
     <pre>
-        * 
+        * Used to delete and Specific index from Array
     </pre>
     <hr>
 
@@ -22,7 +22,7 @@
 
             unset($arr[4]);
 
-            echo "<br>";
+            echo "<\br>";
             print_r($arr);
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -33,6 +33,10 @@
 
             unset($arr[4]);
 
+            echo "<br>";
+            print_r($arr);
+
+            $arr[] = 5;
             echo "<br>";
             print_r($arr);
         ?>
