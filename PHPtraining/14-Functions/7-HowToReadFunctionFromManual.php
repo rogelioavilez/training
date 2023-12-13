@@ -20,9 +20,7 @@
             // in_array (mixed $needle, array $haystack [, bool $strict = FALSE]) : bool
         </code></pre>
         <h3><i>Result:</i></h3>
-        <?php
-            // in_array (mixed $needle, array $haystack [, bool $strict = FALSE]) : bool
-        ?>
+        <a href="https://www.php.net">Access PHP manual here from: PHP.net</a>
     </div>
 
 </body>
