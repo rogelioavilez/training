@@ -18,7 +18,7 @@
 
             if ($start%2 == 0){
 
-                echo "Even Number: $start";
+                echo "Even Number: $start <br>";
 
             }
 
