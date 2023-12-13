@@ -72,7 +72,7 @@
 
             //After function changed variable value
             $result2 = add2(1, 2, $result2);
-            echo $result2 . "<br>";
+            echo $result2;
         ?>
     </div>
 
