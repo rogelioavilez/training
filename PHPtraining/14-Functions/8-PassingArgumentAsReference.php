@@ -43,10 +43,10 @@
         ?>
     </div>
 
-    <!-- Assign Output of Function into a Variable -->
+    <!-- Change variable value globally after passed through function -->
     <hr>
     <div>
-        <h3>Example 2:</h3>
+        <h3>Example 2: Change variable value globally after passed through function</h3>
         <pre><code>
             $result2 = 0;
 
@@ -57,8 +57,8 @@
             echo $result2 . "<\br>";
 
             //After function changed variable value
-            $result2 = add2(1,2, $result2);
-            echo $result2 . "<\br>";
+            add2(1,2, $result2);
+            echo $result2;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
