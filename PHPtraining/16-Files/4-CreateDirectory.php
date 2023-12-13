@@ -2,9 +2,6 @@
 
 <?php
 
-    $path = "../../files/TestFolder1";
-    $result = scandir($path);
-
     $result = glob("*.php");
     var_dump($result);
 
