@@ -64,14 +64,14 @@
         <?php
             $result2 = 0;
 
-            function add2($a, $b, &$result2 = null){
-                $result2 = $a + $b;
+            function add2($c, $d, &$result2 = null){
+                $result2 = $c + $d;
             }
 
             echo $result2 . "<br>";
 
             //After function changed variable value
-            $result2 = add2(1,2, $result2);
+            $result2 = add2(1, 2, $result2);
             echo $result2 . "<br>";
         ?>
     </div>
