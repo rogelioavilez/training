@@ -14,9 +14,9 @@
 
         }
 
-        for (;$start<=$end; $start++){
+        for ( ; $start<=$end ;  $start++){
 
-            if ($start%2==0){
+            if ($start%2 == 0){
 
                 echo "Even Number: $start";
 
@@ -27,4 +27,4 @@
     }
 
     set_exception_handler('custom_ex_handler');
-    printEvenNumbers(0 , 20);
+    printEvenNumbers(0,20);
