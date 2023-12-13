@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anonymous Function</title>
+    <title>How to read function from PHP Manual</title>
 </head>
 <body>
     <h1>Anonymous Function</h1>
