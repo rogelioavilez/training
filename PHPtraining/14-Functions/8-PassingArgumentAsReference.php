@@ -22,7 +22,7 @@
                 return $addition;
             }
 
-            echo $result . "<br>";
+            echo $result . "<\br>";
 
             $result = add(1,2);
             echo $result;
@@ -48,20 +48,17 @@
     <div>
         <h3>Example 2:</h3>
         <pre><code>
-            $result = 0;
+            $result2 = 0;
 
-            function add2($a, $b, &$result = null){
-                $result = $a + $b;
+            function add2($a, $b, &$result2 = null){
+                $result2 = $a + $b;
             }
 
-            echo $result . "<\br>";
+            echo $result2 . "<\br>";
 
             //After function changed variable value
-            $result = add2(1,2, $result);
-            echo $result . "<\br>";
-
-            //return to original value
-            echo $result;
+            $result2 = add2(1,2, $result2);
+            echo $result2 . "<\br>";
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -76,9 +73,6 @@
             //After function changed variable value
             $result2 = add2(1,2, $result2);
             echo $result2 . "<br>";
-
-            //return to original value
-            echo $result2;
         ?>
     </div>
 
