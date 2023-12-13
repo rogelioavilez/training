@@ -21,11 +21,28 @@
     <div>
         <h3>Example 1: Assign Defaul and Optional Values to a function.</h3>
         <pre><code>
-            
+            //declare(strict_types=1);
+
+            function printOddNumbers(int $limit, $skipnumber = -1){
+
+                for ($index=0; $index <= $limit; $index++){
+
+                    if($skipnumber == $index){
+                        continue;
+                    }
+                    if($index%2!=0){
+                        echo "Odd Number: $index";
+                    }
+
+                }
+
+            }
+
+            printOddNumbers(30);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            declare(strict_types=1);
+            //declare(strict_types=1);
 
             function printOddNumbers(int $limit, $skipnumber = -1){
 
