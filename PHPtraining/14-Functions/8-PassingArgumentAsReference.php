@@ -54,31 +54,31 @@
                 $result = $a + $b;
             }
 
-            echo $result . "<br>";
+            echo $result . "<\br>";
 
             //After function changed variable value
             $result = add2(1,2, $result);
-            echo $result . "<br>";
+            echo $result . "<\br>";
 
             //return to original value
             echo $result;
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-            $result = 0;
+            $result2 = 0;
 
-            function add2($a, $b, &$result = null){
-                $result = $a + $b;
+            function add2($a, $b, &$result2 = null){
+                $result2 = $a + $b;
             }
 
-            echo $result . "<br>";
+            echo $result2 . "<br>";
 
             //After function changed variable value
-            $result = add2(1,2, $result);
-            echo $result . "<br>";
+            $result2 = add2(1,2, $result2);
+            echo $result2 . "<br>";
 
             //return to original value
-            echo $result;
+            echo $result2;
         ?>
     </div>
 
