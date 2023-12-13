@@ -18,7 +18,7 @@
 
         if($dir != "." && $dir != ".."){
 
-            echo $dir;
+            echo $dir . "<br>";
 
         }
 
