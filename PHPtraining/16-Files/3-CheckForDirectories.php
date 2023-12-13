@@ -3,6 +3,7 @@
 <?php
 
 $path = "../../files/TestFolder1";
+$directory = scandir($path);
 
 foreach($directory as $dir){
 
