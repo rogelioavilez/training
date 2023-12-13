@@ -9,7 +9,7 @@ $directory = array_diff($directory, ['.', '..']);
 
 foreach($directory as $dir){
 
-    if(is_dir($path . "/" .$dir)){
+    if(is_dir($directory . "/" .$dir)){
 
         echo $dir . "<br>";
 
