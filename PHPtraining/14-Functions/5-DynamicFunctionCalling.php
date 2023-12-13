@@ -22,10 +22,10 @@
             $addFunction = "add";
             
             //Returns value as String
-            echo $addFunction;
+            echo $addFunction . "<\br>";
 
             //Returns value as function result
-            echo $addFunction(3, 5);
+            echo "Function return value is: " . $addFunction(3, 5);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -36,10 +36,10 @@
             $addFunction = "add";
 
             //Returns value as String
-            echo $addFunction;
+            echo $addFunction . "<br>";
 
             //Returns value as function result
-            echo $addFunction(3, 5);
+            echo "Function return value is: " . $addFunction(3, 5);
         ?>
     </div>
 
