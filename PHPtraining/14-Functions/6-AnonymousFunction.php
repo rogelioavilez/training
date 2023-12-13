@@ -28,11 +28,15 @@
     <div>
         <h3>Example 1:</h3>
         <pre><code>
-            
+            $Anon_function = function ($a, $b){
+                $addNumbers = $a + $b;
+                return $addNumbers;
+            };
+
+            echo $Anon_function(4,7);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-
             $Anon_function = function ($a, $b){
                 $addNumbers = $a + $b;
                 return $addNumbers;
