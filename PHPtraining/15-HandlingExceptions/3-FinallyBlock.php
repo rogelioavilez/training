@@ -25,7 +25,7 @@
             try{
                 throw new Exception("Exception Raised!");
             } finally{
-                echo "This line gets excecuted before Exception Always!";
+                echo "This line gets excecuted before Exception Always! - ";
             }
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -39,7 +39,7 @@
             try{
                 throw new Exception("Exception Raised!");
             } finally{
-                echo "This line gets excecuted before Exception Always!";
+                echo "This line gets excecuted before Exception Always! - ";
             }
         ?>
     </div>
