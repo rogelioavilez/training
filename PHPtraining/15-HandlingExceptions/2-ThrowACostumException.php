@@ -43,8 +43,8 @@
         <h3><i>Result:</i></h3>
         <?php
 
-            function custom_exception_handler2($exception){
-                echo 'Caught Exception: ' . $exception->getMessage();
+            function custom_exception_handler2($exception2){
+                echo 'Caught Exception: ' . $exception2->getMessage();
             }   
             function divide($x, $y):int{
                 if($y <=0){
