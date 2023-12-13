@@ -1,7 +1,7 @@
 <?php
     try{
 
-        throw new Exception("Raise and Exception");
+        throw new Exception("Raised and Exception<br>");
 
     } catch(Exception $e){
 
@@ -10,5 +10,5 @@
     }finally{
 
         echo "This block can be used as a cleanup section";
-        
+
     }
