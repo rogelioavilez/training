@@ -27,4 +27,4 @@
     }
 
     set_exception_handler('custom_ex_handler');
-    printEvenNumbers(0,20);
+    printEvenNumbers(1,20);
