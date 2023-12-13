@@ -57,7 +57,10 @@
             echo $result2 . "<\br>";
 
             //After function changed variable value
-            add2(1,2, $result2);
+            add2(1, 2, $result2);
+            echo $result2 . "<\br>";
+
+            //After passed through function
             echo $result2;
         </code></pre>
         <h3><i>Result:</i></h3>
@@ -72,6 +75,9 @@
 
             //After function changed variable value
             add2(1, 2, $result2);
+            echo $result2 . "<br>";
+
+            //After passed through function
             echo $result2;
         ?>
     </div>
