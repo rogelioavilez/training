@@ -47,7 +47,6 @@
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
-
             function divide($x, $y):int{
                 if($y <=0){
                     throw new Exception("Divide by Zero Exception might happen");
