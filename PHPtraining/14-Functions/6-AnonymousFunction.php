@@ -46,6 +46,35 @@
         ?>
     </div>
 
+    <!-- Example 2 -->
+    <hr>
+    <div>
+        <h3>Example 2: Use External Content inside function</h3>
+        <pre><code>
+            $content = "This is a String Message";
+
+        //Call out $content with use()
+            $print_content = function () use($content){
+                
+                echo $content;
+            };
+
+            $print_content();
+        </code></pre>
+        <h3><i>Result:</i></h3>
+        <?php
+            $content = "This is a String Message";
+
+            //Call out $content with use()
+            $print_content = function () use($content){
+                
+                echo $content;
+            };
+
+            $print_content();
+        ?>
+    </div>
+
 
 </body>
 </html>
