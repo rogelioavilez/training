@@ -67,7 +67,9 @@
 
             }
 
-            echo "Result: " . getEvenNumbers(20);
+            $evenNumbers = getEvenNumbers(20);
+
+            print_r($evenNumbers);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -89,7 +91,9 @@
 
             }
 
-            echo "Result: " . getEvenNumbers(20);
+            $evenNumbers = getEvenNumbers(20);
+
+            print_r($evenNumbers);
         ?>
     </div>
 
