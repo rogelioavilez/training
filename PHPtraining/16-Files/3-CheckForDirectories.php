@@ -10,7 +10,7 @@
 
     foreach($directory as $dir){
 
-        if(is_dir($path . "/" .$dir)){
+        if(is_dir($path . $dir)){
 
             echo $dir . "<br>";
 
