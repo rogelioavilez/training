@@ -23,3 +23,19 @@
         }
 
     }
+
+
+    echo "<hr>
+    <h3>Sample 3: Other way to get Array of Contents without dots \" . , .. \"</h3>";
+
+    $directory = array_diff($result, ['.', '..']);
+    var_dump($directory);
+
+    echo "<hr>
+    <h3>Sample 4: Get path contents without removing dots \" . , .. \"</h3>";
+    
+    foreach($directory as $dir){
+
+            echo $dir . "<br>";
+
+    }
