@@ -3,7 +3,7 @@
 <?php
 
     $path = "../../files/TestFolder1";
-    $directory = scandir($path);
+    $folders = scandir($path);
     
     $folders = array_diff($folders, ['.', '..']);
     var_dump($directory);
