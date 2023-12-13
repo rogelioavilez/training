@@ -38,28 +38,14 @@
     <div>
         <h3>Raise-Catch a divide by Zero Error</h3>
         <pre><code>
-            function divide($x, $y):int{
-                if($y <=0){
-                    throw new Exception("Divide by Zero Exception might happen");
-                }
 
-                $result = $x/$y;
-                return $result;
-            }            
-
-            try{
-                //This is the Error
-                $result = divide(1,0);
-
-            } catch (Exception $e){
-
-                //Jumps to this block
-                echo 'Caught Exception: ' . $e->getMessage();
-
-            }
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
+
+            function custom_exception_handler2($exception){
+                echo 'Caught Exception: ' . $exception->getMessage();
+            }   
             function divide($x, $y):int{
                 if($y <=0){
                     throw new Exception("Divide by Zero Exception might happen");
@@ -69,9 +55,8 @@
                 return $result;
             }   
             
-            set_exception_handler('divide');
-
-            throw new Exception ("Exception Happened!");
+            set_exception_handler('custom_exception_handler2');
+            divide(2,0);
         ?>
     </div>
 
