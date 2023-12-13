@@ -4,6 +4,7 @@
 
     $path = "../../files/TestFolder1";
     $directory = scandir($path);
+    var_dump($directory);
     
     $directory = array_diff($directory, ['.', '..']);
 
