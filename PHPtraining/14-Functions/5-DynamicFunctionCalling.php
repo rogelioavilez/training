@@ -8,7 +8,7 @@
 <body>
     <h1>Dynamic Function Calling</h1>
     <pre>
-        * Example:
+        * As long as parrameters are set in the name of a function, even if it was set as String this will be Dynamically called.
     </pre>
     <!-- Example 1 -->
     <hr>
@@ -20,7 +20,12 @@
             }
 
             $addFunction = "add";
+            
+            //Returns value as String
             echo $addFunction;
+
+            //Returns value as function result
+            echo $addFunction(3, 5);
         </code></pre>
         <h3><i>Result:</i></h3>
         <?php
@@ -29,7 +34,12 @@
             }
 
             $addFunction = "add";
+
+            //Returns value as String
             echo $addFunction;
+
+            //Returns value as function result
+            echo $addFunction(3, 5);
         ?>
     </div>
 
