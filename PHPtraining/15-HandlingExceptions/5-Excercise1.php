@@ -1,6 +1,6 @@
 <?php
 
-    function custom_exception_handler($exception){
+    function custom_ex_handler($exception){
 
         echo "Caught Exception: " . $exception->getMessage();
     
@@ -26,5 +26,5 @@
 
     }
 
-    set_exception_handler('custom_exception_handler');
+    set_exception_handler('custom_ex_handler');
     printEvenNumbers(1,1);
