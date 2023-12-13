@@ -5,12 +5,12 @@
     $path = "../../files/TestFolder1";
     $directory = scandir($path);
     
-    $directory = array_diff($directory, ['.', '..']);
+    $folders = array_diff($folders, ['.', '..']);
     var_dump($directory);
 
-    foreach($directory as $dir){
+    foreach($folders as $dir){
 
-        if(is_dir($path . $dir)){
+        if(is_dir($path . "/" .$dir)){
 
             echo $dir . "<br>";
 
