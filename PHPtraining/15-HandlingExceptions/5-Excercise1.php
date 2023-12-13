@@ -27,6 +27,10 @@
     }
 
     set_exception_handler('custom_ex_handler');
-    echo "Function without Errors<br>" . printEvenNumbers(1,20) . "<br>";
+    echo "Function without Errors<br>";
+    printEvenNumbers(1,20);
 
-    echo "Function with Errors<br>" . printEvenNumbers(0,0);
+    echo "<br>";
+
+    echo "Function with Errors<br>";
+    printEvenNumbers(0,0);
