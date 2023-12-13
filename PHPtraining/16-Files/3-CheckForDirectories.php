@@ -2,18 +2,17 @@
 
 <?php
 
-    $path = "../../files/TestFolder1";
-    $folders = scandir($path);
-    
-    $folders = array_diff($folders, ['.', '..']);
-    var_dump($directory);
+$path = "../../files/TestFolder1";
+$directory = scandir($path);
 
-    foreach($folders as $dir){
+$directory = array_diff($directory, ['.', '..']);
 
-        if(is_dir($path . "/" .$dir)){
+foreach($directory as $dir){
 
-            echo $dir . "<br>";
+    if(is_file($path . "/" .$dir)){
 
-        }
+        echo $dir . "<br>";
 
     }
+
+}
