@@ -14,6 +14,8 @@
             return: Something;
         }
 
+        If optional Parameters are not mentioned it doesn't affect, but id Default parameters are not mention, this will cause an error.
+
         
     </pre>
     <!-- Example 1 -->
