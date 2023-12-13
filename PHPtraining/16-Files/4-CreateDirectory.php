@@ -3,3 +3,4 @@
 <?php
 
     $result = glob("*.php");
+    var_dump($result);
