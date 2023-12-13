@@ -9,7 +9,7 @@
     var_dump($result);
 
     echo "<hr>
-    <h3>Sample 2: delete the dots \" . \" from Array path</h3>";
+    <h3>Sample 2: Remove Array by deleting the dots \" . \" from files' path</h3>";
 
     $path2 = "../../files/TestFolder1";
     $result = scandir($path2);
