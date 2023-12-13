@@ -4,6 +4,6 @@
     <hr>
     <p>Sample 1: TestFolder1</p>";
 
-    $path = "TestFolder1";
+    $path = "../../files/TestFolder1";
     $result = scandir($path);
     var_dump($result);
