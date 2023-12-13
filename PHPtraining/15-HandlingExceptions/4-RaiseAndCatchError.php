@@ -26,7 +26,7 @@
                 echo $errstr;
             }
 
-            set_error_handler('custom_error');
+            set_error_handler("custom_error");
             echo (5 / 0);
         ?>
     </div>
