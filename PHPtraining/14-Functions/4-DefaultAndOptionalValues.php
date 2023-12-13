@@ -52,7 +52,7 @@
                         continue;
                     }
                     if($index%2!=0){
-                        echo "Odd Number: $index";
+                        echo "Odd Number: $index<br>";
                     }
 
                 }
