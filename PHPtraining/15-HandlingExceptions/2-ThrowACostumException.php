@@ -33,34 +33,5 @@
         ?>
     </div>
 
-        <!-- Raise-Catch a divide by Zero Error -->
-        <hr>
-    <div>
-        <h3>Raise-Catch a divide by Zero Error</h3>
-        <pre><code>
-
-        </code></pre>
-        <h3><i>Result:</i></h3>
-        <?php
-
-            function custom_exception_handler2($exception2){
-                echo 'Caught Exception: ' . $exception2->getMessage();
-            }   
-            function divide($x, $y):int{
-                if($y <=0){
-                    throw new Exception("Divide by Zero Exception might happen");
-                }
-
-                $result = $x/$y;
-                return $result;
-            }   
-            
-            set_exception_handler('custom_exception_handler2');
-            divide(2,0);
-        ?>
-    </div>
-
-    
-
 </body>
 </html>
