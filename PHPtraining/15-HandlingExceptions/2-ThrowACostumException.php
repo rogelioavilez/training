@@ -32,6 +32,6 @@
             throw new Exception ("Exception is raised!");
         ?>
     </div>
-
+    
 </body>
 </html>
